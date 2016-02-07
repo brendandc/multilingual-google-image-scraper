@@ -73,6 +73,7 @@ def download_image(actual_image_link, word_index):
 
             # when S3 mode is turned on, upload the file over to S3 and delete the local copy
             # TODO can we simplify this so it doesn't need to write out to a tmp location?
+            # TODO add metadata like original link to storage?
             if STORAGE_MODE == 'S3':
                 word_index_str = "{0:0=2d}".format(word_index)
                 destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
@@ -81,9 +82,13 @@ def download_image(actual_image_link, word_index):
                 os.remove(full_path)
 
         # catch some 503/504 type errors and also if the link points to a directory rather than a file
-        except (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError) as e:
-            print('Failed to fetch:' + actual_image_link)
-            print(e.strerror)
+        # typically errors like:
+        # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
+        # extended to be indiscriminate since from the perspective of the full scrape, we probably don't care whether
+        # we know about the error yet
+        # TODO log error counts?
+        except Exception as e:
+            print('Failed to fetch:' + actual_image_link + ' due to: ' + str(type(e)))
 
     else:
         print('Skipped: '+actual_image_link)
@@ -109,11 +114,25 @@ for word_index, foreign_word in enumerate(foreign_word_list):
     # that successfully completed and just pick up where we left off
     if opts.start_index and word_index < opts.start_index: continue
 
-    url = base_language_search_url + '&q=' + urllib.parse.quote(foreign_word)
-    driver.get(url)
-    time.sleep(2) #2 is arbitrary
+    # retry search query up to 10 times if we hit failures
+    for attempt in range(10):
+        try:
+            url = base_language_search_url + '&q=' + urllib.parse.quote(foreign_word)
+            driver.get(url)
+            time.sleep(2) #2 is arbitrary
 
-    link_elements = driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
+            link_elements = driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
+
+        # catch what seem to be BadStatusLine and ConnectionRefusedError's, quit the webdriver, and then create a new
+        # instance. there is something really funky going on here that seems to work when resetting selenium
+        except Exception as e:
+            driver.quit()
+            driver.stop_client()
+            driver = create_selenium_browser()
+            print('Search query failed for:' + url + ' due to: ' + str(type(e)) + ' retry:'+str(attempt))
+        # break for loop on success
+        else: break
+
     for link_element in link_elements:
         actual_image_link = get_image_link(link_element)
 
