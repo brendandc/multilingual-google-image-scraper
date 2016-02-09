@@ -61,11 +61,16 @@ def get_image_link(link_element):
 # takes the image link, pulls out the filename, downloads it. when in S3 mode, it will push the result onto S3 as well
 def download_image(actual_image_link, word_index):
     actual_file_name = actual_image_link.split('/')[-1]
+
+    base_path_for_index = BASE_IMAGE_PATH+str(word_index)+'/'
+    # ensure directory is created for this word index
+    if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
+
     if opts.verbose_mode: print('Downloading... ' + actual_image_link)
 
     # ggpht images seem to be internal to the search engine results, skipping them
     if actual_image_link.find('ggpht.com/') == -1:
-        full_path = BASE_IMAGE_PATH+actual_file_name
+        full_path = base_path_for_index+actual_file_name
         try:
             with urllib.request.urlopen(actual_image_link, timeout=30) as response, open(full_path, 'wb') as out_file:
                 shutil.copyfileobj(response, out_file)
