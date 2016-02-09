@@ -16,6 +16,7 @@ optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=
 optparser.add_option("-d", "--dictionary", dest="dictionary", default="dict.fr", help="Google languages json file")
 optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
 optparser.add_option("-s", "--start_index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
+optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
 (opts, _) = optparser.parse_args()
 
 # tbm=isch sets this to be image search, start=0 will give us 100 results on page 1
@@ -33,9 +34,7 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 BASE_IMAGE_PATH = 'images/'
 S3_BUCKET_NAME = 'brendan.callahan'
 S3_BASE_PATH = 'thesis/images/'+opts.language+'/'
-STORAGE_MODE = 'S3' # or 'FILESYSTEM'
 DEBUG_MODE = False
-VERBOSE_MOSE = True
 
 # read in the json file with the arguments (hl and lr) for each language in google
 with open(opts.language_map, encoding='utf-8') as data_file:
@@ -62,7 +61,7 @@ def get_image_link(link_element):
 # takes the image link, pulls out the filename, downloads it. when in S3 mode, it will push the result onto S3 as well
 def download_image(actual_image_link, word_index):
     actual_file_name = actual_image_link.split('/')[-1]
-    if VERBOSE_MOSE: print('Downloading... ' + actual_image_link)
+    if opts.verbose_mode: print('Downloading... ' + actual_image_link)
 
     # ggpht images seem to be internal to the search engine results, skipping them
     if actual_image_link.find('ggpht.com/') == -1:
@@ -74,12 +73,12 @@ def download_image(actual_image_link, word_index):
             # when S3 mode is turned on, upload the file over to S3 and delete the local copy
             # TODO can we simplify this so it doesn't need to write out to a tmp location?
             # TODO add metadata like original link to storage?
-            if STORAGE_MODE == 'S3':
-                word_index_str = "{0:0=2d}".format(word_index)
-                destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
-                s3_client = boto3.resource('s3')
-                s3_client.meta.client.upload_file(full_path, S3_BUCKET_NAME, destination_path)
-                os.remove(full_path)
+            # if STORAGE_MODE == 'S3':
+            #     word_index_str = "{0:0=2d}".format(word_index)
+            #     destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
+            #     s3_client = boto3.resource('s3')
+            #     s3_client.meta.client.upload_file(full_path, S3_BUCKET_NAME, destination_path)
+            #     os.remove(full_path)
 
         # catch some 503/504 type errors and also if the link points to a directory rather than a file
         # typically errors like:
@@ -105,7 +104,7 @@ if len(current_language_entry['lr']) > 0:
     base_language_search_url += '&lr=' + current_language_entry['lr']
 
 for word_index, foreign_word in enumerate(foreign_word_list):
-    if VERBOSE_MOSE:
+    if opts.verbose_mode:
         print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print('Current word: ' + foreign_word + ' at index: ' + str(word_index))
         print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
