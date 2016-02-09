@@ -5,6 +5,7 @@ import urllib.request
 import shutil
 import json
 import optparse
+from collections import defaultdict
 import boto3
 import socket
 
@@ -57,47 +58,10 @@ def get_image_link(link_element):
     regex_result = re.search(IMAGE_URL_REGEX, href)
     return regex_result.group('url')
 
-
-# takes the image link, pulls out the filename, downloads it. when in S3 mode, it will push the result onto S3 as well
-def download_image(actual_image_link, word_index):
-    actual_file_name = actual_image_link.split('/')[-1]
-
-    base_path_for_index = BASE_IMAGE_PATH+str(word_index)+'/'
-    # ensure directory is created for this word index
-    if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
-
-    if opts.verbose_mode: print('Downloading... ' + actual_image_link)
-
-    # ggpht images seem to be internal to the search engine results, skipping them
-    if actual_image_link.find('ggpht.com/') == -1:
-        full_path = base_path_for_index+actual_file_name
-        try:
-            with urllib.request.urlopen(actual_image_link, timeout=30) as response, open(full_path, 'wb') as out_file:
-                shutil.copyfileobj(response, out_file)
-
-            # when S3 mode is turned on, upload the file over to S3 and delete the local copy
-            # TODO can we simplify this so it doesn't need to write out to a tmp location?
-            # TODO add metadata like original link to storage?
-            # if STORAGE_MODE == 'S3':
-            #     word_index_str = "{0:0=2d}".format(word_index)
-            #     destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
-            #     s3_client = boto3.resource('s3')
-            #     s3_client.meta.client.upload_file(full_path, S3_BUCKET_NAME, destination_path)
-            #     os.remove(full_path)
-
-        # catch some 503/504 type errors and also if the link points to a directory rather than a file
-        # typically errors like:
-        # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
-        # extended to be indiscriminate since from the perspective of the full scrape, we probably don't care whether
-        # we know about the error yet
-        # TODO log error counts?
-        except Exception as e:
-            print('Failed to fetch:' + actual_image_link + ' due to: ' + str(type(e)))
-
-    else:
-        print('Skipped: '+actual_image_link)
-
 driver = create_selenium_browser()
+
+# track a dictionary with the errors for all words
+all_word_download_errors = defaultdict(int)
 
 # build up a language-specific base link to start out with, before modifying it per each individual search term
 # add on the hl field for all languages because if it is in our JSON file, it has a hl field
@@ -113,6 +77,13 @@ for word_index, foreign_word in enumerate(foreign_word_list):
         print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print('Current word: ' + foreign_word + ' at index: ' + str(word_index))
         print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+
+    # track a dictionary with the errors for the current words
+    current_word_download_errors = defaultdict(int)
+
+    base_path_for_index = BASE_IMAGE_PATH+str(word_index)+'/'
+    # ensure directory is created for this word index
+    if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
 
     # if a start index was passed in, this is a case where we are resuming a previously failed run, skip every word
     # that successfully completed and just pick up where we left off
@@ -133,7 +104,7 @@ for word_index, foreign_word in enumerate(foreign_word_list):
             driver.quit()
             driver.stop_client()
             driver = create_selenium_browser()
-            print('Search query failed for:' + url + ' due to: ' + str(type(e)) + ' retry:'+str(attempt))
+            print('Search query failed for:' + url + ' due to: ' + type(e).__name__ + ' retry:'+str(attempt))
         # break for loop on success
         else: break
 
@@ -144,9 +115,44 @@ for word_index, foreign_word in enumerate(foreign_word_list):
         if DEBUG_MODE:
             print(actual_image_link)
         else:
-            download_image(actual_image_link, word_index)
+            actual_file_name = actual_image_link.split('/')[-1]
+
+            if opts.verbose_mode: print('Downloading... ' + actual_image_link)
+
+            # ggpht images seem to be internal to the search engine results, skipping them
+            if actual_image_link.find('ggpht.com/') == -1:
+                full_path = base_path_for_index+actual_file_name
+                try:
+                    with urllib.request.urlopen(actual_image_link, timeout=30) as response, open(full_path, 'wb') as out_file:
+                        shutil.copyfileobj(response, out_file)
+
+                # catch some 503/504 type errors and also if the link points to a directory rather than a file
+                # typically errors like:
+                # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
+                # extended to be indiscriminate since from the perspective of the full scrape, we probably don't care whether
+                # we know about the error yet
+                # TODO log error counts?
+                except Exception as e:
+                    error_class = type(e).__name__
+                    all_word_download_errors[error_class] += 1
+                    current_word_download_errors[error_class] += 1
+                    print('Failed to fetch:' + actual_image_link + ' due to: ' + error_class)
+
+            else:
+                print('Skipped: '+actual_image_link)
+
+    json.dump(current_word_download_errors, open(base_path_for_index+'errors.json', 'w'))
 
     # exit after first word in debug mode
     if DEBUG_MODE: exit()
 
-
+json.dump(all_word_download_errors, open(BASE_IMAGE_PATH+'all_errors.json', 'w'))
+#  when S3 mode is turned on, upload the file over to S3 and delete the local copy
+# TODO can we simplify this so it doesn't need to write out to a tmp location?
+# TODO add metadata like original link to storage?
+# if STORAGE_MODE == 'S3':
+#     word_index_str = "{0:0=2d}".format(word_index)
+#     destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
+#     s3_client = boto3.resource('s3')
+#     s3_client.meta.client.upload_file(full_path, S3_BUCKET_NAME, destination_path)
+#     os.remove(full_path)
