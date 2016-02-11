@@ -16,7 +16,8 @@ optparser.add_option("-l", "--language", dest="language", default="French", help
 optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=int, help="Number of images to harvest per word")
 optparser.add_option("-d", "--dictionary", dest="dictionary", default="dict.fr", help="Google languages json file")
 optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
-optparser.add_option("-s", "--start_index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
+optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
+optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/images/', help="Base path where to store image output")
 optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
 (opts, _) = optparser.parse_args()
 
@@ -32,9 +33,6 @@ IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)&'
 # this is probably subject to change on google's part
 GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 
-BASE_IMAGE_PATH = 'images/'
-S3_BUCKET_NAME = 'brendan.callahan'
-S3_BASE_PATH = 'thesis/images/'+opts.language+'/'
 DEBUG_MODE = False
 
 # read in the json file with the arguments (hl and lr) for each language in google
@@ -81,7 +79,7 @@ for word_index, foreign_word in enumerate(foreign_word_list):
     # track a dictionary with the errors for the current words
     current_word_download_errors = defaultdict(int)
 
-    base_path_for_index = BASE_IMAGE_PATH+str(word_index)+'/'
+    base_path_for_index = opts.base_image_path+str(word_index)+'/'
     # ensure directory is created for this word index
     if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
 
@@ -146,10 +144,12 @@ for word_index, foreign_word in enumerate(foreign_word_list):
     # exit after first word in debug mode
     if DEBUG_MODE: exit()
 
-json.dump(all_word_download_errors, open(BASE_IMAGE_PATH+'all_errors.json', 'w'))
+json.dump(all_word_download_errors, open(opts.base_image_path+'all_errors.json', 'w'))
 #  when S3 mode is turned on, upload the file over to S3 and delete the local copy
 # TODO can we simplify this so it doesn't need to write out to a tmp location?
 # TODO add metadata like original link to storage?
+# S3_BUCKET_NAME = 'brendan.callahan'
+# S3_BASE_PATH = 'thesis/images/'+opts.language+'/'
 # if STORAGE_MODE == 'S3':
 #     word_index_str = "{0:0=2d}".format(word_index)
 #     destination_path = S3_BASE_PATH+word_index_str+'/'+actual_file_name
