@@ -106,8 +106,15 @@ for word_index, foreign_word in enumerate(foreign_word_list):
         # break for loop on success
         else: break
 
-    for link_element in link_elements:
-        actual_image_link = get_image_link(link_element)
+    for link_index, link_element in enumerate(link_elements):
+        try:
+            actual_image_link = get_image_link(link_element)
+        except Exception as e:
+            error_class = type(e).__name__
+            all_word_download_errors[error_class] += 1
+            current_word_download_errors[error_class] += 1
+            print('Failed to parse index:' + link_index + ' due to: ' + error_class)
+            continue
 
         # when in debug mode, just print the link out, otherwise download the file
         if DEBUG_MODE:
