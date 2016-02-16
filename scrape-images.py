@@ -51,9 +51,8 @@ def create_selenium_browser():
 
 
 # takes the link element from xpath, dissects out the href attribute, and runs a regex to extract the source URL
-def get_image_link(link_element):
-    href = link_element.get_attribute('href')
-    regex_result = re.search(IMAGE_URL_REGEX, href)
+def get_image_link(href_attribute):
+    regex_result = re.search(IMAGE_URL_REGEX, href_attribute)
     return regex_result.group('url')
 
 driver = create_selenium_browser()
@@ -71,6 +70,10 @@ if len(current_language_entry['lr']) > 0:
     base_language_search_url += '&lr=' + current_language_entry['lr']
 
 for word_index, foreign_word in enumerate(foreign_word_list):
+    # if a start index was passed in, this is a case where we are resuming a previously failed run, skip every word
+    # that successfully completed and just pick up where we left off
+    if opts.start_index and word_index < opts.start_index: continue
+
     if opts.verbose_mode:
         print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print('Current word: ' + foreign_word + ' at index: ' + str(word_index))
@@ -83,18 +86,30 @@ for word_index, foreign_word in enumerate(foreign_word_list):
     # ensure directory is created for this word index
     if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
 
-    # if a start index was passed in, this is a case where we are resuming a previously failed run, skip every word
-    # that successfully completed and just pick up where we left off
-    if opts.start_index and word_index < opts.start_index: continue
+    # initialize an array of href attributes that are extracted via selenium
+    href_attributes = []
+
+    # create the search url for this word by appending the search term onto our base search URL for the language
+    url = base_language_search_url + '&q=' + urllib.parse.quote(foreign_word)
 
     # retry search query up to 10 times if we hit failures
+    # deliberately encapsulates all of the interaction with the selenium library in this retry loop and
+    # try/except blocks so that we can handle selenium library errors in a common way
     for attempt in range(10):
         try:
-            url = base_language_search_url + '&q=' + urllib.parse.quote(foreign_word)
             driver.get(url)
             time.sleep(2) #2 is arbitrary
 
+            # pull all elements out of the page using the google-specific xpath for the elements that contain
+            # the underlying image links
             link_elements = driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
+
+            # pull the href attribute out of each element that contains the underlying image link
+            # note: need to keep this inside the retries and try/except catch blocks.
+            # there is an occasional selenium issue where even get_attribute can inexplicably fail
+            # TODO for this occasional failure, we may have to add a timeout to all of the selenium code as a whole,
+            # as it caused the scraper to hang endlessly
+            href_attributes = [ link_element.get_attribute('href') for link_element in link_elements ]
 
         # catch what seem to be BadStatusLine and ConnectionRefusedError's, quit the webdriver, and then create a new
         # instance. there is something really funky going on here that seems to work when resetting selenium
@@ -106,15 +121,10 @@ for word_index, foreign_word in enumerate(foreign_word_list):
         # break for loop on success
         else: break
 
-    for link_index, link_element in enumerate(link_elements):
-        try:
-            actual_image_link = get_image_link(link_element)
-        except Exception as e:
-            error_class = type(e).__name__
-            all_word_download_errors[error_class] += 1
-            current_word_download_errors[error_class] += 1
-            print('Failed to parse index:' + link_index + ' due to: ' + error_class)
-            continue
+    for link_index, href_attribute in enumerate(href_attributes):
+
+        # take the list href attribute, and extract the actual image link from that compound string
+        actual_image_link = get_image_link(href_attribute)
 
         # when in debug mode, just print the link out, otherwise download the file
         if DEBUG_MODE:
