@@ -30,8 +30,12 @@ BASE_GOOGLE_IMAGE_SEARCH_LINK = 'https://www.google.com/search?#tbm=isch&start=0
 IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)&'
 
 # XPATH statement that finds all of the links on the page that correspond to the original image links
-# this is probably subject to change on google's part
+# Note: this is probably subject to change on google's part
 GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
+
+# XPATH statement that pulls the div adjacent to the image link path that contains google-created metadata
+# Note: this is probably subject to change on google's part
+GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
 
 DEBUG_MODE = False
 
@@ -92,12 +96,16 @@ class GoogleImageScraper(object):
                 # the underlying image links
                 link_elements = self.driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
 
+                # also pull the google-created metadatas out of the page, stored as JSON in a hidden div
+                google_metadatas = [s.get_attribute('innerHTML') for s in self.driver.find_elements_by_xpath(GOOGLE_METADATA_XPATH)]
+
                 # pull the href attribute out of each element that contains the underlying image link
                 # note: need to keep this inside the retries and try/except catch blocks.
                 # there is an occasional selenium issue where even get_attribute can inexplicably fail
                 # TODO for this occasional failure, we may have to add a timeout to all of the selenium code as a whole,
                 # as it caused the scraper to hang endlessly
                 href_attributes = [ link_element.get_attribute('href') for link_element in link_elements ]
+
 
             # catch what seem to be BadStatusLine and ConnectionRefusedError's, quit the webdriver, and then create a new
             # instance. there is something really funky going on here that seems to work when resetting selenium
@@ -109,7 +117,7 @@ class GoogleImageScraper(object):
             # break for loop on success
             else: break
 
-        return href_attributes
+        return [href_attributes, google_metadatas]
 
     # function that drives processing every word in the parsed list of words
     def process_all_words(self):
@@ -130,22 +138,40 @@ class GoogleImageScraper(object):
             # ensure directory is created for this word index
             if not os.path.exists(base_path_for_index): os.makedirs(base_path_for_index)
 
-            for link_index, href_attribute in enumerate(self.get_href_attributes_for_word(foreign_word)):
+            # array to store the metadata dictionaries for each image we download
+            list_of_image_metadata = []
 
+            href_attributes, metadatas = self.get_href_attributes_for_word(foreign_word)
+
+            for link_index, href_attribute in enumerate(href_attributes):
                 # take the list href attribute, and extract the actual image link from that compound string
                 actual_image_link = self.get_image_link(href_attribute)
+
+                # force the link index string to be two digits (like 01, 02, etc), and then store the
+                link_index_str = "{0:0=2d}".format(link_index+1)
+
+                # take the metadata stored in an adjacent div as JSON, load it as a hash, and add it to our metadata
+                google_metadata_for_image = json.loads(metadatas[link_index])
+
+                metadata_for_image = {'image_link': actual_image_link, 'google': google_metadata_for_image}
 
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
                     print(actual_image_link)
                 else:
                     actual_file_name = actual_image_link.split('/')[-1]
+                    metadata_for_image['original_filename'] = actual_file_name
+                    file_extension = actual_file_name.split('.')[-1]
 
                     if opts.verbose_mode: print('Downloading... ' + actual_image_link)
 
                     # ggpht images seem to be internal to the search engine results, skipping them
                     if actual_image_link.find('ggpht.com/') == -1:
-                        full_path = base_path_for_index+actual_file_name
+                        metadata_for_image['filename'] = link_index_str+'.'+file_extension
+
+                        # get the full path where we will store the image, e.g. base_path/01.jpg
+                        full_path = base_path_for_index+metadata_for_image['filename']
+
                         try:
                             with urllib.request.urlopen(actual_image_link, timeout=30) as response, open(full_path, 'wb') as out_file:
                                 shutil.copyfileobj(response, out_file)
@@ -165,6 +191,9 @@ class GoogleImageScraper(object):
                     else:
                         print('Skipped: '+actual_image_link)
 
+                list_of_image_metadata.append(metadata_for_image)
+
+            json.dump(list_of_image_metadata, open(base_path_for_index+'metadata.json', 'w'))
             json.dump(current_word_download_errors, open(base_path_for_index+'errors.json', 'w'))
 
             # exit after first word in debug mode
