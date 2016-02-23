@@ -8,6 +8,7 @@ import optparse
 from collections import defaultdict
 import boto3
 import socket
+import traceback
 
 from selenium import webdriver
 
@@ -27,7 +28,10 @@ BASE_GOOGLE_IMAGE_SEARCH_LINK = 'https://www.google.com/search?#tbm=isch&start=0
 # regex for extracting source link component: http://www.inddist.com/sites/inddist.com/files/Dollar-Sign.jpg
 # from compound links like:
 # https://www.google.com/imgres?imgurl=http://www.inddist.com/sites/inddist.com/files/Dollar-Sign.jpg&imgrefurl=http://www.inddist.com/article/2015/05/put-dollar-sign-next-your-service-value&h=1600&w=1200&tbnid=9XAphqXNraTVnM:&docid=Hm9c-cTh-Hl_DM&ei=43-xVsTKMsixeNrCoNAL&tbm=isch&ved=0ahUKEwiEyMjt3trKAhXIGB4KHVohCLoQMwgdKAAwAA
-IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)&'
+# Note: question marks are sometimes encoded as `%253F` at the end of the link to add question marks before an ampersand
+# while ampersands are sometimes encoded as `%253D`
+# Note: photobucket appends ~c200 before the ampersand.. strange
+IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)(&|%253F|%253D|~c200)'
 
 # XPATH statement that finds all of the links on the page that correspond to the original image links
 # Note: this is probably subject to change on google's part
@@ -39,6 +43,11 @@ GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
 
 # user agent string from a recent version of firefox, override the default urllib User-Agent value
 USER_AGENT_STRING = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0"
+
+# List of Valid file extensions to check against, if any of these don't match, this means our regex didn't quite
+# parse the link correctly to pull out the real file link.
+# Note: check for presence in list is also lowercased
+VALID_FILE_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png', 'ico', 'bmp', 'svg']
 
 DEBUG_MODE = False
 
@@ -158,46 +167,71 @@ class GoogleImageScraper(object):
 
                 metadata_for_image = {'image_link': actual_image_link, 'google': google_metadata_for_image}
 
+                # extract the actual file name and the file extension
+                actual_file_name = actual_image_link.split('/')[-1]
+                metadata_for_image['original_filename'] = actual_file_name
+                file_extension = actual_file_name.split('.')[-1]
+                no_extension = False
+
+                # ggpht images seem to be internal to the search engine results, skipping them
+                if actual_image_link.find('ggpht.com/') != -1:
+                    print('Skipped: '+actual_image_link)
+                    continue
+
+                # if the file path does not have a valid extension, mark this as such so that we can set it later
+                # based on the actual content type (which typically falls in our allowed list)
+                if not file_extension.lower() in VALID_FILE_EXTENSIONS:
+                    no_extension = True
+                    if DEBUG_MODE:
+                        print(link_index)
+                        print(actual_file_name)
+                        print(file_extension)
+                        print(actual_image_link)
+                        print(href_attribute)
+                else:
+                    if DEBUG_MODE: continue
+
+
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
                     print(actual_image_link)
                 else:
-                    actual_file_name = actual_image_link.split('/')[-1]
-                    metadata_for_image['original_filename'] = actual_file_name
-                    file_extension = actual_file_name.split('.')[-1]
-
                     if opts.verbose_mode: print('Downloading... ' + actual_image_link)
 
-                    # ggpht images seem to be internal to the search engine results, skipping them
-                    if actual_image_link.find('ggpht.com/') == -1:
-                        metadata_for_image['filename'] = link_index_str+'.'+file_extension
+                    metadata_for_image['filename'] = link_index_str+'.'+file_extension
 
-                        # get the full path where we will store the image, e.g. base_path/01.jpg
-                        full_path = base_path_for_index+metadata_for_image['filename']
+                    # get the full path where we will store the image, e.g. base_path/01.jpg
+                    full_path = base_path_for_index+metadata_for_image['filename']
 
-                        try:
-                            # Crucial, fudge the user-agent string here so that network admins don't think we are
-                            # urllib, since anything "programmatic" is automatically conflated with an "attack"
-                            request = urllib.request.Request(actual_image_link, None, {
-                                'User-agent' : USER_AGENT_STRING
-                            })
-                            with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
-                                shutil.copyfileobj(response, out_file)
+                    try:
+                        # Crucial, fudge the user-agent string here so that network admins don't think we are
+                        # urllib, since anything "programmatic" is automatically conflated with an "attack"
+                        request = urllib.request.Request(actual_image_link, None, {
+                            'User-agent' : USER_AGENT_STRING
+                        })
+                        with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
+                            content_type = response.info().get_content_type()
+                            shutil.copyfileobj(response, out_file)
 
-                        # catch some 503/504 type errors and also if the link points to a directory rather than a file
-                        # typically errors like:
-                        # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
-                        # extended to be indiscriminate since from the perspective of the full scrape, we probably don't care whether
-                        # we know about the error yet
-                        # TODO log error counts?
-                        except Exception as e:
-                            error_class = type(e).__name__
-                            self.all_word_download_errors[error_class] += 1
-                            current_word_download_errors[error_class] += 1
-                            print('Failed to fetch:' + actual_image_link + ' due to: ' + error_class)
+                        # if there was no file extension and this is a content-type of image,
+                        # lets use the content-type from the request to set it, [6:] takes everything after image/
+                        if no_extension and content_type.startswith('image/'):
+                            original_file_path = full_path
+                            new_file_path = link_index_str + '.' + content_type[6:]
+                            shutil.move(original_file_path, new_file_path)
 
-                    else:
-                        print('Skipped: '+actual_image_link)
+                    # catch some 503/504 type errors and also if the link points to a directory rather than a file
+                    # typically errors like:
+                    # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
+                    # extended to be indiscriminate since from the perspective of the full scrape, we probably don't care whether
+                    # we know about the error yet
+                    # TODO log error counts?
+                    except Exception as e:
+                        error_class = type(e).__name__
+                        self.all_word_download_errors[error_class] += 1
+                        current_word_download_errors[error_class] += 1
+                        print('Failed to fetch:' + actual_image_link + ' due to: ' + error_class)
+                        if DEBUG_MODE: print(traceback.format_exc())
 
                 list_of_image_metadata.append(metadata_for_image)
 
@@ -205,7 +239,12 @@ class GoogleImageScraper(object):
             json.dump(current_word_download_errors, open(base_path_for_index+'errors.json', 'w'))
 
             # exit after first word in debug mode
-            if DEBUG_MODE: exit()
+            if DEBUG_MODE:
+                # sleep 10 seconds between google searches in debug mode to prevent hammering
+                time.sleep(10)
+
+                # arbitrary testing point of 100 iterations before exiting in debug mode
+                if word_index > 100: exit()
 
         json.dump(self.all_word_download_errors, open(opts.base_image_path+'all_errors.json', 'w'))
 
