@@ -37,6 +37,9 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 # Note: this is probably subject to change on google's part
 GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
 
+# user agent string from a recent version of firefox, override the default urllib User-Agent value
+USER_AGENT_STRING = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0"
+
 DEBUG_MODE = False
 
 # class that handles image scraping in google
@@ -173,7 +176,12 @@ class GoogleImageScraper(object):
                         full_path = base_path_for_index+metadata_for_image['filename']
 
                         try:
-                            with urllib.request.urlopen(actual_image_link, timeout=30) as response, open(full_path, 'wb') as out_file:
+                            # Crucial, fudge the user-agent string here so that network admins don't think we are
+                            # urllib, since anything "programmatic" is automatically conflated with an "attack"
+                            request = urllib.request.Request(actual_image_link, None, {
+                                'User-agent' : USER_AGENT_STRING
+                            })
+                            with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
                                 shutil.copyfileobj(response, out_file)
 
                         # catch some 503/504 type errors and also if the link points to a directory rather than a file
