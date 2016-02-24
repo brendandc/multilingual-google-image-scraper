@@ -28,10 +28,7 @@ BASE_GOOGLE_IMAGE_SEARCH_LINK = 'https://www.google.com/search?#tbm=isch&start=0
 # regex for extracting source link component: http://www.inddist.com/sites/inddist.com/files/Dollar-Sign.jpg
 # from compound links like:
 # https://www.google.com/imgres?imgurl=http://www.inddist.com/sites/inddist.com/files/Dollar-Sign.jpg&imgrefurl=http://www.inddist.com/article/2015/05/put-dollar-sign-next-your-service-value&h=1600&w=1200&tbnid=9XAphqXNraTVnM:&docid=Hm9c-cTh-Hl_DM&ei=43-xVsTKMsixeNrCoNAL&tbm=isch&ved=0ahUKEwiEyMjt3trKAhXIGB4KHVohCLoQMwgdKAAwAA
-# Note: question marks are sometimes encoded as `%253F` at the end of the link to add question marks before an ampersand
-# while ampersands are sometimes encoded as `%253D`
-# Note: photobucket appends ~c200 before the ampersand.. strange
-IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)(&|%253F|%253D|~c200)'
+IMAGE_URL_REGEX = r'imgres\?imgurl=(?P<url>.*?)(&imgrefurl)'
 
 # XPATH statement that finds all of the links on the page that correspond to the original image links
 # Note: this is probably subject to change on google's part
@@ -49,7 +46,7 @@ USER_AGENT_STRING = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/2010010
 # Note: check for presence in list is also lowercased
 VALID_FILE_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png', 'ico', 'bmp', 'svg']
 
-DEBUG_MODE = False
+DEBUG_MODE = True
 
 # class that handles image scraping in google
 class GoogleImageScraper(object):
@@ -85,7 +82,10 @@ class GoogleImageScraper(object):
 
     # takes the link element from xpath, dissects out the href attribute, and runs a regex to extract the source URL
     def get_image_link(self, href_attribute):
-        regex_result = re.search(IMAGE_URL_REGEX, href_attribute)
+        # some links are double or triple quoted, by chaining this call 3 times, we seem to unquote most of it
+        # there is no functional downside that i know of for unquoting more than need be
+        triple_decoded_attr = urllib.parse.unquote(urllib.parse.unquote(urllib.parse.unquote(href_attribute)))
+        regex_result = re.search(IMAGE_URL_REGEX, triple_decoded_attr)
         return regex_result.group('url')
 
     # get the href attributes that contain the underlying image links
@@ -183,11 +183,10 @@ class GoogleImageScraper(object):
                 if not file_extension.lower() in VALID_FILE_EXTENSIONS:
                     no_extension = True
                     if DEBUG_MODE:
-                        print(link_index)
-                        print(actual_file_name)
-                        print(file_extension)
+                        #print(link_index)
+                        #print(actual_file_name)
                         print(actual_image_link)
-                        print(href_attribute)
+                        print(urllib.parse.unquote(urllib.parse.unquote(urllib.parse.unquote(href_attribute))))
                 else:
                     if DEBUG_MODE: continue
 
@@ -207,7 +206,7 @@ class GoogleImageScraper(object):
                         # Crucial, fudge the user-agent string here so that network admins don't think we are
                         # urllib, since anything "programmatic" is automatically conflated with an "attack"
                         request = urllib.request.Request(actual_image_link, None, {
-                            'User-agent' : USER_AGENT_STRING
+                            'User-Agent': USER_AGENT_STRING
                         })
                         with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
                             content_type = response.info().get_content_type()
@@ -215,6 +214,8 @@ class GoogleImageScraper(object):
 
                         # if there was no file extension and this is a content-type of image,
                         # lets use the content-type from the request to set it, [6:] takes everything after image/
+                        # note: with the 1-liner above for the file path, it seems we need this workaround
+                        # TODO: should probably deconstruct it
                         if no_extension and content_type.startswith('image/'):
                             original_file_path = full_path
                             new_file_path = link_index_str + '.' + content_type[6:]
