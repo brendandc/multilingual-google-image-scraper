@@ -46,7 +46,7 @@ USER_AGENT_STRING = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/2010010
 # Note: check for presence in list is also lowercased
 VALID_FILE_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png', 'ico', 'bmp', 'svg']
 
-DEBUG_MODE = True
+DEBUG_MODE = False
 
 # class that handles image scraping in google
 class GoogleImageScraper(object):
@@ -94,6 +94,7 @@ class GoogleImageScraper(object):
         href_attributes = []
 
         # create the search url for this word by appending the search term onto our base search URL for the language
+        # quote for the sake of special characters
         url = self.base_language_search_url + '&q=' + urllib.parse.quote(word)
 
         # retry search query up to 10 times if we hit failures
@@ -195,7 +196,12 @@ class GoogleImageScraper(object):
                 if DEBUG_MODE:
                     print(actual_image_link)
                 else:
-                    if opts.verbose_mode: print('Downloading... ' + actual_image_link)
+                    # make sure we re-quote the link for the sake of any special characters.
+                    # Note: we need to skip the :/ for the http:// and the uri component separators, the ?&= for
+                    # query arguments, and the comma also blows up on us
+                    quoted_image_link = urllib.parse.quote(actual_image_link, ':/,?&=')
+
+                    if opts.verbose_mode: print('Downloading... ' + quoted_image_link)
 
                     metadata_for_image['filename'] = link_index_str+'.'+file_extension
 
@@ -205,7 +211,8 @@ class GoogleImageScraper(object):
                     try:
                         # Crucial, fudge the user-agent string here so that network admins don't think we are
                         # urllib, since anything "programmatic" is automatically conflated with an "attack"
-                        request = urllib.request.Request(actual_image_link, None, {
+                        # quote for the sake of special characters
+                        request = urllib.request.Request(quoted_image_link, None, {
                             'User-Agent': USER_AGENT_STRING
                         })
                         with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
@@ -221,6 +228,8 @@ class GoogleImageScraper(object):
                             new_file_path = link_index_str + '.' + content_type[6:]
                             shutil.move(original_file_path, new_file_path)
 
+                        metadata_for_image['success'] = True
+
                     # catch some 503/504 type errors and also if the link points to a directory rather than a file
                     # typically errors like:
                     # (urllib.error.HTTPError, IsADirectoryError, socket.timeout, urllib.error.URLError, ConnectionResetError)
@@ -231,7 +240,10 @@ class GoogleImageScraper(object):
                         error_class = type(e).__name__
                         self.all_word_download_errors[error_class] += 1
                         current_word_download_errors[error_class] += 1
-                        print('Failed to fetch:' + actual_image_link + ' due to: ' + error_class)
+                        metadata_for_image['success'] = False
+                        metadata_for_image['error_class'] = error_class
+                        print('Failed to fetch:' + quoted_image_link + ' due to: ' + error_class + ' unquoted:' +
+                              actual_image_link)
                         if DEBUG_MODE: print(traceback.format_exc())
 
                 list_of_image_metadata.append(metadata_for_image)
