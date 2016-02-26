@@ -6,7 +6,6 @@ import shutil
 import json
 import optparse
 from collections import defaultdict
-import socket
 import traceback
 
 from selenium import webdriver
@@ -175,21 +174,15 @@ class GoogleImageScraper(object):
 
                 # ggpht images seem to be internal to the search engine results, skipping them
                 if actual_image_link.find('ggpht.com/') != -1:
-                    print('Skipped: '+actual_image_link)
+                    print('Skipped ggpht link: ' + actual_image_link)
+                    metadata_for_image['skipped'] = True
+                    list_of_image_metadata.append(metadata_for_image)
                     continue
 
                 # if the file path does not have a valid extension, mark this as such so that we can set it later
                 # based on the actual content type (which typically falls in our allowed list)
                 if not file_extension.lower() in VALID_FILE_EXTENSIONS:
                     no_extension = True
-                    if DEBUG_MODE:
-                        #print(link_index)
-                        #print(actual_file_name)
-                        print(actual_image_link)
-                        print(urllib.parse.unquote(urllib.parse.unquote(urllib.parse.unquote(href_attribute))))
-                else:
-                    if DEBUG_MODE: continue
-
 
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
