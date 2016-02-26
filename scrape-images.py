@@ -5,6 +5,7 @@ import urllib.request
 import shutil
 import json
 import optparse
+import random
 from collections import defaultdict
 import traceback
 
@@ -17,6 +18,7 @@ optparser.add_option("-d", "--dictionary", dest="dictionary", default="dict.fr",
 optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
 optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
 optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/images/', help="Base path where to store image output")
+optparser.add_option("-u", "--user-agent-list", dest="user_agent_list", default='user_agents.json', help="JSON file with an array of user agents to randomly select from")
 optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
 (opts, _) = optparser.parse_args()
 
@@ -35,9 +37,6 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 # XPATH statement that pulls the div adjacent to the image link path that contains google-created metadata
 # Note: this is probably subject to change on google's part
 GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
-
-# user agent string from a recent version of firefox, override the default urllib User-Agent value
-USER_AGENT_STRING = "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:44.0) Gecko/20100101 Firefox/44.0"
 
 # List of Valid file extensions to check against, if any of these don't match, this means our regex didn't quite
 # parse the link correctly to pull out the real file link.
@@ -67,6 +66,11 @@ class GoogleImageScraper(object):
         # add on the hl field for all languages because if it is in our JSON file, it has a hl field
         current_language_entry = full_language_arg_map[opts.language]
         self.base_language_search_url = BASE_GOOGLE_IMAGE_SEARCH_LINK + '&hl=' + current_language_entry['hl']
+
+        # parse a json file with common user-agent strings to customize, file was generated from some reasonable
+        # lists on http://whatsmyuseragent.com
+        with open(opts.user_agent_list, encoding='utf-8') as data_file:
+            self.user_agent_list = json.loads(data_file.read())
 
         # the lr field is present in some but not all of the language possibilities in the JSON config file
         if len(current_language_entry['lr']) > 0:
@@ -205,7 +209,7 @@ class GoogleImageScraper(object):
                         # urllib, since anything "programmatic" is automatically conflated with an "attack"
                         # quote for the sake of special characters
                         request = urllib.request.Request(quoted_image_link, None, {
-                            'User-Agent': USER_AGENT_STRING
+                            'User-Agent': random.choice(self.user_agent_list)
                         })
                         with urllib.request.urlopen(request, timeout=30) as response, open(full_path, 'wb') as out_file:
                             content_type = response.info().get_content_type()
