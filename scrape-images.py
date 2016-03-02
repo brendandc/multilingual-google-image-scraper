@@ -165,7 +165,7 @@ class DownloadThread(threading.Thread):
                         # TODO: should probably deconstruct it
                         if no_extension and content_type.startswith('image/'):
                             original_file_path = full_path
-                            new_file_path = link_index_str + '.' + content_type[6:]
+                            new_file_path = self.base_path_for_word + link_index_str + '.' + content_type[6:]
                             shutil.move(original_file_path, new_file_path)
 
                         metadata_for_image['success'] = True
