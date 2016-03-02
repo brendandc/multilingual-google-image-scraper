@@ -243,8 +243,13 @@ class WordImageDownloader:
         for t in thread_list:
             t.join()
 
-        json.dump(self.image_metadata_for_word, open(self.base_path_for_word+'metadata.json', 'w'))
-        json.dump(self.current_word_download_errors, open(self.base_path_for_word+'errors.json', 'w'))
+        # dump out the json metadata and errors files
+        json.dump(self.image_metadata_for_word, open(self.base_path_for_word+'metadata.json', 'w', encoding='utf-8'))
+        json.dump(self.current_word_download_errors, open(self.base_path_for_word+'errors.json', 'w', encoding='utf-8'))
+
+        # write out a simple text file that contains the word itself on one line in the same directory
+        with open(self.base_path_for_word+'word.txt', 'w', encoding='utf-8') as text_file:
+            text_file.write(self.word)
 
         # exit after first word in debug mode
         if DEBUG_MODE:
@@ -358,7 +363,7 @@ class GoogleImageScraper(object):
             word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas)
             word_image_downloader.process_word()
 
-        json.dump(self.all_word_download_errors, open(opts.base_image_path+'all_errors.json', 'w'))
+        json.dump(self.all_word_download_errors, open(opts.base_image_path+'all_errors.json', 'w', encoding='utf-8'))
 
 
 # initialize the image scraper class with the comand line options, then process all the words
