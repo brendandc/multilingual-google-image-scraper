@@ -116,11 +116,11 @@ class DownloadThread(threading.Thread):
                 net_location = urlparse(actual_image_link).netloc
 
                 # check if the current net location is in the cache, if it is in the cache, then sleep for a short
-                # amount of time. 2 seconds is an arbitrary choice but it should slow things down enough for the sake
+                # amount of time. 3 seconds is an arbitrary choice but it should slow things down enough for the sake
                 # of external servers without dragging all downloads to a halt
                 try:
                     hostname_cache.get(net_location)
-                    time.sleep(2)
+                    time.sleep(3)
                     if DEBUG_MODE:
                         self.thread_safe_print('hit:'+net_location)
                 except KeyError:
