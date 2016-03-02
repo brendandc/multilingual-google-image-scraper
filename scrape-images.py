@@ -2,6 +2,7 @@ import time
 import os
 import re
 import urllib.request
+from urllib.parse import urlparse
 import shutil
 import json
 import optparse
@@ -9,6 +10,8 @@ import random
 from collections import defaultdict
 import traceback
 import threading
+from beaker.cache import CacheManager
+from beaker.util import parse_cache_config_options
 
 from selenium import webdriver
 
@@ -44,11 +47,17 @@ GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
 # Note: check for presence in list is also lowercased
 VALID_FILE_EXTENSIONS = ['jpg', 'jpeg', 'gif', 'png', 'ico', 'bmp', 'svg']
 
-# 4x gives us a decent boost, without being too "spammy", hopefully
-threadLimiter = threading.BoundedSemaphore(4)
+# 6x gives us a decent boost in speed, and should hopefully offset some of the delays via sleeps
+threadLimiter = threading.BoundedSemaphore(6)
 
 # lock for printing to console
 printing_lock = threading.Lock()
+
+# create an in memory cache for storing hostnames, so that we can throttle requests on recently seen
+# hostnames, to avoid potentially getting flagged for flooding servers. 15 seconds seems a reasonable amount of time
+# to make sure we throttle on
+cache_manager = CacheManager(**parse_cache_config_options({'cache.type': 'memory'}))
+hostname_cache = cache_manager.get_cache('hostnames', type='memory', expire=15)
 
 DEBUG_MODE = False
 
@@ -103,6 +112,20 @@ class DownloadThread(threading.Thread):
                 self.thread_safe_print('Skipped ggpht link: ' + actual_image_link)
                 metadata_for_image['skipped'] = True
             else:
+                # extract the net location from the link, like www.google.com, www.yahoo.com, etc
+                net_location = urlparse(actual_image_link).netloc
+
+                # check if the current net location is in the cache, if it is in the cache, then sleep for a short
+                # amount of time. 2 seconds is an arbitrary choice but it should slow things down enough for the sake
+                # of external servers without dragging all downloads to a halt
+                try:
+                    hostname_cache.get(net_location)
+                    time.sleep(2)
+                    if DEBUG_MODE:
+                        self.thread_safe_print('hit:'+net_location)
+                except KeyError:
+                    if DEBUG_MODE:
+                        self.thread_safe_print('miss:'+net_location)
 
                 # if the file path does not have a valid extension, mark this as such so that we can set it later
                 # based on the actual content type (which typically falls in our allowed list)
@@ -163,6 +186,7 @@ class DownloadThread(threading.Thread):
                         if DEBUG_MODE: self.thread_safe_print(traceback.format_exc())
 
                 self.word_downloader.add_metadata_for_word_index(link_index_str, metadata_for_image)
+                hostname_cache.put(net_location, True)
 
         finally:
             threadLimiter.release()
@@ -225,7 +249,7 @@ class WordImageDownloader:
         # exit after first word in debug mode
         if DEBUG_MODE:
             # sleep 10 seconds between google searches in debug mode to prevent hammering
-            time.sleep(10)
+            time.sleep(5)
 
             # arbitrary testing point of 100 iterations before exiting in debug mode
             if self.word_index > 100: exit()
