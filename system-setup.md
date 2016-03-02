@@ -31,4 +31,5 @@ detach: ctrl A-D
 [Credentials]
 aws_access_key_id = YOURACCESSKEY
 aws_secret_access_key = YOURSECRETKEY
+19. Install beaker library: pip install beaker
 
