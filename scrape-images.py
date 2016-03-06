@@ -273,8 +273,14 @@ class GoogleImageScraper(object):
         with open(opts.language_map, encoding='utf-8') as data_file:
             full_language_arg_map = json.loads(data_file.read())
 
+        # adds a simple switch if the language targeted is English, use the "non foreign word", i.e. the english
+        # translation from the bilingual dictionaries that are between a foreign language and english
+        # functionally allows us to turn this into English scraping mode on demand
+        if opts.language == 'English': dictionary_line_index = 1
+        else: dictionary_line_index = 0
+
         # pull the foreign words out of the bilingual dictionary, this assumes the format foreign\tenglish\n
-        self.foreign_word_list = [line.strip().split('\t')[0] for line in open(opts.dictionary)]
+        self.foreign_word_list = [line.strip().split('\t')[dictionary_line_index] for line in open(opts.dictionary)]
 
         # build up a language-specific base link to start out with, before modifying it per each individual search term
         # add on the hl field for all languages because if it is in our JSON file, it has a hl field
