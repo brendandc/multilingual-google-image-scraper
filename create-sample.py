@@ -16,10 +16,15 @@ tar_cmd = "tar cvf "+ tar_path+" --files-from /dev/null"
 os.system(tar_cmd)
 os.system("cd " + BASE_PATH)
 
-for x in sorted_english_word_indices[0:100]:
-    add_folder_cmd = "cd " + BASE_PATH + " && tar rf "+tar_path+" "+opts.language+"/"+str(x)
-    print(add_folder_cmd)
-    os.system(add_folder_cmd)
+# for x in sorted_english_word_indices[0:100]:
+#     add_folder_cmd = "cd " + BASE_PATH + " && tar rf "+tar_path+" "+opts.language+"/"+str(x)
+#     print(add_folder_cmd)
+#     os.system(add_folder_cmd)
+
+folder_paths = [opts.language+"/"+str(x) for x in sorted_english_word_indices[0:100]]
+add_folders_cmd = "cd " + BASE_PATH + " && tar rf "+tar_path+" "+" ".join(folder_paths)
+print(add_folders_cmd)
+os.system(add_folders_cmd)
 
 gzip_cmd = "gzip "+tar_path
 os.system(gzip_cmd)
