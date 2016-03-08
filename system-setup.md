@@ -32,4 +32,5 @@ detach: ctrl A-D
 aws_access_key_id = YOURACCESSKEY
 aws_secret_access_key = YOURSECRETKEY
 19. Install beaker library: pip install beaker
+20. Install AWS command line tools: pip install awscli
 
