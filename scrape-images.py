@@ -21,9 +21,10 @@ optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=
 optparser.add_option("-d", "--dictionary", dest="dictionary", default="dict.fr", help="Google languages json file")
 optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
 optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
-optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/images/', help="Base path where to store image output")
+optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/', help="Base path where to store image output")
 optparser.add_option("-u", "--user-agent-list", dest="user_agent_list", default='user_agents.json', help="JSON file with an array of user agents to randomly select from")
 optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
+optparser.add_option("-S", action="store_true", dest="skip_completed_words", help="Allows multiple passes on a dictionary file so that we can fetch images for any words that failed to get any")
 (opts, _) = optparser.parse_args()
 
 # tbm=isch sets this to be image search, start=0 will give us 100 results on page 1
@@ -202,7 +203,9 @@ class WordImageDownloader:
         # track a dictionary with the errors for the current words
         self.current_word_download_errors = defaultdict(int)
 
-        self.base_path_for_word = opts.base_image_path+str(self.word_index)+'/'
+        # use /base_path/language/word_index for storing words
+        self.base_path_for_word = opts.base_image_path+opts.language+'/'+str(self.word_index)+'/'
+
         # ensure directory is created for this word index
         if not os.path.exists(self.base_path_for_word): os.makedirs(self.base_path_for_word)
 
@@ -355,10 +358,26 @@ class GoogleImageScraper(object):
 
     # function that drives processing every word in the parsed list of words
     def process_all_words(self):
+        if opts.skip_completed_words:
+            print('skip_completed_words selected, only downloading for words that have no images')
+
         for word_index, foreign_word in enumerate(self.foreign_word_list):
             # if a start index was passed in, this is a case where we are resuming a previously failed run, skip every word
             # that successfully completed and just pick up where we left off
             if opts.start_index and word_index < opts.start_index: continue
+
+            # if the skip_completed_words option was provided, we want to:
+            # check if we have downloaded any images for this word, and skip this word if so
+            # the idea being that we are just trying to fill in any words where something failed and we did not
+            # download anything
+            if opts.skip_completed_words:
+                path_for_word = opts.base_image_path+opts.language+'/'+str(word_index)
+                num_files = len(os.listdir(path_for_word))
+
+                # if there are more than 3 files (word.txt, errors.json, metadata.json), we can more or less safely
+                # assume this was a successful run. if only 3 files then we want to re-download images for this word
+                if num_files > 3:
+                    continue
 
             if opts.verbose_mode:
                 print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
@@ -369,7 +388,8 @@ class GoogleImageScraper(object):
             word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas)
             word_image_downloader.process_word()
 
-        json.dump(self.all_word_download_errors, open(opts.base_image_path+'all_errors.json', 'w', encoding='utf-8'))
+        if not opts.skip_completed_words:
+            json.dump(self.all_word_download_errors, open(opts.base_image_path+opts.language+'/all_errors.json', 'w', encoding='utf-8'))
 
 
 # initialize the image scraper class with the comand line options, then process all the words
