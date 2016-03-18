@@ -18,7 +18,7 @@ from selenium import webdriver
 optparser = optparse.OptionParser()
 optparser.add_option("-l", "--language", dest="language", default="French", help="Language to scrape")
 optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=int, help="Number of images to harvest per word")
-optparser.add_option("-d", "--dictionary", dest="dictionary", default="dict.fr", help="Google languages json file")
+optparser.add_option("-d", "--dictionary", dest="dictionary", default="dictionaries/dict.fr", help="Google languages json file")
 optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
 optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
 optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/', help="Base path where to store image output")

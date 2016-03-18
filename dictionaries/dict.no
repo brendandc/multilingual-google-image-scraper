@@ -1,0 +1,9083 @@
+$	dollar
++	+
+=	=
+a	a
+aalesund	aalesund
+aasen	aasen
+aasens	aasens
+abba	abba
+abbey	abbey
+abeba	ababa	abeba
+aboriginere	aboriginal
+abort	abortion
+about	about
+abraham	abraham
+absolutt	absolutely
+absolutte	absolute
+abstrakt	abstract
+abstrakte	abstract
+abu	abu
+ac	ac
+ad	ad
+adam	adam
+adams	adams
+adel	noble
+adelen	nobility
+adelige	noble
+adelskap	nobility
+adferd	behavior
+adgang	access
+adhd	adhd
+adjektiv	adjective	adjektive
+administrasjon	administration
+administrasjonen	administration
+administrativ	administrative
+administrative	administrative
+administrativt	administrative
+administreres	managed
+administrert	administered
+admiral	admiral
+adolf	adolf
+adopterte	adopted
+adresse	address
+adriaterhavet	adriatic sea
+adskilt	separated
+adskilte	separate
+advarsler	warnings
+advarte	warned
+advokat	lawyer
+af	af
+affiks	affixes	affiks	affix
+afghanistan	afghanistan
+afghanske	afghan
+african	african
+afrika	africans	africa
+afrikanere	africans
+afrikansk	african
+afrikanske	african
+afrikas	africas
+aftenposten	aftenposten
+again	again
+agder	agder
+agent	agent
+aggresjon	aggression
+aggressiv	aggressive
+aggressive	aggressive
+aha	aha
+aids	aids
+akademi	academy
+akademiet	the acadamy
+akademiske	academic
+aker	aker
+akershus	akershus	akerhus
+akkurat	just
+akkusativ	accusative
+akse	axis
+aksel	aksel
+aksemaktene	axis powers
+aksept	acceptance	accept
+akseptere	accepts	accept
+akseptert	acceptances
+aksepterte	accepted
+aksjon	action
+aksjonen	action	operation
+aksjoner	actions
+akt	act
+aktiv	active
+aktive	active
+aktivitet	activity
+aktiviteter	activities
+aktivt	active
+aktuell	current
+aktuelle	current
+aktuelt	relevant
+akutt	acute
+akutte	acute	urgent
+al	al
+alan	alan
+alaska	alaska
+alba	alba
+albania	albania
+albansk	albanian
+albanske	albanian
+albert	albert
+albumene	albums
+albumet	album
+alces	alces
+alder	age
+aldri	never
+aleksander	aleksander
+aleksanders	aleksanders
+aleksandersen	aleksandersen
+aleksandr	aleksandr
+alene	alone
+alex	alex
+alexandria	alexandria
+alfabet	alphabet
+alfabetet	alphabet
+alfabetisk	alphabetically
+alfred	alfred
+algerie	algeria
+ali	ali
+alice	alice
+alkohol	alcohol
+all	all
+allah	allah
+allahs	allah	allahs
+allan	allan
+alle	all	every
+aller	very	most
+allerede	already
+allianse	alliance
+alliansen	alliance
+allianser	alliances
+alliert	ally
+allierte	allied	the allied
+alliertes	allied
+allikevel	anyway
+allmenn	general
+allmenne	public interest	general
+allment	widely
+alltid	always
+alminnelig	general
+alminnelige	general
+alpene	alps
+alpenes	alps
+alpine	alpine
+alqaida	alqaida
+als	als
+alt	everything
+alta	alta
+alternativ	alternative
+alternative	alternative
+altfor	too
+altså	thus
+aluminium	aluminum
+alvor	seriously
+alvorlig	serious	severe
+alzheimers	alzheimer's
+am	am
+amager	amager
+amalie	amalie
+amazonas	amazon
+ambassade	embassy
+ambassaden	embassy
+ambassader	embassies
+ambassadør	ambassador
+ambisjoner	ambitions
+amerika	america
+amerikanere	americans
+amerikanerne	americans	the americans
+amerikansk	american
+amerikanske	american
+amerikas	americas
+aminosyrer	amino acids
+amming	breastfeeding	reastfeeding	bakkroppamming
+ammoniakk	ammonia
+amsterdam	amsterdam
+amt	county
+amundsen	amundsen
+amundsens	amundsen
+an	struck
+analyse	analysis
+analyser	analysis
+anarkismen	anarchism
+anarkistene	anarchists
+anarkister	anarchists
+anarkistisk	anarchistic
+anarkistiske	anarchist
+anatomi	anatomy
+anbefales	recommended
+anbefalt	recommended
+anbefalte	recommended
+anc	anc
+andel	share
+andelen	part	the share
+andersen	andersen
+anderson	anderson
+andorra	andorra
+andorras	andorras
+andre	others
+andreas	andreas
+andreplass	second place
+andres	others
+andrew	andrew
+andré	andre	second
+anerkjenne	recognize
+anerkjennelse	recognition
+anerkjenner	recognizes	recognized connoisseur
+anerkjennes	recognized
+anerkjent	recognized
+anerkjente	recognized
+anfall	attack
+anført	alleged
+angeles	angeles	angel
+anger	regret
+angi	specify
+angir	indicates
+angis	accentuated	indicated
+angitt	specified
+angivelig	allegedly	allegedy
+anglikanske	anglican
+angola	angola
+angrep	attack
+angrepene	attacks	the attacks
+angrepet	attack
+angriper	attacker	attack
+angst	anxiety
+angsten	anxiety
+angår	concerns
+ankerhansen	anker-hansen
+anklagene	charges
+anklager	charges
+anklaget	accused
+ankom	arrived
+ankomst	arrivals
+anlagt	built
+anledning	opportunity
+anledninger	occasions
+anlegg	plant
+anlegget	plant	facility
+ann	ann
+anna	other	anna
+anne	anne
+annen	other
+annerledes	different
+annet	other
+annonserte	announced
+anonymt	anonymous
+another	another
+ansatt	employee
+ansees	considered
+anser	consider
+anses	considered
+ansett	considered
+ansikt	face
+ansiktet	face
+anslag	estimates
+anslagsvis	estimated
+anslår	estimates
+anslås	estimated
+anslått	estimated
+anstrengelser	efforts
+anstrengt	uptight	strained
+ansvar	liability	responsibility
+ansvaret	responsibility
+ansvarlig	responsible
+anså	considered
+anta	assume
+antagelig	probably
+antakelig	probably
+antall	number of
+antallet	number of
+antar	assume
+antarktis	antarctic
+antas	assumed
+antatt	assumed
+anthony	anthony
+antibiotika	antibiotics
+antidepressiva	antidepressants
+antikke	antique
+antikken	antiquity
+antikkens	ancient
+antipsykotika	antipsychotics
+antisemittiske	anti-semitic
+antisemittisme	anti-semitism
+antisyklon	anti-cyclone	nti-cyclone	anticyclone
+antok	assumed
+antonio	antonio
+antyder	implying
+antydet	suggested
+anus	anus
+anvendelse	application	use
+anvendelser	applications
+anvendt	applied
+apostlenes	apostles
+appalachene	appalachene	appalachia
+appell	appeal
+april	april
+arabere	arabs
+arabisk	arabic
+arabiske	arab
+arbeide	work
+arbeidene	workers
+arbeider	worker
+arbeidere	workers	workes
+arbeiderne	workers
+arbeidernes	workers'	workers
+arbeiderparti	labor party
+arbeiderpartiet	the labor party
+arbeiderpartiets	labor perty
+arbeidet	worked
+arbeids	work
+arbeidskraft	labor
+arbeidsledighet	unemployment
+arbeidsløshet	jobless	unemployment
+arbeidsplasser	jobs
+areal	area
+arealet	area
+arenaer	arenas
+arendal	arendal
+argentina	argentina
+argument	argument
+argumenter	arguments
+argumenterer	argue	argues
+argumentert	argued
+argumenterte	argued	the arguments
+argumentet	argument
+ari	ari
+aristoteles	aristoteles	aristotle
+arizona	arizona
+arkeologisk	archaeological
+arkeologiske	archaeological
+arkitekt	architect
+arkitekten	architect
+arkitekter	architects
+arkitektur	architecture
+arkitekturen	the architecture	architecture
+arkiv	archive
+arktis	arctic
+arktisk	arctic
+arktiske	arctic
+armenia	armenia
+armenske	armenian
+armer	arms
+armeringen	reinforcement
+armert	reinforced
+armstrong	armstrong
+armékorps	army corps
+arna	arna
+arne	arne
+arnold	arnold
+arnulf	arnlf
+arpanet	arpanet
+arrangementer	events
+arrangere	arrange
+arrangerer	arrange
+arrangeres	arranged
+arrangert	arranged
+arrangerte	arranged
+arsenal	arsenal
+arsenals	arsenals
+art	species
+arten	species
+artene	the species	species
+arter	species
+arteriepinsett	artery pincer	forceps
+arthur	arthur
+artikkel	article
+artikkelen	article
+artiklene	articles
+artikler	articles
+artilleri	artillery
+artist	artist
+artisten	artist
+artistene	artists
+artister	artists
+arv	inheritance
+arve	arve
+arvelig	heredity
+arven	heritage
+arvet	inherited
+arving	heir
+as	as
+asbjørn	asbjørn
+asbjørnsen	asbjornsen
+aschehoug	h. aschehoug & co	aschehoug
+aserbajdsjan	azerbaijanis
+asia	asia
+asiatisk	asian
+asiatiske	asian
+aske	ash
+askim	askim
+askøy	askøy
+aspekt	aspect
+aspekter	aspects
+aspergers	asperger
+assimilert	assimilated
+assosieres	associated
+assosiert	associated
+aston	aston
+astrid	astrid
+astronomen	astronomers
+astronomer	astronomers
+astronomi	astronomy
+astronomiprosjektet	astronomy project
+astronomiske	astronomical
+at	that
+ateisme	atheism
+ateister	atheists
+atferd	behavior
+atferdsterapi	behavioral therapy
+athen	athens	athen
+atlanta	atlanta
+atlanterhavet	atlantic
+atle	athletic	atle
+atmosfære	atmosphere
+atmosfæren	atmosphere
+atmosfæriske	atmospheric
+atomene	atoms
+atomer	atoms
+atomet	atom
+atomkjernen	nucleus
+atomnummer	atomic number
+atomvåpen	nuclear weapons
+atp	atp
+attenhundretallet	eighteenth century
+attentat	assassination
+auf	auf
+aug	august
+august	august
+augustin	augustin
+aukra	aukra
+aure	aure
+auschwitz	auschwitz
+austagder	aust agder
+austen	austen
+austevoll	austevoll
+australia	australia
+australian	australia
+australske	australian
+autisme	autism
+automatisk	automatic
+autoritet	authority
+autoritære	authoritarian
+av	of
+avanserte	advanced
+avbildet	depicted	pictured
+avdekket	revealed
+avdeling	section
+avdelinger	departments
+avdøde	deceased
+avgang	retirement	departure
+avgi	release	emit
+avgifter	charges
+avgir	emit
+avgitt	submitted
+avgjort	determined
+avgjør	determins
+avgjøre	determine
+avgjørelse	decision
+avgjørelser	decisions
+avgjørende	critical
+avgjøres	determined
+avgrenset	limited
+avgåtte	retired
+avhenger	depends
+avhengige	dependent
+avhengighet	addiction	dependence
+avholdes	held
+avholdt	held
+avis	newspaper	paper
+avisene	newspapers
+avisens	newspaper	the papers
+aviser	newspapers
+aviv	aviv
+avkom	offspring
+avkommet	the offspring	offspring
+avl	breeding
+avledet	derived
+avlinger	crops
+avløst	replaced
+avsatt	deposited
+avskaffelse	elimination
+avskaffet	abolished
+avslo	declined
+avslutning	end
+avslutningen	end
+avslutte	end
+avsluttes	ends	end
+avsluttet	closed
+avslått	off
+avslører	reveals
+avslørt	revealed
+avslørte	revealed
+avsnitt	section
+avstamning	descent
+avstand	distance
+avstander	distances
+avstemningen	vote
+avstå	abstain
+avtale	agreement
+avtalen	deal
+avtaler	deals
+avvik	deviation
+avviker	deviates
+avviser	reject
+avvisning	rejection
+avvist	rejected
+avviste	rejected
+axl	axl
+b	b
+ba	ba
+baby	baby
+bachs	bachs	bach
+bad	bathroom
+bak	behind	back
+baker	bakes
+bakgrunn	background
+bakgrunnen	background
+bakke	bakke	ground
+bakken	ground
+bakkropp	abdomen
+bakover	back
+bakterie	bacterial
+bakterien	further contamination
+bakterier	bacteria
+balaenoptera	blue whale
+balanse	balance
+balkan	balkan
+ball	ball
+ballen	the ball
+baltiske	baltic
+bamble	bamble
+band	band
+bandene	bands
+bandet	band
+bane	court
+banebrytende	groundbreaking
+baner	courses	courts
+bang	bang
+bangkok	bangkok
+bangladesh	bangladesh
+bank	bank
+banker	banks
+baptisme	baptist	baptism
+bar	was
+barack	barack
+barcelona	barcelona
+barcelonas	barcelonas
+barentshavet	barents sea
+barn	children
+barna	children
+barndom	brandom	childhood
+barndommen	choldhood
+barne	children
+barnebarn	grandchildren
+barnebøker	children books
+barnet	child
+barns	childrens
+barokken	baroque
+baron	baron
+barrett	barrett
+barry	barry
+bart	offense	bart
+base	base
+baser	bases
+baserer	based
+basert	based
+baserte	based
+basis	basis
+basketball	basketball
+bass	bass
+bassist	bassist
+batistas	batistas	batista
+batteri	battery
+batteriet	battery
+bauer	bauer
+bay	bay
+bayern	bayern
+bbc	bbc
+beatles	beatles
+bebodd	inhabited
+bebodde	inhabited
+bebyggelse	buildings	settlements
+beckham	beckham
+bedre	better
+bedreviter	know-	bedriviter	know-it-al	know-it-all	know
+bedrifter	buisnesses	businesses
+bedt	asked
+beethoven	beethoven
+befant	was
+befestet	consolidated
+befinner	is
+befolkede	populated
+befolket	populated
+befolkning	population
+befolkningen	population
+befolkningens	populations
+befolkningsgrupper	populations
+befolkningstetthet	population density
+befolkningstettheten	the population density
+befolkningsveksten	population growth
+befruktning	impregnated	insemination	fertilization
+begeistret	excited
+begge	both
+begikk	committed
+begivenheter	events
+begravelse	funeral
+begrense	limit
+begrensede	limited
+begrenset	limited
+begrensninger	limits
+begrep	term
+begrepene	terms	tems
+begrepet	term
+begrunnelse	justification
+begrunnelsen	rationale
+begrunnet	justified
+begynne	start	begin
+begynnelse	beginning
+begynnelsen	beginning
+begynnende	incipient
+begynner	beginner
+begynt	started	begun
+begynte	started	began
+begått	committed
+behandle	treat
+behandler	treat
+behandles	treated
+behandlet	treated
+behandling	treatment
+behandlingen	treatment	palestinian
+behandlinger	treatments
+behersket	restrained
+behn	behn
+beholde	keep
+beholdt	retained
+behov	need
+behovene	needs
+behovet	the need
+beijing	beijing
+beijings	beijing	beijings
+bein	bone
+bekjempe	fight
+bekjenner	confess
+bekostning	expense
+bekreftelse	verification
+bekrefter	confirmed
+bekreftet	confirm
+bekymret	concerned
+bekymring	concern
+belastende	strain
+belegg	coatings
+beleiringen	the siege
+belgia	belgium
+belgisk	belsian	belgian
+belgiske	belgian
+beliggenhet	location
+beliggenheten	location
+bella	bella
+belønnet	rewarded
+belønning	reward
+bemerket	noted
+ben	legs
+benektet	denied
+benevnelsen	term
+benito	benito
+benjamin	benjamin
+benny	benny
+benytte	use
+benytter	uses
+benyttes	used
+benyttet	use
+beograd	belgrade
+beordret	ordered
+ber	asks
+beregnet	estimated
+beregninger	calculations
+beretning	report	story
+beretninger	stories	reports
+berg	berg	rock
+bergarter	rocks
+berge	berge	save
+bergen	bergen
+bergenhus	bergenhus	bergen
+bergens	bergen	bergens
+bergensbanen	bergen line	bergsbanen
+berget	rock
+berit	berit
+berlin	berlin
+berliner	berlin
+berlinmuren	berlin wall
+berlins	berlins
+bern	bern
+bernard	bernard
+bernhard	bernard
+berømmelse	fame
+berømt	famous
+berømte	famous
+berører	touch
+berørte	affected
+beseiret	defeated
+beskjed	message
+beskjeden	modest
+beskjedne	modest
+beskrev	described
+beskrevet	described
+beskrive	describe	describe the
+beskrivelse	description
+beskrivelsen	description
+beskrivelser	descriptions
+beskrives	described
+beskyldninger	accusations
+beskyldt	accused
+beskyttelse	protection
+beskytter	protect	protects
+beskyttet	protected
+beslektede	related
+beslektet	related
+beslutning	decision
+besluttet	decided
+best	best
+bestand	population
+bestanden	stock	population
+beste	best
+bestemme	determine	etermine the
+bestemmelser	regulations	provisions
+bestemmer	decide
+bestemmes	determined
+bestemt	determined
+bestemte	specific	decided
+bestod	consisted
+bestå	be	consist
+bestående	consisting
+består	consists
+besøk	visit
+besøke	visit
+besøkende	visitors	visits
+besøkt	visited
+besøkte	visited
+betale	pay
+betalingsbalanse	balance of payments
+betalt	paid
+betalte	paid
+betegne	denote
+betegnelse	designation
+betegnelsen	term	designation
+betegnelser	designations
+betegner	denotes
+betegnes	termed
+betegnet	denoted
+betingelser	conditions
+betinget	conditional
+betong	concrete
+betongen	concrete
+betrakte	considered
+betraktelig	significantly
+betrakter	consider
+betraktet	considered
+bety	mean
+betydde	meant
+betydelig	significant
+betydelige	significant
+betydning	significance
+betydningen	importance	meaning
+betydninger	meanings
+betydningsfulle	significant
+betyr	means
+betød	meant
+beundret	admired
+beundring	admiration
+bevare	preserve
+bevart	preserved
+bevarte	preserved
+bevege	move
+bevegelse	motion
+bevegelser	movement
+beveger	moves
+beveget	moved
+bevis	evidence
+bevise	prove
+bevissthet	awereness	awareness
+bevisstheten	awareness
+bevist	proven
+beyer	beyer
+bibel	bible
+bibelen	the bible	bible
+bibelens	bible	the bibels
+bibelske	biblical
+bibliografi	bibliography
+bibliotek	library
+bidra	help
+bidrag	contributions
+bidrar	contributes	contribute
+bidratt	contributed
+bidro	contributed
+bil	car
+bilde	picture
+bildene	pictures
+bilder	pictures
+bildet	picture
+bilen	car
+biler	cars
+bilindustrien	the car industry
+bill	bill
+billboard	billboard
+billedkunst	visual art	visual arts
+billig	cheap
+billigere	cheaper
+billy	billy
+bind	bind
+binde	bind
+binder	binds
+binding	binding
+bindinger	bonds
+biogeografi	biogeography	list of ecoregions	biography
+biografi	biography
+biografier	biographies
+biologi	biology
+biologisk	biological
+biologiske	biological
+bipolar	bipolar
+birger	birger
+biskop	bishop
+biskopen	bishop
+biskopene	bishops
+biskoper	bishops
+bispedømme	diocese
+bispedømmet	diocesan	diocese
+bispesete	diocese
+bistand	assistance
+biter	pieces
+bitre	bitter
+bitt	bitten
+bitter	bitter
+bivirkninger	side effects
+bjarne	bjarne
+bjerke	bjerke
+bjørgvin	bjørgvin
+bjørn	bear
+bjørndalen	bear valley
+bjørneboe	bjørneboe
+bjørnedyr	bears
+bjørnen	bear
+bjørnson	bjornson
+bjørnsons	bjbjornson
+bjørnstjerne	bjørnstjerne
+bla	including
+blad	sheet
+bladene	leafs
+blader	leaves
+bladet	magazine
+blandede	mixed
+blandet	mixed
+blanding	mix
+blant	among
+ble	become
+bli	car	be
+blikk	glance
+blir	is
+blitt	been
+blod	blood
+blodet	blood
+blodig	bloody
+blodige	bloody
+blodsukker	blood glucose
+blodsukkeret	blood sugar
+blodtrykk	blood pressure
+blodårene	veins	blood vessels
+blokade	blockade
+blokaden	blockade
+blomster	flowers	flower
+blomsterplanter	flowers plants	flowers	flowering plants	flower plants	strengthened
+blomstret	flourished
+blues	blues
+bly	lead
+blå	blue
+blåbær	blueberries	bilberry
+blåhval	blue whale
+blåhvalen	blue whale
+blått	blue
+bmws	bmws
+bob	bob
+bodd	lived
+bodde	lived
+bodø	bodø
+bok	book
+boka	book
+boken	book
+bokhandlerprisen	bookstore price
+bokmål	bokmål
+bokserien	book series
+bokstavelig	literally
+bokstaven	letters	letter
+bokstavene	the letters	letters
+bolet	nest
+boleyn	boleyn
+bolig	residential
+boliger	homes
+boligområder	residential areas
+bolivia	bolivia
+bolivianske	bolivian
+bolsjevikene	bolsheviks
+bombefly	category ifødsler
+bomber	bombs
+bombet	bombed
+bombing	bombing
+bombingen	bombing
+bomull	cotton
+bond	bond
+bonde	farmer
+bonden	the farmer	farmer
+bondepartiet	peasant party
+bondevik	bondevik
+bonn	bonn
+books	books
+booth	booth
+bor	lives
+bord	board
+borg	castle
+borgen	castle	borgen
+borger	citizen
+borgere	citizens
+borgerkrig	burger king
+borgerkrigen	civilwar	civil war
+borgerlig	bourgeois
+borgerlige	bourgeois
+borgermester	mayor
+borgerskap	citizenship
+borgerskapet	bourgeoisie
+born	children
+bort	away
+borte	gone
+borten	borten
+bortimot	almost
+bortsett	except
+bosatt	resident
+bosatte	settled
+bosetning	settlement
+bosetningene	settlements
+bosetninger	settlements
+bosnia	bosnia
+bosniahercegovina	bosniahercegovina
+boston	boston
+boy	boy
+bra	good
+bragt	brought
+bragte	brought
+brahman	brahman	braham
+brakt	brought
+brakte	brought
+brand	brand
+brandes	brandes
+brann	fire
+brannen	fire
+branner	fires
+brant	burned
+braque	braque
+brasil	brazil	brasil
+bratte	steep
+bratteli	bratteli
+bred	wide
+bredd	bank
+bredde	width
+bredden	width
+brede	wide
+bredere	wider
+bree	bree
+brekke	break	brekke
+brenne	burn
+brenner	burns	burner	burning
+brensel	fuel
+brent	burned
+brente	burned
+brev	letter
+brevene	letters
+brevet	letter
+brian	brian
+brikke	chip	piece
+brikker	pieces
+bringe	bring
+bringer	brings
+britene	british
+britney	britney
+broer	bridges
+bronse	bronze
+bronsealderen	bronze age
+brooke	brooke
+bror	brother
+broren	brother
+brown	brown
+bruce	bruce
+brudd	fracture
+bruk	use
+bruke	use
+bruken	use
+bruker	use
+brukere	users
+brukeren	user
+brukerne	users
+brukes	used
+brukte	used
+brun	brown
+brundtland	brundtland
+brune	brown
+bruno	bruno
+brussel	brussel
+brutale	brutal
+brutalt	brutal
+brutt	breached
+bruttonasjonalprodukt	gross domestic product
+brutus	brutus
+bryllupet	wedding
+bryte	break
+bryter	breaks
+brytes	breaks
+brått	abruptly
+brød	bread
+brødre	brothers
+brødrene	brothers
+brøt	broke
+bud	bid
+budapest	budapest
+buddha	buddha
+buddhisme	buddhism
+buddhismen	buddhism
+buddhister	buddhists
+buddhistisk	buddhist
+buddhistiske	buddhist
+budsjett	budget
+budsjettbalanse	budget	budget balance
+budskap	message
+budskapet	message
+bue	arc
+bukspyttkjertelen	pancreas
+bukt	bay
+bulgaria	bulgaria
+bulgarsk	bulgarian
+bulgarske	bulgarian
+bull	bulletin	bull
+bundet	bound
+bunn	bottom
+bunnen	bottom
+buprenorfin	buprenorphine
+burde	should
+burlesk	burlesque	burleque
+burma	burma
+burton	burton
+busby	busby
+bush	bush
+business	business
+buskerud	buskerud
+buss	coach
+bussen	bus
+bussene	buses
+busser	buses
+butikker	shops
+by	city
+bybrannen	fire
+bydel	district
+bydelen	district
+bydelene	districts
+bydeler	suburbs	neighborhoods
+byen	city
+byene	cities
+byens	city	citys
+byer	cities
+bygd	built
+bygde	build	-in
+bygdene	village
+bygg	building
+bygge	build
+bygger	based	builds
+bygges	be	built
+bygget	built
+bygging	construction
+byggingen	construction
+byggverk	building	buildings
+bygning	building
+bygningen	building
+bygninger	buildings
+bykjernen	center
+byområdet	urban
+byr	offers
+bys	city
+bysantinske	byzantine
+bystatus	city status
+bystyret	city council
+bytte	switch
+byttedyr	prey
+byttet	swapped, replaced	changed
+bånd	ties
+båndene	ties
+bård	bård
+båt	boat
+båter	boats
+bære	carry
+bærer	carries	carrier
+bærum	bærum
+bø	bø
+bøkene	books
+bøker	books
+bølge	wave
+bølgelengde	wavelength
+bølgen	wave
+bølger	waves
+bømlo	bømlo
+bøndene	farmers
+bønder	farmers
+bønn	prayer
+bønner	beans	prayers
+bør	should
+børn	born	children
+børsindeks	market index
+bøyes	bends
+c	c
+ca	about
+caesar	caesar
+california	california
+cambridge	cambridge
+camilla	camilla
+campeggio	campeggio
+canada	canada
+canadas	canada	canadas
+canaria	canaria
+canis	canis
+cannabis	cannabis
+canterbury	canterbury
+cappelen	cappelen
+capulet	capulet
+carl	carl
+carlo	carlo
+carlos	carlos
+casa	casa
+casablanca	casablanca
+cash	cash
+castilla	castilla
+castro	castro
+castros	castros
+catalonia	catalonia
+catalunya	catalunya
+catherine	cathrine
+cathrine	cathrine
+cato	cato
+cd	cd
+celle	cell
+cellen	cell
+cellene	cells
+celler	cells
+centre	centre
+cfs	cfs
+champions	champions
+chaplin	chaplin
+chaplins	chaplins
+charles	charles
+charlie	charlie
+che	che
+chelsea	chelsea
+chicago	chicago
+chile	chile
+chr	chr.
+chris	chris
+christensen	christiansen
+christian	christian
+christiania	christiania
+christofer	christofer	christopher
+christoph	christoph
+christopher	christopher
+church	church
+churchills	churchills
+châtelet	chatelet
+cia	cia
+cicero	cicero
+circus	circus
+cirka	about	approximately
+city	city
+civil	civil
+claude	claude
+clinton	clinton
+club	club
+co	co
+cocacola	coca-cola
+college	college
+collett	collett	collettedublin	collettedubin
+colombia	colombia
+colombo	colombo
+colosseum	colosseum
+columbia	columbia
+columbus	columbus
+company	company
+connery	connery
+cooper	cooper
+costa	costa
+country	country
+court	court
+craig	craig
+crassus	crassus
+cristiano	cristiano
+cross	cross
+cruz	cruz
+cubas	cubas	cuba
+cup	cup
+cupen	cup
+cyrus	cyrus
+cæsar	caesar
+cæsars	ceasar
+cøliaki	celiac disease	coeliac disease
+d	d
+da	when
+dag	day
+dagbladet	danish bbc
+dagbok	diary
+dagen	day	days
+dagene	days
+dagens	current
+dager	days
+dagliglivet	daily life
+dagligtale	everyday language
+dahl	dahl
+dal	dal	valley
+dalai	dalai
+dale	dale
+dalen	valley	valleys
+dalene	valleys
+daler	valleys
+dallas	dallas
+damm	damm
+dan	dan
+dandorra	andorra	d'andorra
+daniel	daniel
+danmark	denmark
+danmarknorge	denmark- norway
+danmarks	denmark
+danne	form
+dannelse	formation
+dannelsen	formation	the creation
+danner	forming
+dannes	formed
+dannet	formed
+dans	dance
+danser	dance
+dansk	danish
+danske	danish
+danskene	danes
+dansknorske	danish norwegian
+darwin	darwin
+dass	dass	drain
+data	data
+datamaskin	computer
+datamaskiner	computers
+dateres	dates
+datert	dated
+datidens	contemporary
+dativ	dative
+dato	date
+datoen	date
+datteren	daughter
+dave	dave
+david	david
+davis	davis
+daværende	then
+day	day
+dc	dc
+ddr	ddr
+de	they
+dead	dead
+debatt	debate
+debatten	dabate	debate
+debatter	debates
+debut	debut
+debutalbumet	debut album
+debuterte	debut
+definere	define
+definerer	defines
+defineres	defined	be defined
+definert	difinert
+definerte	defined
+definisjon	definition
+definisjoner	definitions
+deg	you
+dei	the
+dekke	cover
+dekker	covers
+dekkes	is surfaced by	covered
+dekket	covered
+dekning	coverage
+dekorasjoner	decorations
+dekorert	honored/decorated	decorated
+del	part	ome
+dele	share	divide
+delen	the part	section	part
+delene	parts
+deler	parts
+deles	divided
+delhi	delhi
+deling	delicious
+delingen	division
+della	della
+dels	partly
+delstat	state
+delstaten	state
+delstatene	states
+delstater	states
+delt	divided
+delta	participate
+deltagelse	participation
+deltakelse	participation
+deltar	participates	participate
+deltatt	participated
+delte	shared
+deltok	participated
+delvis	partially
+dem	them
+demens	dementia
+demi	demi
+demografi	demographics
+demokratene	democrats
+demokrati	democracy
+demokratiet	democracy
+demokratisk	democratic
+demokratiske	democratic
+demoner	demons
+demonstrasjoner	demonstrations
+den	it
+dengang	then
+denne	this
+dennes	its
+dens	its
+departementene	ministries
+depresjon	depression
+depresjonen	depression
+depresjoner	depression
+depressiv	depressive
+der	there	where
+derav	hence the
+dere	you
+deres	their
+deretter	then
+derfor	therefore
+derfra	thence
+derimot	however,	however
+deriverbar	differentiable
+deriverte	derivative
+dermed	thus
+dersom	if
+dertil	therefor
+derved	thus
+desember	december
+design	design
+designet	designet	designed
+dessuten	in addition	well as
+dessverre	unfortunately
+desto	the	the more
+det	it
+detalj	detail
+detaljer	details
+detaljert	detailed
+detaljerte	detailed
+dets	its
+dette	this
+dharma	dharma
+di	di
+diabetikere	diabetics
+diagnose	diagnosis
+diagnosen	diagnosis
+diagnostikk	diagnostic
+diagnostisert	diagnosed
+diagnostiske	diagnostic
+dialekt	dialect
+dialekten	dialect	area
+dialektene	dialects
+dialog	dialogue
+dialoger	dialogs
+diamant	diamond
+diamanter	diamonds
+diameter	diameter
+dickens	dickens
+diego	diego
+digital	digital
+digitale	digital
+digitaliserte	digitized
+digte	digte
+dikt	poem
+diktator	dictator
+diktatoren	the dictator	dictator
+diktatur	dictatorship
+diktene	poems
+dikter	poet
+diktere	poets
+dikteren	poet
+dikterens	poets	the writer's
+diktet	poem	the poem
+diktning	poetry
+dimaggio	dimaggio
+dimensjoner	dimensions
+din	your	yours
+dine	yours	your
+dinosaurer	dinosurs
+diplomatisk	diplomatic
+diplomatiske	diplomatic
+direkte	directly
+direktør	director
+disiplene	disciples
+disipler	isciples	disciples
+diskografi	discography
+diskriminering	discrimination
+diskusjon	discussion
+diskusjoner	discussions
+diskutere	discuss
+diskutert	discussed
+disney	disney
+disponert	predisposed
+disse	these
+distinkt	distinct
+distinkte	distinct
+distrikt	district
+distriktene	districts
+distrikter	districts
+distriktet	district
+distriktsmandatene	constituency seats
+dit	there	where
+diverse	various	miscellaneous
+divisjon	division
+djevelen	the devil
+dna	dna
+do	do
+dobbel	double
+dobbelt	double
+doble	double
+dog	but
+doktor	doctor
+dokument	document
+dokumentar	documentary
+dokumentasjon	documentation
+dokumenter	documents
+dokumentert	document
+dokumenterte	documented
+dollar	dollar
+dom	judgment
+dominans	dominance
+dominerende	dominating	dominant
+dominerer	dominates	dominating
+domineres	dominated
+dominerte	dominated
+domkirke	cathedral
+domkirken	cathedral
+dommen	judgment
+dommer	judge
+dommere	judges
+dommeren	judge
+dommerne	judges
+dompaper	bullfinch
+domstol	court
+domstolen	court
+domstoler	courts
+don	don
+donald	donald
+donau	danube	donau
+donaus	donaus
+doser	doses
+dougherty	dougherty
+douglas	douglas
+dr	dr.
+dra	go
+dracula	dracula
+drakk	drinking	drank
+drama	drama
+dramaet	drama
+dramatiker	playwright
+dramatikere	playwrights
+dramatikeren	playwright
+dramatikk	dramatic
+dramatisk	dramatic	dramatically
+dramatiske	dramatic
+drammen	frame
+drammensregionen	frame region
+drap	murder
+drapene	killings
+drapet	the murder	murder
+drar	go
+drastisk	drastically
+dreide	concerned
+dreier	revolves
+drektighet	pregnancy	gestation	pregnant
+drepe	killing
+dreper	kill	kills
+drept	killed
+drepte	killed
+dresden	dresden
+drev	did
+drevet	driven
+drift	operation
+driften	operate
+drikke	drink
+drikker	drinking	beverage	drinks
+drillo	drillo
+drivanker	sea ​​anchor	sea anchor
+driver	does
+drives	run
+drivstoff	fuel
+dro	went
+dronning	queen
+dronningen	queen
+dronningens	queens'	the queen's
+drøm	dream
+drømmen	dream
+drømmer	drummer	dreams
+drøyt	more than	roughly
+ds	ds
+dsmiv	dsm-iv
+du	you
+dubai	dubai
+dublin	dublin
+dudley	dudley
+dukkehjem	dukkehjem
+dukker	shows	dolls
+dukket	appeared
+dvd	dvd
+dverger	dwarfs
+dvergfotinger	arthropods	symphyla	symphylans	once dvergfotinger
+dvs	ie
+dybde	depth
+dyktig	accomplished
+dylan	dylan
+dylans	dylans
+dynamisk	dynamic
+dynasti	dynasty
+dyp	deep
+dype	deep
+dypere	deeper
+dypeste	deepest
+dypt	deep
+dyr	animals
+dyre	animal
+dyreliv	animal life
+dyrelivet	wildlife
+dyrene	animals
+dyret	animal
+dyrke	worship/grow
+dyrket	grown
+dyrking	cultivation
+dysartri	dysarthria
+dåp	baptism	christening
+dåpen	baptism
+dårlige	poor
+dårligere	poorer
+dø	die	dying
+død	death
+dødd	died
+døde	died
+dødelig	fatal
+døden	death
+dødsfall	deaths
+dødsstraff	death penalty
+dødsårsaken	cause of death
+døgn	day
+døgnet	day
+dømme	judge
+dømmende	judgmental
+dømt	doomed	senteced
+døpe	baptize
+døpt	baptized
+dør	dies	door
+døtre	daughters
+e	e
+earth	earth
+ebu	ebu
+ecstasy	ecstasy
+ecuador	ecuador
+edderkopper	spiders
+edgar	edgar
+edinburgh	edinburgh
+edle	noble
+edvard	edvard	edward
+edward	edward
+edwards	edwards
+effekt	effect
+effekten	effect
+effektene	effects
+effekter	effects
+effektive	effective
+effektivt	effective
+efter	after	efter
+eg	i
+egen	own
+egenskap	capacity
+egenskapene	properties
+egenskaper	properties
+egentlig	actually
+egersund	egersund
+eget	own
+egg	eggs	egg
+eggen	edge	eggen
+eggene	eggs
+egil	egil
+egne	own
+egner	suitable
+egnet	suitable
+egon	egon
+egypt	egypt
+egyptisk	egyptian
+egyptiske	egyptian
+egypts	egypt	egypt's
+ei	a
+eid	owned
+eide	owed	owned
+eidfjord	eidfjord
+eidsvoll	eidsvoll
+eie	ownership
+eiendeler	assets	possessions
+eiendom	property
+eiendomsrett	property	ownership
+eier	ownership
+eierskap	ownership
+eies	owned
+eiker	eiker
+einar	einar
+einstein	einstein
+einsteins	einstein
+eisenach	eisenach
+eivind	eivind
+eks	items	example
+eksakte	exact
+eksamen	exam
+eksempel	as	example
+eksempelvis	example if
+eksemplarer	copies
+eksempler	examples
+eksil	exile
+eksistens	existence
+eksistensen	the existence
+eksistere	exist
+eksisterende	existing
+eksisterer	exist	exists
+eksistert	existed
+eksisterte	existed
+eksklusive	exclusive
+ekspanderte	expanded
+ekspansjon	expansion
+ekspedisjon	expedition
+ekspedisjonen	expedition
+ekspedisjoner	expeditions
+eksperimenter	experiments
+eksperter	experts
+eksplosjonen	explosion
+eksport	exports	export
+eksporten	export
+eksportvarer	exports
+eksterne	external
+ekstra	additional
+ekstremavl	ekstremavl
+ekstreme	extreme
+ekstremt	extremely
+ekte	real
+ektemann	husband
+ekteparet	the couple
+ekteskap	marriage
+ekteskapet	marriage
+ekvator	equator
+el	el
+eldste	oldest
+elefant	elefant	elephant
+elefanten	elefant	the elephant
+elefantene	elefants	the elephants
+elefantens	elefants
+elefanter	elefants
+elektrisitet	electricity
+elektrisk	electrical
+elektriske	electrical
+elektromagnetisk	electromagnetic
+elektromagnetiske	electromagnetic
+elektron	electron
+elektronene	electrons
+elektroner	electrons
+elektronisk	electronic
+elektroniske	electronic
+elektronskall	electron shells
+element	item
+elementene	elements
+elementer	elements
+elephas	elphas
+elev	student
+elevene	students
+elever	students
+elfenben	ivory
+elghund	elkhound
+elisabeth	elizabeth	elisabeth
+eller	or
+ellers	otherwise
+elleve	eleven
+elsker	love
+elsket	loved	loved the
+elv	river
+elva	river
+elven	river
+elvene	students
+elver	rivers
+elverum	elverum
+elvis	elvis
+emanuel	emanuel
+embete	office
+embetet	office
+embetsmenn	officials
+emil	emil
+eminem	eminem
+emirater	emirates
+emner	subjects	threads
+emnet	topic
+empati	empathy
+empirisk	empirical
+enda	more
+ende	the
+endel	some
+endelig	final
+endelige	final
+enden	end
+ender	ends
+endre	change
+endrer	change
+endres	changes
+endret	changed
+endring	changes	change
+endringen	change
+endringene	changes
+endringer	changes
+endte	ended
+ene	one
+enebakk	enebakk
+energi	energy
+energien	energy
+eneste	only
+enestående	outstanding	exceptional
+eng	meadow
+engang	even
+engasjement	commitment
+engasjert	engaged
+engasjerte	committed
+engels	angel
+engelsk	english
+engelske	english
+engelskmennene	english
+engelskspråklige	english
+england	england
+englands	england's	england
+enhet	unity
+enheten	unit
+enhetene	units
+enheter	devices
+enhetlig	uniform
+enhver	any
+enige	agreed
+enighet	agreement
+enke	widow
+enkel	easy
+enkelte	some
+enkeltpersoner	individuals
+enkle	simple
+enklere	easier
+enkleste	simplest
+enn	than
+ennå	yet
+enorm	huge
+enorme	huge
+enormt	huge
+ens	ones
+ensidig	unilateral
+entall	singular
+enten	either
+entydig	unambiguous
+enzymer	enzymes
+enzymet	the enzyme
+ep	ep
+epilepsi	epilepsy
+episke	epic
+episode	episode
+episoden	episode
+episodene	episodes
+episoder	episodes
+epitaf	epitaf	epitaph
+epoke	era
+epoken	era
+er	is
+erasmus	erasmus
+erfaring	experience
+erfaringen	experience
+erfaringer	experiences
+eric	eric
+eriksen	eriksen
+eritrea	eritea
+erkebiskop	archbishop
+erkekjetter	erkekjetter
+erkjennelse	recognition	understanding
+erklære	declare
+erklæring	statement
+erklært	declared
+erklærte	declared	delcrared
+erlend	sunderland	erlend
+ernest	ernest
+ernst	ernst
+ernæring	nutrition
+erobret	conquered
+erobring	conquest
+erobringen	conquest
+erosjon	erosion
+erotisk	erotic
+erotiske	erotic
+erstatning	compensation
+erstatte	substitute	replace
+erstattes	replaced
+erstattet	replaced
+espen	espen
+essay	essay
+essayet	essay
+essays	essays
+essex	essex
+est	est.
+estimert	estimated
+estland	estonia
+et	a
+etablere	establish
+etablering	establishment
+etableringen	establishment	the establishment
+etablert	established
+etablerte	established
+etanol	ethanol
+etappe	stage
+etapper	stages
+etc	etc
+ethvert	any
+etikk	ethics
+etiopia	ethiopia
+etiopias	etopias
+etiopiske	ethiopian
+etisk	ethical
+etiske	ethical	etic
+etnisitet	ethnicity	ethnisity
+etnisk	ethnic
+ett	a
+etter	after	afterwards
+etterfulgt	followed
+etterfølgende	subsequent
+etterfølger	successor
+etterkant	after
+etterkommere	descendants
+etterkommerne	descendants
+etterkrigstiden	post-war period
+etterlatt	left
+etterlot	left
+ettermæle	reputation
+etterpå	after
+etterskjelv	aftershocks	aftershock
+ettersom	as
+ettertid	later
+ettertiden	posterity	afterwords
+etymologi	etymology
+eumedlemskap	eu-membership
+euro	euro
+europa	europe	europ
+europaparlamentet	european parliament
+europarådet	european council
+europas	europes
+europeere	europeans
+europeerne	europeans
+europeisk	european
+europeiske	european
+eurostat	eurostat
+eus	eu	the eu
+eva	eva
+evangeliene	gospels
+evangeliet	gospel
+evans	evans
+eventuell	any
+eventuelle	any
+eventuelt	or
+eventyr	adventure
+eventyrene	adventures
+everest	everest
+evig	eternal
+evige	eternal
+evne	ability
+evnen	evnne	ability
+evner	abilities
+evolusjon	evolution
+experience	experience
+eøs	eØs
+eøsavtalen	eea agreement
+f	f
+fabrikk	factory
+fabrikken	factory
+fabrikker	factories
+facebook	facebook
+factbook	fact book
+facupen	fa-cup
+fader	father
+faderen	father
+fag	subject
+fagfolk	professionals
+fagocytter	phagocytes	fagocytter	phagocyte
+fakta	facts
+faktisk	in fact,in fact,	in fact
+faktiske	actual
+faktor	factor
+faktum	fact
+fall	fall
+falle	fall
+faller	falls
+falsk	false
+falske	false
+falt	fell
+familie	family
+familien	family
+familiene	families
+familiens	family's	family
+familier	families
+fan	fan
+fana	fana
+fange	capture
+fangen	prisoner	the prisoner
+fangene	prisoners
+fangenskap	captivity
+fanger	prisoners
+fans	fans
+fansen	fans
+fant	found
+fantasi	imagination	fantasy
+fantastisk	amazing
+fantastiske	fantastic
+fantes	existed
+far	dad	father
+farao	pharaoh
+fare	danger
+faren	father
+farens	his father	fathers
+farfar	grandfather
+farge	color
+fargede	colored
+fargen	colour
+fargene	colors
+farger	colors
+farget	colored
+farlig	dangerous
+farlige	dangerous
+fart	speed
+farvann	waters
+fascisme	fascism
+fascismen	fascism
+fascistene	fascists
+fascistiske	fascist
+fascistpartiet	fascist party
+fase	phase
+fasen	phase
+faser	phases
+fast	firm	fixed
+fasten	fasting	fast
+fastlandet	mainland
+fastsatt	determined
+fastslå	determine
+fatt	hold
+fattig	poor
+fattigdom	poverty
+fattige	poor
+fattigste	poorest
+fauna	fauna
+feber	fever
+februar	february
+federal	federal
+fedje	fedje
+feil	wrong
+feilaktig	improper
+feire	vecation	celebrate
+feirer	celebrates
+feires	celebrated
+feiret	celebrated
+feiring	celebration
+feiringen	celebration
+feks	for example	eg
+felles	common
+fellesskap	community
+fellesskapet	community
+fellestrekk	commonalities	common
+felt	fields
+feltene	fields
+felter	fields
+feltet	field
+felttog	campaign
+felttoget	campaign
+femte	fifth
+femten	fifteen
+femti	fifty
+fengsel	jail
+fengselet	prison
+fengslet	prison
+fenol	phenole	valid	phenol
+fenomen	phenomenon
+fenomener	phenomena
+ferd	about
+ferdes	travel
+ferdig	completed
+ferdige	finished
+ferdigheter	skills
+ferdinand	ferdinand
+ferguson	ferguson
+fernando	fernando
+ferskvann	freshwater
+fest	party
+feste	attach
+festet	attached
+festival	festival
+festivalen	festival
+festivaler	festivals
+festning	fortress
+festningen	beautiful one
+fett	fat
+fetter	cousin
+feuerbach	feuerbach
+fibromyalgi	fibromyalgia
+fidel	fidel
+fiende	enemy
+fienden	enemy
+fiender	enemy	enemies
+fiendtlig	hostile	hosting
+fiendtlige	hostile
+fifa	fifa
+figur	figure
+figurene	figures
+figurer	figures
+fikk	was
+filip	philip	filip
+filippinene	philippines
+film	movie
+filmatisert	filmed
+filmen	film
+filmene	films	the movies
+filmens	the films
+filmer	movies
+filmet	filmed
+filmfestival	film festival
+filmografi	filmography
+filosof	philosopher
+filosofen	philosopher
+filosofene	philosophers	philosopher
+filosofer	philosophers
+filosofi	philosophy
+filosofien	philosophy
+filosofisk	philosophical
+finalen	final
+finalist	finalist
+finansiere	finance
+finansiering	financing
+finansiert	funded
+finanskrisen	financial crisis
+finansminister	minister of finance
+fine	fine
+finland	finland
+finlands	finland
+finn	finn
+finne	find
+finnene	finish
+finner	finds	are
+finnes	are
+finnmark	finnmark
+fins	are
+finsk	finish
+finske	finish
+finskebukta	finskebukta
+fiolin	violin
+fire	four
+firenze	firenze
+firmaet	firm
+fisk	fish
+fiske	fishing
+fisken	the fish
+fisker	fishes
+fitjar	fitjar
+fjell	mountains	mountain
+fjellene	mountains
+fjellet	mountain
+fjellkjede	mountain range
+fjellkjeden	mountain range
+fjellkjedene	mountain ranges
+fjellkjeder	mountain range
+fjellområdene	mountain range
+fjellområder	mountain ranges
+fjelltopper	mountain range	peaks
+fjerde	fourth
+fjerdedel	quarter
+fjerne	remove
+fjernes	removed
+fjernet	removed
+fjord	fjord
+fjordane	the fjords
+fjorden	the fjord
+fjordene	fjords
+fjorder	fjords
+fjorten	fourteen
+fk	fk
+fkr	before christ
+flagg	flag
+flagget	flag
+flat	flat
+flate	flat
+flatt	flat
+flekken	spot
+flere	more
+flertall	majority
+flertallet	majority
+flest	most
+fleste	most
+flesteparten	most
+flokk	herd
+flokken	herd
+flokker	flocks
+flora	flora
+florida	florida
+flukt	escape
+flyet	plane
+flykte	escape
+flyktet	fled
+flyktninger	refugees
+flyplass	airport
+flyplassen	airport
+flyplasser	airports
+flyr	flying
+flytende	liquid
+flyter	flows
+flytte	move
+flytter	moves
+flyttes	moved
+flyulykke	plane crash
+flåte	fleet
+flåten	fleet
+flått	ticks
+flåtten	flåtten
+fløy	wing	flew
+fm	sc
+fn	fn
+fns	fns
+fogderi	shire
+fokus	focus
+fokuserer	focuses	focuserer
+fokusert	focused
+fokuserte	focused
+fokuset	focus
+folk	people
+folkeavstemning	referendum
+folkeavstemningen	referendum
+folkeeventyr	folktales
+folkeforbundet	people associated
+folkegruppene	ethnic groups
+folkegrupper	groups of people
+folkehelseinstituttet	the norwegian institute of public health	public health institute
+folkelig	popular
+folkelige	popular
+folkemord	genocide
+folkemusikk	folk music
+folkene	people
+folkeparti	democratic party
+folkepartiet	liberal party
+folkeregisteret	national register
+folkerepublikken	people's republic
+folkerike	populations
+folkeslag	people
+folket	people
+folketall	population
+folketallet	population
+folketelling	census
+folketellingen	population census
+folketinget	parliament
+folkets	people
+folkevalgte	publicly ellected
+folks	peoples
+follo	followings
+for	for
+forakt	contempt
+foran	front
+forandre	change
+forandret	changed
+forandring	change
+forandringer	change
+forbedre	improve
+forbedret	improved
+forberede	prepare
+forberedt	prepared
+forbi	by
+forbigående	transient
+forbilde	model
+forbindelse	connestion
+forbindelsen	connection
+forbindelsene	compounds
+forbindelser	connections
+forbinder	associate
+forbindes	associated
+forble	remained
+forblir	remains
+forbrenning	combustion
+forbruk	consumption
+forbrytelser	crimes	crime
+forbud	ban
+forbudet	ban
+forbudt	prohibited
+forbudte	forbidden
+forbund	association
+forbundet	associated
+forbundsrådet	fund council	federal council
+forbyr	prohibits	banning
+forbød	banned
+ford	ford
+fordel	benefit
+fordeler	benefits
+fordeles	distributed
+fordelingen	distribution
+fordelt	distributed
+fordelte	distributed
+fordi	because
+fordømt	condemned
+fordøyelsessystemet	digestive system
+foredrag	lectures	lecture
+foregikk	took place
+foregående	previous
+foregår	takes place
+foregått	occurred
+forekom	occurred
+forekomme	be
+forekommende	occuring	occurring
+forekomst	occurrence
+forekomsten	occurrence
+forekomster	occurrences
+foreldre	parents
+foreldrene	parents
+foreligger	be	is
+forelsket	in love
+foreløpig	preliminary
+forene	reconcile
+forening	association
+foreningen	association
+forenklet	forensic	simplofied
+forente	united
+foreslo	proposed
+foreslått	suggested	proposed
+forestilling	performance
+forestillingen	performance
+forestillinger	performances
+foretak	entarprise
+foretatt	been made
+foretok	did
+foretrakk	preferred
+forfatning	condition
+forfatter	author
+forfattere	authors
+forfatteren	author
+forfatterne	authors
+forfatterskap	authorship
+forfatterskapet	authorship
+forfattet	authored
+forfedre	leaves
+forfulgt	stalked	persecuted
+forfølgelse	persecution
+forhandlet	negotiated
+forhandlingene	negotiations
+forhandlinger	negotiations
+forhindre	prevent
+forhindret	prevented
+forhistorisk	prehistoric
+forhold	conditions
+forholde	relate	deal
+forholdene	conditions
+forholder	relates
+forholdet	relationship
+forholdsvis	conditions if
+forhånd	advance
+forhøyet	elevated
+forkant	advance
+forkastet	rejected
+forklare	explain
+forklarer	explain
+forklares	explained
+forklaring	explanation
+forklaringen	explanation
+forklaringer	explanations
+forklart	explained
+forklarte	explained
+forkortelse	abbreviation	abbrieviate
+forkortelsen	abbreviation
+forkortet	shortened
+forkynne	preach
+forlag	publisher
+forlaget	publisher
+forlate	leave
+forlater	leaves
+forlatt	left
+forlis	wreck
+forlot	left
+forlovet	engaged
+forløper	precursor
+form	form
+formann	chairman
+formasjoner	formation	formations
+format	format
+forme	shape
+formel	formal
+formelle	formal
+formelt	formally
+formen	the form	form
+formene	forms
+former	forms
+formet	formed
+formica	formica
+formidle	communicate
+formidler	conveys	mediator
+formidlet	mediated	communicated
+formue	assets
+formål	purpos
+formålet	purpose
+fornuft	sense
+fornuften	reason
+fornybar	rennewable	renewable
+fornyet	renewed
+fornøyd	satisfied
+forpliktelser	obligations	commit reader
+forpliktet	committed
+forretninger	business
+forrige	previous
+forsamling	assembly
+forsamlingen	assembly	meeting
+forsiden	prehistory
+forsiktig	carefully
+forsinket	delayed
+forsker	researcher
+forskere	researchers
+forskerne	researchers
+forskjell	difference
+forskjellen	difference	the difference
+forskjellene	differences
+forskjeller	muligheter
+forskjellig	different
+forskjellige	different
+forskning	research
+forskningen	research
+forslag	proposal
+forsoning	reconciliation
+forstand	sense
+forstedene	suburbs
+forsteder	fosteder
+forsterke	reinforce
+forstod	understod
+forstyrrelser	disturbances
+forstyrret	disturbed
+forståelse	understanding
+forståelsen	understanding
+forstår	understands	understand
+forstås	understood as	understood
+forstått	understood
+forsvant	disappeared
+forsvar	denfence	defence
+forsvare	defend
+forsvaret	force
+forsvarets	defence
+forsvars	defense	defens
+forsvarsdepartementet	department of defense
+forsvarsminister	defence minister	defense
+forsvarte	defended
+forsvinne	disappear
+forsvinner	disappears
+forsvunnet	disappeared
+forsyninger	supplies
+forsøk	attempt
+forsøke	try	attempt
+forsøkene	experiments
+forsøker	tries
+forsøket	experiment	attempt
+forsøkt	attempted
+forsøkte	attempted	tried
+fort	fast
+fortalt	told
+fortalte	told
+fortelle	tell
+fortelles	said	told
+fortellingen	tale	story
+fortellingene	stories
+fortellinger	stories
+fortid	past
+fortiden	past
+fortrolig	confidential
+fortsatt	still
+fortsatte	continued
+fortsette	continues
+fortsettelse	continued
+fortsetter	continues
+forum	forum
+forurensning	pollution
+forut	provided
+foruten	besides
+forutsetning	prerequisite
+forutsetninger	conditions
+forutsetter	requires
+forvaltning	manage
+forveksles	confused
+forventet	expected
+forventninger	expectations
+forverret	worsened	exacerbated
+forvirring	confusion
+forårsake	cause
+forårsaker	causes	forums issues
+forårsaket	caused
+forøvrig	otherwise
+fosfor	phosphorus
+fossen	waterfall
+fossiler	fossils
+foster	featus	foster	fetus	fetal
+fot	ft.
+fotball	football
+fotballag	football team
+fotballklubb	football club
+fotballspiller	football player
+fotballspillere	football players	football
+fotballvm	football world cup	football world championship
+foten	foot
+fotfeste	foothold
+fotnoter	footnotes
+foto	photo
+fotografert	photographed
+fotografier	photographs
+fottøy	footwear
+foundation	foundation
+fox	fox
+fr	fri	fr
+fra	from
+fraktet	transported
+fram	the
+framfor	rather than
+framført	perform	performed
+framførte	performed
+framgang	progress
+framover	forward
+framstilling	representation
+framstilt	produced
+framstår	appears
+francesco	francesco
+francis	francis
+francisco	francisco
+frank	frank
+frankfurt	frankfurt
+franklin	franklin
+frankrike	france
+frankrikes	france's
+franks	french
+fransk	french
+franskmenn	french
+franskmennene	french
+fransktalende	french-speaking
+franz	franz
+fravær	absence
+fraværende	absent
+fred	peace
+fredag	friday
+freddie	freddie
+fredelig	peaceful
+freden	peace
+frederik	frederik
+frederiksberg	frederiksberg
+fredet	protected
+fredsavtale	peace treaty
+fredsavtalen	peace agreement
+fredspris	peace
+frekvens	requency	frequency
+frelsen	salvation
+frelsesarmeen	salvation army
+frelsesarmeens	salvation army
+frem	the
+fremdeles	still
+fremfor	rather than
+fremført	fast forward	performed
+fremførte	performed
+fremgang	progress
+fremhevet	highlighted	emphasized
+fremholder	argues
+fremholdt	maintained
+fremme	promote
+fremmed	foreign
+fremmede	stranger	foreign
+fremmedspråk	foreign language
+fremmer	promotes
+fremmet	promoted
+fremover	forward
+fremragende	excellence
+fremskritt	advances
+fremskrittspartiet	progress
+fremskrittspartiets	the progress party´s	progress party
+fremst	all	primarily
+fremste	premier
+fremstille	fabricated
+fremstilles	is produced
+fremstilling	manufacturing
+fremstillingen	manufacture
+fremstilt	produced
+fremstilte	depicted
+fremstående	prominent
+fremstår	appears
+fremtid	future
+fremtiden	future	the future
+fremtidig	future
+fremtidige	future
+fremtredende	prominent
+fremveksten	emergence
+freud	freud
+freuds	frauds
+fri	free
+fridtjof	fridtjof	dridtjof
+frie	free
+frigjort	freed
+frigjøres	released
+frigjøring	liberation
+frigjøringen	liberation
+frihandel	freetrade
+friheten	freedom
+friheter	freedoms
+frimureriet	freemasonry
+frisk	fresh
+friske	healthy
+fritid	nonworking time	leisure time	leisure
+fritt	free
+frivillig	voluntary
+frivillige	volunteers
+frode	frode
+front	front
+fronten	front
+frost	frost
+frp	frp
+fru	mrs.
+frue	lady
+frukt	fruit	fruits
+fruktbare	fertile
+frykt	fear
+frykten	the fear
+frykter	fears
+fryktet	feared
+fuerteventura	fuerteventura
+fuglene	birds
+fugler	birds
+fuglerede	nest	bird's nest
+fuglereservat	bird sanctuary
+fuktig	moist
+fuktige	humid
+fulgt	followed
+fulgte	followed
+full	full
+fulle	full
+fullføre	complete
+fullført	completed
+fullførte	completed
+fullmakter	powers
+fullstendig	complete
+fullstendige	complete
+fullt	fully
+fungere	function
+fungerende	known good	acting
+fungerer	works
+fungering	functioning
+fungerte	worked
+funksjon	function
+funksjonen	function
+funksjoner	functions
+funn	findings
+funnene	findings
+funnet	found
+fusjon	merger	fusion	amalgamation
+fylke	county
+fylkene	counties
+fylker	counties
+fylkes	county
+fylkeskartet	county map	country map
+fylkeskommune	county council
+fylkesmannen	county man	governor
+fylkesordfører	county council	county mayor
+fylkestinget	county council
+fylkestingsvalget	elections
+fylkesvåpen	county arms
+fylket	county
+fylkets	the countys
+fylle	filling
+fyller	fill	fills
+fylt	filled
+fylte	age
+fyr	guy
+fyrst	duke
+fyrsten	prince
+fysikk	physics
+fysiologiske	physiological
+fysisk	physical
+fysiske	physical
+få	get
+fåfotinger	get fotinger	fafotingar	hold inger	pauropoda	fåfotinger
+får	get
+fåtall	few
+fått	get
+færre	fewer
+færrest	fewest	the fewest
+færøyene	faroe islands
+færøyenes	faroese	færøyenes
+færøysk	faroese
+føde	give birth
+føder	gives bith
+føderal	federal
+føderale	federal
+føderalt	federal
+føderasjon	federation
+føderasjonen	federation
+fødes	born
+fødested	birthplace
+fødsel	birth
+fødselen	birth
+fødselsdag	birthday
+fødselsnummer	identification number
+født	born
+fødte	born
+føle	feel
+følelse	feeling	sense
+følelser	feelings
+føler	feels
+følgelig	consequently
+følgende	the following
+følger	follow
+følges	followed
+følte	felt
+før	before
+førde	førde
+føre	lead
+fører	leads
+føreren	the driver
+førerett	conduct the	driving licence
+førerkort	driver's license
+føres	be
+førkristne	pre-christian
+først	first
+første	first
+førsteplass	first place
+førstnevnte	first mentioned	former	first-mentioned
+ført	led
+førte	led
+førti	forty
+føttene	feet
+føtter	feet
+føydale	feudal
+føydalisme	feudalism
+føydalismen	feudalism
+g	g.
+ga	donated	gave
+gaarder	gaarder
+gabriel	gabriel
+gaga	gaga
+gale	crazy
+galilei	galilei
+galileis	galileis
+galileo	galileo
+galleri	gallery
+gallia	gaul
+galt	wrong
+gama	gama
+gamle	old
+gamlebyen	old town
+gammel	old
+gammelnorsk	old norwegian
+gammelt	old
+gandhi	gandhi
+gane	palate
+gang	time
+gangen	a time	time
+ganger	times
+ganske	rather
+garborg	garborg
+garden	farm	garden
+garnison	garrison
+gass	gas
+gassen	gas
+gastrulasjon	gastrulasjonen	gastrulasjon	gastrulation
+gate	street
+gatene	streets
+gater	streets
+gates	gates
+gaupa	lynx
+gaupe	lynx
+gav	gave
+gaver	gifts
+gazastripen	gaza strip
+geir	geir
+gener	genes
+generalen	general
+generaler	generals
+generalforsamling	annual general meeting	general
+generalforsamlingen	general meeting
+generalmajor	major general
+generalsekretær	general secretary
+generasjon	generation
+generasjonen	generation
+generasjoner	generations
+generell	general
+generelle	general
+generelt	general
+genetisk	genetic
+genetiske	genetic
+genitiv	genetiv
+genève	geneva
+geografi	geography
+geografisk	geogrphical	geographical
+geografiske	geographical
+geologi	geology
+geologisk	geological
+geologiske	geological
+geometriske	geometric
+geomorfologi	geomorphology	geomorfology
+georg	georg
+george	george
+georges	georges
+georgia	georgia
+gerhardsen	gerhardsen
+germansk	germanic
+germanske	germanic
+gerrard	gerrard
+get	get
+gi	provide
+gift	married	poison
+gifte	married
+giften	the poison	poison
+gifter	poisons	marries
+giftig	toxic	poisonous
+giftige	toxic	poisonous
+gikk	went	was
+gilbert	gilbert
+giovanni	giovanni
+gir	gives
+girls	girls
+gis	given
+giske	giske
+gitar	guitar
+gitarist	guitarist
+gitt	given	gift
+gjaldt	was
+gjeld	debt
+gjelde	apply
+gjeldende	current
+gjelder	apply
+gjenerobret	recaptured
+gjengitt	cited
+gjengjeld	return
+gjennom	through
+gjennombrudd	breakthrough
+gjennombruddet	breaktrough
+gjennomføre	implement
+gjennomføres	carried out
+gjennomført	conducted
+gjennomførte	conducted
+gjennomgikk	underwent
+gjennomgående	consistently
+gjennomgår	undergoes
+gjennomgått	undergone
+gjennomsnitt	average
+gjennomsnittet	average
+gjennomsnittlig	average
+gjennomsnittlige	average
+gjenoppbyggingen	reconstruction
+gjenopprette	recover
+gjenopprettet	restored
+gjensidig	mutual
+gjensidige	mutual
+gjenspeiler	reflects
+gjenstand	subject
+gjenstander	objects
+gjentatt	repeated
+gjenvalg	re-election
+gjenvalgt	re-elected
+gjenværende	remaining
+gjerne	like
+gjerning	deed
+gjerninger	works
+gjerpen	gjerpen
+gjeterhund	shepherd
+gjorde	did
+gjort	done
+gjør	do	does
+gjøre	do
+gjøres	be	done
+gjøvik	gjovik	gjøvik
+glad	happy
+glass	glas	glass
+glede	joy
+glemt	forgotten
+global	global
+globale	global
+globalisering	globalization
+globaliseringen	globalization
+globalt	global
+glomma	glomma
+glukose	glucose
+glåma	glåma
+god	good
+goddard	goddard
+gode	good
+godkjenne	approve
+godkjennes	approved
+godkjent	approved
+godkjente	approved
+gods	goods
+godt	well
+godta	accept
+godtatt	accepted
+godtok	accepted
+gogh	gogh
+golf	golf
+gomera	gomera
+good	good
+google	google
+gorbatsjov	gorbatsjov
+gordon	gordon
+gospel	gospel
+got	stable
+gotiske	gothic
+gottfried	gottfried
+grad	degree
+graden	degree
+grader	degrees
+gradvis	gradually
+gram	gram
+grammatikk	grammar
+gran	gran
+grant	grant
+gratis	free
+grav	burial	grave
+gravd	excavated	dug
+graven	grave
+gravid	pregnant
+gravide	pregnant
+gravitasjon	gravity
+gravlagt	buried
+green	green
+gregers	gregers
+gregorianske	gregorian
+greide	did
+grekere	greeks
+grekerne	greeks
+gren	branch
+grener	branches
+grensa	border
+grense	border
+grenseland	borderland
+grensen	border
+grensene	borders	limits
+grenser	borders
+grep	grip
+gresk	greek
+greske	greek	grimey
+gressløk	chives
+grevskap	county
+grieg	grieg
+griegs	griegs
+grimstad	grimstad
+gripe	intervene
+griper	grabs
+grobunn	fertile ground
+grov	rough
+grove	rough
+groven	groven
+grovt	rough
+grundig	thoroughly
+grunn	reason
+grunne	shallow
+grunnen	why
+grunner	reasons
+grunnet	because
+grunnla	founded the
+grunnlag	foundation
+grunnlaget	basis
+grunnlagt	founded
+grunnleggelsen	founding
+grunnleggende	basic
+grunnlegger	founder
+grunnleggeren	founder
+grunnleggerne	the founders
+grunnlov	constitution
+grunnloven	constitutions
+grunnskolen	primary
+grunnstoff	element
+grunnstoffene	elements
+grunnstoffer	element
+grunnstoffet	element
+gruppa	group
+gruppe	group
+gruppen	group
+gruppene	groups
+gruppens	group	groups
+grupper	groups
+grupperinger	grouping
+gruvedrift	mining
+gryende	emerging
+grå	gray
+grøde	grain
+grønland	grønland
+grønn	green
+grønne	green
+grønnsaker	vegetables
+grønt	green
+guatemala	guetamala
+gud	god
+gudbrandsdalen	gudbrandsdalen
+guddom	deity
+guddommelig	divine
+guddommelige	divine
+guddommelighet	divinity
+guddommen	divinity
+guden	god
+gudene	gods
+gudenes	gods
+guder	gods
+gudinnen	goddess
+guds	gods
+gudstjeneste	service
+guevara	guevara	geuara
+guevaras	guevara
+guide	guide
+gulen	gulen
+gull	gold
+gullalder	golden age
+gult	yellow
+gundersen	gundersen
+gunnar	gunnar
+gunstig	beneficial
+gunstige	favorable
+gustav	gustav
+gutt	boy
+gutten	boy
+guttene	boys
+gutter	boys
+guvernør	governor
+guvernører	governors
+guy	guy
+guyana	guyana
+gyatso	gyatso
+gyldig	valid
+gyldne	golden
+gylne	golden
+gynt	gynt
+gå	go
+gård	farm
+gården	farm	the farm
+gårder	farms
+gått	gone	went
+gælisk	gaelic
+h	h
+ha	have
+haag	haag
+habitat	habitat
+hadde	had
+haeckel	haeckel
+hage	garden
+hagen	the garden
+hager	gadens
+hagerup	hagerup
+halden	held	halden
+hale	tail
+haley	haley
+hall	hall
+halldis	halldis
+hallingdal	hallingdal
+hallusinasjoner	hallucinations
+hals	hals/neck	neck
+halsen	neck
+halv	half
+halvdan	eric
+halvdel	half
+halvdelen	half
+halve	half
+halvkule	hemisphere
+halvorsen	halvorsen
+halvparten	half
+halvt	half
+halvøya	peninsula
+ham	him
+hamar	hamar
+hamas	hamas
+hamburg	from hamburg	hamburg
+hammerfest	hammerfest
+hammett	hammett
+hamsun	hamsun
+hamsuns	hamsuns	hamsun
+han	he
+handel	trade
+handelen	trade
+handels	trade
+handelsbalanse	tradebalance
+handelsmenn	traders
+handelspartnere	trading
+handle	shop	act
+handler	is about
+handlet	acted	traded
+handling	action	act
+handlingene	actions
+handlinger	handlinger
+hang	hung
+hankjønn	male
+hanna	hanna
+hannah	hannah
+hannen	male
+hannene	males
+hanner	males
+hans	hans	his
+hansen	hansen
+hanssen	hanssen
+har	has
+harald	harald
+haraldsson	haraldsson
+harbor	harbor
+hard	hard
+hardanger	hardanger
+harde	rough	hard
+hardere	harder
+hardt	hard
+harlem	harlem
+harmoni	have
+harris	harris
+harrison	harrison
+harry	harry
+harstad	harstad	hastard
+harvard	harvard
+hastighet	speed
+hastigheten	rate
+hat	hate
+hatet	hated
+hatt	had
+haugalandet	hauglandet
+hauge	hauge
+haugesund	haugesund
+hav	sea	ocean
+havanna	havanna
+have	garden
+havet	sea
+havn	port
+havna	harbor
+havnebyen	port
+havnen	the harbour
+havner	ports
+havnet	ended
+hawaii	hawaii
+hd	h.d
+he	he
+hebraisk	hebrew
+hebraiske	hebrew
+hedda	hedda
+hedenske	pagan
+hedmark	hedmark
+heimskringla	heimskringla
+heinrich	heinrich
+hekkeløp	hurdles	hurdling
+hel	whole
+hele	the
+helena	helena
+helga	weekend
+helge	helge	weekend
+helgeland	helgeland
+helgen	weekend
+helgener	saints
+helhet	overall
+helium	helium
+hell	luck
+hellas	greece
+heller	rather
+helleristning	petroglyph	carving	rock carving
+helleristninger	petroglyphs
+hellig	holy
+helligdager	holidays
+hellige	holy
+helmer	helmer
+helse	health
+helseorganisasjon	healthorganisation
+helsevesen	health care
+helsevesenet	health care
+helsingfors	helsingfors
+helst	time
+helt	completely
+helten	hero	the hero
+helter	heroes
+helvete	hell
+hemmelige	secret
+hemmelighet	secret
+hendelse	event
+hendelsen	event
+hendelsene	events
+hendelser	events
+hendene	hands
+hender	hands
+hendrix	hendrix
+hengende	hanging
+henger	hanging
+hengt	posted
+henhold	according
+henholdsvis	respectively	under whose
+henne	her
+hennes	hers
+henning	henning
+henrettelsen	execution
+henrettelser	executions
+henrettet	executed
+henri	henri
+henriks	henry
+henriksen	henriksen
+henry	henry
+hensikt	purpose
+hensyn	respect
+hente	retrieve	get
+henter	get
+hentet	obtained
+henvisning	referral
+henvisninger	referrals
+herakles	heracles	herakles
+herbert	herbert
+herder	herder	hardener
+herfra	from here
+herjet	devastated	devestated
+hermann	hermann
+heroin	heroin
+herre	lord
+herredømme	rule
+herren	lord
+herrer	gentlemen	gentlemenn
+hersker	rules	ruling
+hersket	ruled
+hertug	duke	hertug
+hertugen	some different
+herunder	including
+herøy	herøy
+hest	horse
+hester	horses
+het	named
+hete	hot	heat
+heter	units
+hetfield	hetfield
+hevde	claim
+hevder	claims
+hevdes	claimed
+hevdet	claimed
+hevet	raised
+hevn	revenge
+heyerdahl	heyerdahl
+hhv	respectively
+hierarki	hierarchy
+hierarkisk	hierarchical
+hijab	hijab
+hill	bakke
+himalaya	himalaya
+himmelen	sky
+himmelske	heavenly
+hindre	prevent
+hindrer	prevents
+hindret	prevented
+hindringer	obstacles
+hinduer	hindus
+hinduisk	hindu
+hinduiske	hindu
+hinduisme	hinduism
+hinduismen	hinduism
+hiphop	hiphop
+hiroshima	hiroshima
+historie	history
+historien	the history	historian
+historiene	stories
+historiens	history
+historiker	historian
+historikeren	historian
+historikerne	historians
+historikk	history
+historisk	historical
+historiske	historical
+hisøy	hisøy
+hitler	hitler
+hitlers	hitlers	hitler
+hittil	so far
+hiv	hiv
+hjalmar	hjalmar
+hjalp	helped
+hjelpe	help
+hjelper	help
+hjem	home
+hjemlandet	homeland
+hjemme	home
+hjemmekamper	home games
+hjemmeside	homepage
+hjemmet	home
+hjerne	brain
+hjernen	brain
+hjernens	brains
+hjerneslag	stroke
+hjerte	heart
+hjerter	hearts	harts
+hjertet	heart	hart
+hjort	deer
+hjulpet	helped
+hjørnet	corner	the corner
+hn	hn
+ho	she
+hobbiten	hobbit
+hode	head
+hodepine	headache
+hodet	head
+hoff	court
+hoffet	court
+hoggormen	viper
+holberg	holberg
+holbergs	holberg
+hold	hold
+holde	hold
+holder	holds
+holdes	held
+holdning	attitude
+holdningen	attitude
+holdninger	attitudes
+holdt	held
+holland	holland
+hollywood	hollywood
+holm	holm
+holmer	holmes
+holocaust	holocaust
+homer	homer
+homo	gay
+homofil	homosexual	gay
+homofile	gays	hoosexuals
+homofili	homosexuality
+hongkong	hong kong
+hop	hop
+hoppe	jump
+hordaland	hordaland
+horisonten	horizon
+horn	horn
+horten	cohort	horten
+hos	at
+hospital	hospital
+hot	hot
+hotel	hotel
+hoteller	hotels
+houston	houston
+hovedartikkel	main article
+hoveddelen	main part
+hovedgrupper	main groups
+hovedgård	manor
+hovedkontor	headquarters
+hovedkvarter	headquarters	headquarter
+hovedkvarteret	headquarters
+hovedperson	protagonist	main character
+hovedpersonen	the main character	protagonist
+hovedrolle	leading role
+hovedrollen	lead role
+hovedsak	mainly
+hovedsakelig	mainly
+hovedsete	main seat	headquarter	headquarters
+hovedstad	capital
+hovedstaden	capital
+hovedsteder	capitals
+howard	howard
+hud	skin
+huden	dog
+hughes	hughes
+hugo	hugo
+hukommelse	memory
+hull	holes
+human	human
+humanetisk	humanist
+humanismen	humanism
+humanistisk	humanistic
+humor	humor
+humphrey	humphrey
+humør	mood
+hund	dog
+hunden	dog
+hundene	dogs
+hundens	dog
+hunder	dogs
+hunderase	canine
+hunderaser	canine
+hundre	hundred	one hundred
+hundrevis	hundreds
+hungersnød	famine
+hunkjønn	female
+hunnene	females
+hunner	females
+hurtig	fast
+hurum	hurum
+hus	house
+husene	houses
+huser	home
+huset	house
+hushovd	hushovd
+huske	remember
+husket	remembered
+hustru	wife
+hva	what
+hvem	who
+hver	each
+hverandre	each other
+hverandres	each other
+hverken	neither
+hvert	each
+hvete	wheat
+hvile	resting
+hvilke	which
+hvilken	the	which
+hvilket	which
+hvis	if
+hvit	white
+hvite	white
+hviterussiske	belarusian
+hviterussland	belarus
+hvitt	white
+hvor	which
+hvorav	which
+hvordan	how
+hvorfor	why
+hvorvidt	whether
+hybrid	hybrid
+hydrogen	hydrogen
+hyllest	tribute
+hyppig	frequently
+hyppige	frequent
+håkon	håkon
+hålogaland	hålogaland
+hånd	hand
+håndball	handball
+hånden	hand
+håndtere	deal
+håpet	hope
+hår	hair
+håret	hair	the hair
+hårfagre	hårfagre	fair hair
+håvard	havard	harvard	håvard
+hær	army
+hæren	army
+høgskolen	college
+hønefoss	hønefoss
+høre	hear
+høres	sounds
+hørespill	radio plays
+hørt	heard
+hørte	heard
+høst	fall
+høsten	autumn
+høstet	harvested
+høvding	chief
+høy	high
+høyde	hight
+høyden	height
+høydepunkt	peak
+høyder	heights
+høyere	higher
+høyest	highest
+høyeste	highest
+høyesterett	supreme court
+høymiddelalderen	high middle ages
+høyre	right
+høyres	abba	høyres
+høyresiden	right
+høyskoler	colleges
+høyst	highly
+høyt	high
+høytid	holidays
+høytiden	feast	holidays
+i	in
+ian	ian
+iberiske	iberian
+iblant	sometimes
+ibn	ibn
+ibsen	ibsen
+ibsens	ibsen	ibsens
+icd	icd
+ice	ice
+id	id
+idag	today
+idealer	ideals
+ideen	idea
+ideene	ideas
+ideer	ideas
+identifisere	identify	identified
+identifisert	identified
+identifiserte	identified
+identisk	identical
+identiske	identical
+identitet	identity
+ideologi	ideology
+ideologien	ideology
+ideologier	ideologies
+ideologisk	ideological
+ideologiske	ideological
+idet	as
+idol	idol
+idrett	sport	sports
+idretten	sport
+idretter	sports
+idrettslag	sports clubs
+idé	iden
+idéen	the idea
+idéene	ideas
+idéer	ideas
+ifra	from
+ifølge	according to
+igang	initiated
+igangsatt	initiated
+igjen	again	back
+igjennom	through
+ii	second
+iii	iii
+ikke	not
+ikke-metall	non-metal	not metal
+ikkekristne	not christians
+il	ii
+ild	fire
+ilden	fire	the fire
+illustrasjon	illustration
+illustrasjoner	illustrations
+illustrerte	illustrated
+imellom	between
+imens	meanwhile
+imidlertid	however	however, the
+immanuel	immanuel
+immigranter	immigrants
+immigrasjon	immigration
+imperialismen	imperialism
+imperiet	empire
+imperium	empire
+imponerende	impressive
+import	import
+importert	imported
+impulser	impulses
+in	in
+inc	inc
+india	india
+indiahavet	indian ocean
+indianere	indians
+indikasjon	indication
+indikerer	indicates
+indirekte	indirect
+indisk	indian
+indiske	indian
+individ	individual
+individene	individuals	the individuals
+individer	individuals
+individets	individual
+individuell	individual
+individuelt	individually
+indoeuropeiske	indo-european
+indonesia	indonesia
+indre	inner
+industri	industry
+industrialisering	industrialization
+industrialisert	industrialized
+industrialiserte	industrialized
+industrien	industry
+industriproduksjon	industrial production
+infanteri	infantry
+infeksjon	infection
+infeksjoner	infections
+inflasjon	inflation
+inflasjonen	inflation
+influensa	flu
+informasjon	information
+informasjonen	information	the information
+infrastruktur	infrastructure
+infrastrukturen	infrastructure
+inge	inge	ingested
+ingeborg	ingeborg
+ingen	none
+ingeniør	engineering	engineer
+ingenting	nothing
+inger	inger
+ingrid	ingrid
+ingvar	ingvar
+initiativ	initiative	spanish
+inkl	including
+inkluderer	included	include
+inkluderte	included
+inklusive	including
+inn	into
+innad	within
+innb	inhabitant
+innblanding	intervention
+innbygger	resident	capita
+innbyggere	residents
+innbyggerne	residents
+innbyggertall	population
+innbyggertallet	population
+innbyrdes	interrelated	promoter
+inndeles	divided
+inndeling	division
+inndelingen	division
+inndelinger	divisions	classifications
+inndelt	divided
+inne	in
+innebar	involved
+innebære	involve
+innebærer	means
+innehar	holds
+inneholde	contain
+inneholder	contains
+inneholdt	contained
+innen	in
+innendørs	indoors
+innenfor	in
+innenriks	domestic
+innerste	innermost	deep
+innflytelse	influence
+innflytelsen	the influence
+innflytelsesrike	influential	influencial
+innfødte	native
+innføres	introduced
+innføring	introduction
+innføringen	introduction
+innførte	introduced
+inngangen	entrance
+inngikk	entered	entered into
+inngrep	intervention
+inngå	into	enter into
+inngår	included
+innhold	contents
+innholdet	contents
+inni	inside
+innlagt	admitted
+innlandet	inland
+innledende	initial
+innleder	begins
+innledet	initiated
+innlegg	post
+innlemmet	incorporated
+innom	stopt by
+innover	inward
+innrømmet	admit	admitted
+innsats	effort
+innsatt	installed
+innsiden	inside
+innsikt	insight
+innsjø	lake
+innsjøen	lake
+innsjøene	lakes	lake
+innsjøer	lakes
+innslag	element
+innspillingen	recording
+innspilt	recorded
+innstilling	setting
+innstilt	set	dedicated to
+innså	realized
+innta	take up	adopt	take
+inntak	intake
+inntatt	included	taken
+inntekt	income
+inntektene	revenues
+inntekter	income
+inntektskilde	source of income
+inntil	up to	up	until
+inntok	took
+inntreffer	occurs
+inntrykk	impression
+innvandrerbefolkningen	immigrants
+innvandrere	immigrants
+innvandrerne	immigrants
+innvandret	immigrated
+innvandringen	immigration
+innvirkning	impact
+inokulasjon	inoculation
+insekter	insects
+inspirasjon	inspiration
+inspirasjonskilde	source of inspiration
+inspirert	inspired
+inspirerte	inspired
+institusjon	institution
+institusjoner	institutions
+institutt	institute
+instrument	instrument
+insulin	insulin
+intakt	intact
+integrasjon	integration
+integrert	integrated
+intellektuelle	intellectual
+intelligens	intelligence
+intens	intens
+intense	intense
+intensiv	intensive
+interessant	interesting
+interessante	interesting
+interesse	interest
+interessen	interest
+interesser	interests
+interessert	interested
+interesserte	interested
+intern	internal
+internasjonal	international
+internasjonale	international
+international	international
+interne	internal
+internet	internet
+internett	internet
+internt	internal
+interpellasjon	interpellation	interpelation	interpollation
+intervju	interview
+intervjuer	interviews
+intet	no
+intransitive	intransitive
+introdusert	introdused	introduced
+introduserte	introduced
+invadere	invade
+invadert	invaded
+invaderte	invaded
+invasjon	invasion
+invasjoner	invasions
+invitert	invited
+inviterte	invited
+involvert	involved
+involverte	involved
+iran	iran
+iranske	iranian
+irland	ireland
+irlands	irelands	ireland
+iron	iron
+ironi	irony
+ironisk	ironic
+irsk	irish
+irske	irish
+is	is	ice
+isaac	isaac
+isabella	isabella
+isbjørn	polar bear
+isbn	readership	isbn
+isbre	glacier
+isbreen	glacier
+isbreene	glaciers
+isbreer	glaciers
+isen	ice
+isfjell	icebergs	iceberg
+ishockey	hockey
+islam	islam
+islams	islams
+islamsk	islamic
+islamske	islamic
+island	island
+islands	islands
+islandsk	icelandic
+islandske	icelandic
+isolasjon	isolation
+isolert	isolated
+isolerte	isolated
+isotopen	isotope
+isotoper	isotopes
+israel	israel
+israels	israel
+israelsk	israeli
+israelske	israelski	israeli
+istanbul	istanbul
+isteden	instead
+istedenfor	instead
+istedet	instead
+istid	ice age
+istiden	ice age
+især	especially
+italia	italia	italy
+italias	italy's
+italienere	italians
+italiensk	italian
+italienske	italian
+iv	iv
+ivan	ivan
+ivar	care
+iverksatt	implemented
+ivrig	avid
+ix	ix
+j	j
+ja	yes
+jack	jack
+jackson	jackson
+jacksons	jacksons
+jacob	jacob
+jacobsen	jacobsen
+jacobsens	jacobsen
+jacques	jasques
+jaget	chased
+jagland	jagland
+jahn	jahn
+jakob	jakob
+jakt	hunt
+jakten	hunt
+jakter	hunt	hunts
+jamaica	jamaica
+james	james
+jan	jan
+jane	jane
+japan	japan
+japanerne	japanese
+japansk	japanese
+japanske	japanese
+jason	jason
+jazz	billboard	jazz
+jean	jean
+jefferson	jefferson
+jeg	i	me	l
+jegere	hunters
+jehovas	jehovas	jehovah's
+jenny	jenny
+jens	jens
+jensen	jensen
+jente	girl
+jenter	girls
+jern	iron
+jernalderen	iron age
+jernbane	railway	railroad
+jernbanen	railroad	railway
+jernbanenettet	railway network
+jernbaner	railways
+jersey	jersey
+jerv	wolverine
+jerven	wolverine
+jesu	of jesus
+jevn	steady
+jevndøgn	equinox
+jevne	even	regular	common
+jevnlig	regurlarly
+jevnt	evenly
+jf	cf
+jim	jim
+jimi	jimi
+jimmy	jimmy
+jo	the
+joachim	joachim
+joan	joan
+jobb	job
+jobbe	work
+jobben	job
+jobber	jobs
+jobbet	worked	hobbes
+joe	joe
+johan	johan
+johann	johann
+johannes	locust
+johansen	johansen
+john	john
+johnny	johnny
+johns	johns
+johnsen	johnsen
+johnson	johnson
+jomfru	virgin
+jon	jon
+jonathan	jonathan
+jones	jones
+jonisk	lonic	ionic	rock carving
+jord	earth
+jorda	the earth
+jordan	jordan
+jordas	earths
+jordbruk	agricultural
+jordbruket	agriculture
+jorden	earth
+jordens	earth	the earths
+jordskjelv	earthquake
+jordskjelvet	earthquake
+jordskorpen	crust	the earth's crust
+jordsmonnet	soil
+josef	josef
+joseph	joseph
+jostein	jostein
+journal	journal
+journalist	journalist
+journalister	journalists
+jr	junior
+juan	juan
+judea	judea
+jul	july
+julaften	chrismas eve
+juledagen	christmas day
+julen	christmas
+julenissen	santa claus
+juli	july
+julia	julia
+julian	julian
+julianske	julian
+julies	julies	julie's
+julius	julius
+jung	jung
+juni	june	junni
+junior	junior
+jupiter	jupiter
+jupiters	jupiters	jupiter
+jura	jura
+juridisk	legal
+juridiske	legal
+jæren	jæren
+jøde	jew
+jødedom	judaism
+jødedommen	judaism
+jødene	jews
+jødenes	jews
+jøder	jews
+jødisk	jewish
+jødiske	jewish
+jørgen	jørgen
+jørgensen	jorgensen
+k	k
+kabul	kabul
+kaffe	coffee
+kaizers	kaizers
+kakao	cocoa	cacao
+kald	cold
+kalde	cold
+kaldere	colder
+kaldeste	coldest
+kaldt	cold
+kalender	calendar
+kalenderen	calendar
+kalkstein	limestone
+kalle	call
+kallenavnet	nickname
+kaller	call	calls
+kalles	is called
+kalsium	calcium
+kalt	called
+kalte	called
+kalven	calf
+kambodsja	cambodia
+kammer	chamber
+kamp	fight
+kampanile	kampanile	campanile
+kampanje	campaign
+kampen	fight
+kampene	fights
+kamper	fights
+kampf	kampf
+kamre	chambers
+kan	can
+kanal	channel
+kanalen	channel
+kanalene	channels
+kanariøyene	canary islands
+kandidat	candidate
+kandidater	candidates
+kanon	canon
+kanskje	perhaps	maybe
+kant	part	edge
+kanten	edge
+kanter	edge
+kantonene	cantons
+kaos	chaos
+kapasitet	capacity
+kapasiteten	capacity
+kapell	chapel
+kapellet	chapel
+kapital	capital
+kapitalen	capital
+kapitalisme	capitalism
+kapitalismen	capitalism
+kapitalismens	capitalism
+kapitalistiske	capitalist
+kapittel	chapter
+kapitulerte	capitulated
+kapp	race	kapp
+kappløpet	race
+kaptein	captain
+karakterene	grades
+karakterer	grades
+karakteriseres	characterize	characterized
+karakterisert	characterized
+karakteristisk	characteristic
+karakteristiske	characteristic
+karavaneserai	inns	caravanserai	caravanserail
+karbohydrater	carbohydrate	carbohydrates
+karbon	carbon
+karbondioksid	carbon dioxide
+kardinal	cardinal
+karen	karen
+karibia	caribbean
+karibiske	caribbean
+karin	karin
+karl	karl
+karma	karma
+karmøy	karmøy
+karpatene	carpathian
+karriere	career
+karrieren	career
+kart	map
+kartet	the map	map
+karthago	karthago	carthage
+kasakhstan	kazakhstan
+kaste	throw
+kaster	throws
+kastet	threw
+katalansk	catalan
+katarina	katarina
+katastrofe	disaster
+katastrofen	the disaster	disaster
+katastrofer	disasters
+katedral	cathedral
+katedralen	cathedral	cathedrals
+katedralskole	cathedral school
+kategori	category
+kategoriartikler	category article
+kategoriband	category band
+kategorideltakere	category : participants
+kategoriden	category
+kategorien	category
+kategorier	categories
+kategorietableringer	category establishments
+kategorifødsler	category: ifødsler
+kategorihovedsteder	category capitals
+kategorikonflikter	category: conflicts
+kategorikonstitusjonelle	category of constitutional
+kategorimedlemmer	category members
+kategorinatoland	category nato countries
+kategorisamveldet	category commonwealth
+kategorispillere	players category
+kategorispråk	category language
+kategorityske	german category
+kategoriviktige	important category	the tab key
+kategorivinnere	category winners
+katherine	katherine
+katolikker	catholic	catholics
+katolisisme	catholicism
+katolisismen	katolisismen
+katolske	catholic
+katter	cats
+kaukasus	kaukasus
+kautokeino	kautokeino
+keiser	emperor
+keiserdømmet	empire
+keiseren	emperor
+keiserens	emperor
+keiserlige	imperial
+keiserriket	empire
+keltisk	celtic
+keltiske	celtic
+kennedy	kennedy
+kenny	kenny
+kent	kent
+kentucky	kentucky
+kenya	kenya
+kevin	kevin
+keynes	keynes
+khan	khan
+khat	khat
+khrusjtsjov	khrusjtsjov	khrushchev
+kielland	kielland
+kierkegaard	kierkegaard
+kiev	kiev
+kilde	source
+kilden	source
+kildene	sources
+kilder	sources
+kilometer	kilometer
+kim	kim
+kina	china
+kinas	china's	kina
+kinesere	chinese
+kineserne	chinese
+kinesisk	chinese
+kinesiske	chinese
+king	king
+kino	cinema
+kinoer	cinemas
+kirke	church
+kirkedepartementet	church affairs	church ministry
+kirkelig	church
+kirkelige	church
+kirkemøtet	the council
+kirken	church
+kirkene	churches
+kirkens	church
+kirker	churches
+kirkes	church
+kirkesamfunn	denomination	denominations
+kisten	coffin
+kittelsen	kittelsen
+kittelsens	kittelsens
+kjede	chain
+kjell	kjell	shell
+kjemi	chemistry
+kjemikalier	chemicals
+kjemisk	chemical
+kjemiske	chemical
+kjempe	fight
+kjempet	fought
+kjendiser	celebrities
+kjenne	know
+kjenner	know
+kjennetegn	characteristics
+kjennetegnes	characterized
+kjennetegnet	characteristic	characterized
+kjennskap	knowledge
+kjent	known
+kjente	known
+kjerne	core
+kjernefysiske	nuclear
+kjernen	cores
+kjetil	kjetil
+kjære	dear
+kjæreste	boyfriend
+kjærlighet	love
+kjærligheten	love
+kjærlighetens	love
+kjøkken	kitchen
+kjølige	cool
+kjølvannet	wake
+kjønn	gjønnes	sex
+kjønnsorganer	genitalia
+kjøp	purchases
+kjøpe	buy
+kjøpt	bought
+kjøpte	bought
+kjøre	run
+kjører	drives
+kjøretøy	vehicles
+kjøring	driving
+kjørte	drove
+kjøtt	meat
+kl	at
+klager	complaints
+klaget	complained
+klan	clan
+klare	ready	clear
+klarer	can
+klart	clear	clearly
+klarte	managed
+klasse	class
+klassen	class
+klassene	classes
+klasser	classes
+klassifisere	classify
+klassifiseres	classified
+klassifisering	classification
+klassifisert	classified
+klassisk	classical
+klassiske	classical
+klatre	climbing	climb
+klaus	klaus
+kledd	dressed
+klima	climate
+klimaet	climate
+klimatologi	climatology
+klinisk	clinical
+kliniske	clinical
+klinometer	clinometer
+klitoris	clitoris
+klokken	time
+kloster	monastery
+klosteret	monastery
+klostre	monasteries
+klubb	club
+klubben	club
+klubbene	clubs
+klubbens	club	the club's
+klubber	clubs
+klux	klux
+klær	clothing
+km²	km^2
+knapt	hardly
+knowles	knowles
+knud	knud
+knudsen	knudsen
+knut	polar bear	knot
+knutepunkt	intersection	hub
+knutsen	knutsen
+knytte	associate
+knytter	related
+knyttes	linked
+knyttet	connected	related
+koalisjonen	coalition
+kobber	copper
+koblet	connected
+kode	code
+kognitiv	cognitive
+kognitive	cognitive
+kokain	cocaine
+kollaps	collapse
+kollapset	collapsed
+kollega	colleague
+kolleger	colleagues
+kollektive	collective
+koloni	colony
+kolonien	colony
+koloniene	colonies
+kolonier	colonies
+kolonisering	colonization
+koloniseringen	coloniztion
+kolonitiden	colonial	colonial time
+kom	was	came
+kombinasjonen	combination
+kombinert	combined
+komedie	comedy
+komedien	comedy
+komiteen	committee
+komité	committee
+kommando	command
+kommandør	commander
+komme	come
+kommende	coming
+kommentarer	comments
+kommer	will	coming
+kommersiell	commercial
+kommersielle	commercial
+kommersielt	commercial	commercially
+kommet	come
+kommunal	kommunal
+kommunale	municipal
+kommune	municipality
+kommunen	municipality
+kommunene	municipalities
+kommunens	municipality
+kommuner	municipalities
+kommunes	councils	municipality
+kommunestyre	municipal
+kommunestyret	council
+kommunevåpen	coat of arms
+kommunikasjon	communication
+kommunikasjonen	communication
+kommunisere	communicate
+kommunisme	communism
+kommunismen	communism
+kommunismens	communism
+kommunistene	the communists
+kommunister	communists
+kommunistisk	communist
+kommunistiske	communist
+kommunistparti	communist party
+kommunistpartiet	communist party
+komorbide	comorbid
+kompani	company
+kompetanse	expertise
+kompleks	complex
+komplekse	complex
+komplett	complete
+komplikasjoner	complications
+komplisert	complicated
+kompliserte	complicated
+komponenter	components
+komponerte	composed
+komponisten	composer
+komponister	composers
+komposisjoner	kompositions	compositions
+kompromiss	compomise
+kona	his wife	wife
+kone	wife
+konferansen	conference
+konfirmasjon	confirmation
+konfirmasjonen	graduation
+konflikt	conflict
+konflikten	conflict
+konfliktene	conflicts
+konflikter	conflicts
+konføderasjonen	confederation
+konføderasjonens	confederation
+konfødererte	confederate
+kong	king
+konge	king
+kongedømme	kingdom
+kongedømmet	kingdom
+kongefamilien	royal family	the royal family
+kongehuset	royal house
+kongelig	royal
+kongelige	royal
+kongemakten	crown
+kongen	king
+kongene	kings
+kongens	king	king's
+konger	kings
+kongeriket	kingdom
+kongo	congo	kongo
+kongressen	congress
+kongsberg	kongsberg
+kongsvinger	kongsvinger
+konkluderte	concluded
+konkret	concrete
+konkrete	concrete
+konkurranse	competition
+konkurransen	competition
+konkurranser	competitions
+konkurrerende	competing
+konkurrerer	compete
+konkurs	bankruptcy
+konsekvens	consequence
+konsekvenser	consequences
+konsekvent	consistent
+konsensus	consensus
+konsentrasjon	concentration
+konsentrere	concentrate
+konsentrert	concentrated	consentrate
+konsentrerte	concentraded
+konsept	concept
+konseptet	concept
+konsert	concert
+konserten	concert
+konsertene	concerts
+konserter	concert	concerts
+konservatisme	conservatism
+konservatismen	conservatism
+konservativ	conservative
+konservative	conservative
+konsonanter	consonants
+konstant	constant
+konstantin	konstantin	constantine
+konstantinopel	constantinople
+konstitusjonelle	constitutional
+konstitusjonelt	constitutional
+konstitusjonen	constitution
+konstruert	constructed
+konsumpriser	consumer prices
+kontakt	contact
+kontakter	contacts
+kontinent	continent
+kontinentale	continental
+kontinenter	continents
+kontinentet	continent
+kontinuerlig	continuous
+kontor	office
+kontorer	offices
+kontrakt	contract
+kontrakten	the contract
+kontrast	contrast
+kontroll	control
+kontrollen	control
+kontrollere	control
+kontrollerer	control	controls
+kontrollerte	controlled
+kontroversielle	controversial
+kontroversielt	controversial
+konvensjon	convention
+konvensjonen	convention
+konverterer	converts
+konverterte	converted
+kopernikus	kopernikus	copernicus
+kopi	copy
+kopier	copies
+koptiske	coptic
+kor	how
+koranen	quran
+korea	korea
+koreakrigen	korean war
+koreansk	korean
+koreanske	korean
+koret	the choir
+korn	grains
+korrekt	correct
+korrupsjon	corruption
+kors	cross
+korset	the cross
+korstog	crusade
+kort	short
+kortere	shorter
+korthåret	short hair	short haired
+kortvarig	short-term
+kosovo	kosovo
+kosovos	kosovos
+kostbare	costly
+kostet	cost
+kosthold	diet
+kostnader	costs	expenses
+kr	kr
+kraften	force
+kraftig	powerful
+kraftige	powerful
+kraftverk	power plant
+kraiter	kraits	bungarus	art	kraiter	crater
+kraków	krakow
+krav	claim	requirements	demand
+kravene	requirements
+kravet	demand
+kreative	creative
+kreditert	credited
+kreft	cancer
+kreftene	powers	forces
+krefter	forces
+kreta	crete
+krets	circuit
+kretsen	circuit
+kretser	circuits
+kretsløp	circuit circuit circuit	circuit	cycle
+krevd	required
+krevde	required
+kreve	require
+krevende	demanding
+krever	requires
+kreves	requires
+krig	war
+krigen	wars	war
+krigene	wars
+krigens	wars
+kriger	wars
+krigføring	warfare
+krigføringen	warfare
+krigsforbrytelser	war crimes	war crime
+krigskorset	war cross
+krigsutbruddet	outbreak of war
+krigsårene	war years	wartime islands
+kriminalitet	crime
+kriminelle	criminal
+kristen	christian
+kristendom	christianity
+kristendommen	christianity
+kristendommens	christianity
+kristenhet	christianity
+kristent	christian
+kristi	kristi
+kristian	kristian
+kristiania	kristiania
+kristiansand	kristiansand
+kristiansen	kristiansen
+kristiansund	kristiansund
+kristin	kristin
+kristne	christians
+kristnet	christianity
+kristningen	christianity
+kristus	kristus	christ
+kriteriene	criteria
+kriterier	criteria
+kritikere	critics
+kritikerne	critics
+kritikk	criticism
+kritikken	criticism
+kritikker	critics
+kritisert	criticized
+kritiserte	criticized
+kritiske	critical
+kritt	chalk
+kroatia	croatia
+kroatisk	croatian
+kroatiske	croatian
+kromosomer	chromosomes
+kronen	crown
+kroner	million	kroner
+kronet	crowned
+kronisk	chronic
+kronologisk	chronological
+kronprins	crown
+kropp	body
+kroppen	body
+kroppens	body
+krypdyr	reptiles
+krysse	cross
+krysser	crossing
+krysset	intersection	crossed
+ku	ku	cow
+kull	coal
+kulminerte	culminated
+kult	cool
+kultur	culture
+kulturarv	cultural heritage	heritage
+kulturell	cultural
+kulturelle	cultural
+kulturelt	culturally
+kulturen	culture
+kulturer	cultures
+kulturhovedsteder	capitals of culture
+kulturhus	culture	cultural centre
+kulturlandskap	cultural
+kulturliv	cultural life
+kulturminner	cultural heritage
+kulturrevolusjonen	cultural revolution
+kun	only
+kunne	could	knew
+kunnet	been able
+kunnskap	knowledge
+kunnskapen	knowledge
+kunst	art
+kunsten	art
+kunstig	artificial
+kunstige	artificial
+kunstmuseum	art museum
+kunstner	artist
+kunstnere	artists
+kunstneren	artist
+kunstnerisk	artisitc
+kunstneriske	artistic
+kunstverk	work of art	artwork
+kupert	hilly
+kupp	bargain
+kuppet	coup
+kurs	course
+kurt	kurt
+kurven	curve
+kuttet	cut
+kvadratkilometer	square kilometer
+kvalifiseringen	qualification
+kvalifisert	qualified
+kvaliteten	quality
+kvam	kvam
+kvartal	quarter
+kveiter	halibuts	halibut ranging	halibut
+kveld	tonight	night
+kvelden	evening
+kvinne	female
+kvinnelig	feminine	female
+kvinnelige	female
+kvinnen	woman
+kvinnene	women
+kvinner	women
+kvinners	women
+kypros	cyprus
+kyst	coastal	coast
+kysten	coast
+kystlinjen	coastline
+kår	conditions	contidions
+kåre	kåre
+kåret	voted
+københavn	copenhagen
+københavns	copenhagens
+l	i
+la	let
+lady	lady
+lag	team
+lagde	made
+lage	make	create
+lagene	teams
+lager	makes	stock
+lages	made
+laget	team
+lagret	stored
+lagt	added
+lagtinget	lagtinget
+laika	laika
+laks	sammon	salmon
+laksevåg	laksevåg
+lama	lama	llama
+land	country
+landbruk	agricultural
+landbruket	agriculture
+landegrenser	borders
+landene	countries
+landenes	lands
+landet	country
+landets	the country's
+landområder	lands
+landområdet	land	landomradet
+lands	country
+landsby	village
+landsbyen	illage	village
+landsbyer	villages
+landsbygda	countryside
+landskamper	caps
+landskap	landscape
+landskapet	landscape
+landslag	national team
+landslaget	team
+landsmøte	congress
+landsmøtet	countries meeting
+lang	long
+langbue	longbow
+lange	long
+langes	langes
+langhåret	long haired	long-haired
+langrenn	cross-country
+langs	along
+langsiktig	long-term
+langsomt	slowly
+langt	far	long
+langvarige	long term
+lanka	lanka
+lansering	launch
+lansert	launched
+lanserte	launched
+lanzarote	lanzarote
+laos	laos
+lar	let	allows
+larry	larry
+lars	lars
+larsen	larsen
+larsson	larsson
+larvik	larvik
+laryngoskop	your	laryngoscope	laryngoskop	larygoscope
+las	las
+last	last
+latin	latin
+latinamerika	latin-america	latin america
+latinamerikanske	latin american
+latinsk	latin
+latt	left
+latvia	latvia
+latvisk	latvian
+lav	low
+lave	low
+lavere	lower
+lavest	lowest
+laveste	lowest
+lavlandet	lowland
+lavt	low
+law	law
+le	l. e.
+league	league
+led	suffered
+leddyr	arthropods
+lede	lead
+ledelse	management
+ledelsen	leadership
+ledende	leading
+leder	leader	chairman
+ledere	leaders
+lederen	the leader	leader
+lederne	leaders
+lederskap	leadership
+ledes	leads
+ledet	led
+ledig	free
+lee	lee
+legat	endowment
+lege	doctor
+legeme	body	dody
+legemidler	drugs
+legen	doctor
+legendarisk	legendary
+legendariske	legendary
+legenden	lenght
+legender	lagenda	legends
+legene	doctors
+legges	be	is added
+legitimitet	legitimacy
+lei	tired
+leibniz	leibniz
+leide	rented	leased
+leilighet	apartment
+leir	camp
+leire	clay
+leiren	camp
+lekene	games
+leker	games
+leksikon	encyclopedia
+lengde	length	lenght
+lengden	length
+lenge	long
+lenger	more
+lengre	longer
+lengst	longest
+lengste	longest
+lenin	lenin
+lenins	lenins
+lenker	link	links
+lennon	lennon
+lennons	lennons	lennon
+leo	leo
+leonardo	leandro
+leonardos	leonardos
+leone	leone
+leopold	leopold
+les	read	les
+lese	read
+leser	read
+lesere	readers
+leseren	the reader
+leses	read
+lest	read
+leste	read
+lett	easily
+lette	light
+lettere	easier
+leukemi	leukemia
+levd	lived
+levde	lived
+leve	living
+levealder	life expectancy
+levende	living
+lever	live	lives
+levere	deliver
+leveren	the liver	lever
+levert	delivered
+leverte	delivered
+levetid	lifetime
+lewis	lewis
+libanon	lebanon
+liberal	liberal
+liberale	liberal
+liberalisme	liberalism
+liberalismen	liberalism
+liberalistisk	liberal
+library	library
+libya	libya
+lidelse	disorder
+lidelsen	disorder
+lidelser	disorders
+lie	lie
+liechtenstein	liechtenstein
+life	life
+liga	league
+ligacupen	league cup
+ligaen	league
+ligge	be
+liggende	lying
+ligger	is
+ligget	been
+light	light
+lignende	like
+ligner	similar
+lik	equal	like
+like	as
+likeledes	also	likekedes
+liker	likes	like
+likestilling	equality
+liket	the corps
+likevel	however
+likhet	similarity
+likheter	similarities
+likhetstrekk	similarities
+liknende	similar
+likt	like
+likte	did
+likør	liqueur	findings
+lille	little
+lilleasia	asia minor
+lilly	lilly
+lincolns	lincoln
+lindås	lindås
+line	line
+linge	linge	gestations
+linje	line
+linjen	line
+linjene	lines
+linjer	lines
+linkin	linkin
+linz	linz
+lisa	lisa
+lisboa	lisboa
+lista	list
+liste	list
+listen	list
+listene	lists
+lister	lists
+listet	isted	listed
+litauen	lithuania
+litauens	lithuania
+litauisk	lithuanian
+litauiske	lithuanian
+lite	small
+liten	small
+litt	a little
+litteratur	literature
+litteraturen	literature	the literature
+litteraturhistorie	literary history
+litteraturpris	literature
+litterær	literary
+litterære	literary
+liturgi	liturgy
+liturgisk	liturgical
+liturgiske	liturgical
+liv	life
+liverpool	liverpool
+livet	life
+livets	life	of life
+livsførsel	way of life
+livsstil	lifestyle
+livssyn	spirituality
+livstid	lifetime
+livstruende	life-threatening
+ll	ll
+lloyd	lloyd
+locke	locke
+lockes	lockes
+loe	loe
+lofoten	lofoten
+logisk	logical
+logo	logo
+lokal	local
+lokale	local
+lokaler	premises
+lokalisert	localized
+lokalt	local
+loke	loke
+london	london
+londons	londons	london
+longyearbyen	longyerbyen
+lorenzo	lorenzo
+los	los
+lot	did
+louis	louis
+louise	louise
+louisiana	lousiana
+lov	law
+lovato	lovato
+loven	law
+lovene	laws
+lover	laws
+lovet	promised
+lovgivende	legislature
+lovgivning	law
+lovlig	legally
+lovverk	legislation
+loxodonta	loxodonta
+lucia	lucia
+lucy	lucy
+ludwig	ludwig
+luft	air
+luften	air
+luftforsvaret	air force
+lufthavn	airport
+luis	luis
+lukkede	closed
+lukket	closed
+luminositet	luminosity
+lund	lund
+lunde	lunde	less
+lungene	lungs
+luther	luther
+luthers	luthers	luther
+luthersk	lutheran
+lutherske	lutheran
+luxembourg	luxembourg
+lyd	sound
+lyden	sound
+lyder	sounds
+lykke	happyness
+lykkelig	happy
+lykkes	success
+lyn	lightning
+lynette	lynette
+lyng	lyng
+lyngen	lyngen
+lyon	lyon
+lyriker	poet
+lyrikere	poets
+lyrikk	poetry
+lyriske	lyric
+lys	light
+lyse	light
+lysere	lighter
+lyset	the lights
+lyst	light	bright	like
+lå	was
+lån	loans
+lånord	loanword
+lånt	borrowed
+låta	song
+låten	song
+låtene	songs
+låter	songs
+låtskriver	songwriter
+lærde	scholars
+lære	learn the sport	learning
+lærer	eacher	teacher
+lærere	teacher
+lært	learned
+lærte	learned
+lød	sounded
+løfte	lift	promise
+løfter	promises
+løftet	lifted
+lønn	salary
+løp	race
+løper	runs
+løpet	during
+lørdag	saturday
+lørenskog	lørenskog
+løse	solve
+løses	solved
+løslatt	released
+løsning	solution
+løsningen	solution
+løsninger	solutions
+løten	løten
+løve	lion
+løven	the lion
+løver	lions
+løvskog	deciduous
+m	m
+madagaskar	madagascar	madagaskar
+madeira	madeira
+madrid	madrid
+mads	mads
+mafiaen	mafia
+magasinet	magazine
+magen	stomach
+magesekken	stomach	the stomach
+magic	magic
+magiske	magic
+magne	magnetite	magne
+magnetfelt	magnetic field
+magnetiske	magnetic
+magnus	magnus
+mahal	mahal
+main	main
+mais	corn
+major	major
+majoritet	majority
+majoriteten	majority
+make	makeover
+makedonia	makedonia	macedonia
+maksimal	maximum
+maksimale	maximum
+makt	power
+makten	power
+makter	powers
+maktet	managed
+maktfaktor	power factor
+malawi	malawi
+malawis	malawis
+malaysia	malaysia
+malcolm	malcolm
+maler	painter
+malere	painters
+maleri	painting
+malerier	paintings
+maleriet	painting
+malt	painted
+malta	malta
+malte	painted
+manager	manager
+manchester	manchester
+mandag	monday
+mandat	mandate
+mandater	mandates
+mandela	mandela
+mandelas	mandelas
+mange	many
+mangel	lack
+mangelen	the lack
+mangfold	diversity
+mangfoldet	mangfoledet	diversity
+manglende	lack of
+mangler	missing
+manglet	lacked
+mani	e-mail
+manifest	manifesto
+mannen	husband
+mannens	males	the man's
+mannerheim	mannerheim
+mannerheimlinjen	the mannerheim line	mannerheim line
+mannlig	male
+mannlige	male
+manns	man
+mannskap	crew
+mannskapet	crew
+manson	manson
+mantelen	mantle
+manus	manus	script
+manuset	script
+manuskriptet	manuscript
+mao	mao
+maos	maos	mao
+mar	mar
+marcus	marcus
+mare	mare
+margaret	margaret
+maria	maria
+marias	marias	mary
+marilyn	marilyn
+marine	marine
+marinen	navy
+mariner	navies
+marino	marino
+marit	marit
+maritime	maritime
+marius	marius
+mark	mark
+markant	significant
+markante	significant
+marked	market
+markeder	markets
+markedet	market
+markedsøkonomi	market economy
+markere	mark
+markerer	marks
+markert	marked
+markerte	marked
+markus	markus
+marley	marley
+marokko	morocco
+mars	march	mars
+marshall	marshall
+marsjen	march
+marsjerte	marched
+martin	martin
+marx	marx
+marxisme	marxism
+marxismen	marxism
+marxistisk	marxist
+marxistiske	marxist
+mary	mary
+maskiner	machines
+mason	mason
+massachusetts	massachusetts
+massakren	massacre
+masse	mass
+massemedia	mass media
+massen	mass
+massiv	massive
+massivt	massive
+master	master
+mat	food
+matematikk	mathematics
+matematiske	mathematical
+maten	food
+materiale	material
+materialer	materials
+materialet	material
+materie	matter
+materiell	materials
+matt	matt.
+matteus	matteus
+matthew	matthew
+matvarer	food
+maud	maud
+maur	ants
+max	max
+may	may
+mccartney	mccartney
+mdg	mdg
+mdma	mdma
+med	with
+medføre	lead
+medfører	resulted in
+medført	resulted in
+medførte	resulted in
+media	media
+mediene	media
+medier	media
+mediet	medium
+medikamenter	drugs
+medisin	medicine	medisin
+medisiner	medications
+medisinering	medication
+medisinske	medicinal	medical
+meditasjon	meditation
+medlem	member
+medlemmer	members
+medlemskap	membership
+medlemsland	member countries
+medlemslandene	member states
+medvirkende	serious	contributory
+medvirket	contributed
+meg	i
+meget	very
+megler	non-metal	broker	broke
+mein	mein
+mekanisk	mechanical
+mekaniske	mechanical
+mekanismer	mechanisms
+mekka	mecca
+mektig	powerfull	powerful
+mektige	powerfull	powerful
+mektigste	powerful
+melde	report
+meldinger	messages
+meldt	reported	signed
+meldte	reported	submitted
+melk	milk
+mellitus	mellitus
+mellom	between
+mellomamerika	central america
+mellomkrigstiden	the time between the wars
+mellomrom	space
+mellomtiden	meanwhile
+melodi	melody
+memoarer	memoirs
+men	but
+mener	means	mean
+menes	means
+mengde	amount	amount of
+mengden	amount
+mengder	amounts
+mengele	mengele
+menighet	church
+menigheten	church
+menighetene	churches
+menigheter	churches
+mening	opinion
+meningen	meaning
+meninger	opinions
+menn	men
+mennene	men
+menneske	human
+menneskeheten	humanity
+menneskelige	human
+menneskene	humans
+menneskenes	people
+menneskerettighetene	human rights
+menneskerettigheter	human rights
+menneskers	humans
+menneskesyn	humanity
+mennesket	man
+menneskets	human
+mens	while
+ment	intended
+mentale	mental
+mente	meant	ment
+mer	more
+mercury	mccurry
+mere	more
+merk	note
+merkbart	noticeably
+merke	note
+merkelig	strange
+merkelige	strange
+merker	marks
+merket	labeled
+merknad	comment
+merkur	mercury
+messenger	messenger
+messi	messi
+messias	messiah
+mest	most
+meste	most
+mesteparten	most
+mester	champion
+mesterligaen	champions league
+mestselgende	best-selling
+metabolitt	metabolite
+metadon	methadone
+metalband	metal band
+metall	metal
+metaller	metals
+metallica	metallica
+metallisk	metallic
+metan	methan	methane
+meter	meter
+metionin	methionine
+metode	method
+metoden	method	the method
+metoder	methods
+metro	metro
+mexico	mexico
+meyer	meyer
+michael	michael
+michel	michel
+michelangelo	michelangelo
+michelangelos	michelangelo	michelangelos
+microsoft	microsoft
+middel	agent
+middelalder	middle ages
+middelalderen	medieval
+middelalderens	medieval
+middelhavet	mediterranean sea	mediterranean
+middelhavsklima	mediterranean climate
+middels	medium
+midler	founds	funds
+midlertidig	temporary
+midlertidige	temporary
+midt	the middle
+midten	middle
+midthordland	middle of hordaland
+midtpunkt	center
+midtre	middle
+midtøsten	middle of the cheese	middle east
+midtøstenkonflikten	middel east conflict
+mig	me	mig
+mike	mike
+mikhail	mikhail
+mil	mile
+milan	milan
+milano	milan
+mild	mild
+milde	mild
+mildere	milder
+mildt	mild
+miley	miley
+militær	military
+militære	military
+militæret	military
+militært	military
+militærtjeneste	military service
+miljø	environment
+miljøer	environments
+miljøet	environment
+miljøstatus	environmental status
+mill	million
+miller	miller
+milliarder	billion
+million	one million
+min	my
+mindre	less
+mindretall	minority
+mine	mine
+mineraler	minerals
+mini	mini
+minimum	minimum
+minne	reminiscent of
+minner	memories
+minnesmerker	memorials
+minnet	memory
+minoritet	oslo	minority
+minoriteten	minority
+minoriteter	minority
+minsk	minsk
+minst	at least
+minste	smallest
+minutt	minute	minutt
+minutter	minutes
+misjon	mission
+misjonærer	missionaries
+mislykkede	unsuccessful
+mislykkes	fail	failed
+mislykket	failed
+mislyktes	failed	misyktes
+misnøye	dissatisfaction
+missouri	missouri
+miste	lose
+mister	lose
+mistet	lost
+mit	mit
+mitt	my
+mjøsa	mjøsa
+mo	mo
+modell	model
+modeller	models
+moderat	moderate
+moderate	moderate
+moderne	modern
+modernismen	modernism
+modifisert	modified
+moe	moe
+moen	moen
+moh	m
+moland	moland
+molde	molde
+moldova	moldova
+molekyl	molecule
+molekylene	molecules
+molekyler	molecules
+monaco	monaco
+monark	monarch
+monarken	monarch
+monarki	monarchy
+monarkier	monarchy
+monarkiet	monarchy
+mongolene	mongols
+mongolia	mongolia
+mongolias	mongolias
+mongolsk	mongolian
+mongolske	mongolian
+monografi	monography	monograph
+monoteistiske	monotheistic
+monroe	monroe
+monroes	monroes
+montana	montana
+monte	monte
+montenegro	montenegro
+montesquieu	montesquieu
+montgomery	montgomery
+monumenter	monuments
+moore	moore
+mor	mother
+mora	mother
+moral	morality
+moralsk	moral
+moralske	moral
+mord	murder
+mordet	murder
+moren	mother
+morens	the mothers
+morfin	morphine
+morfologi	morphology
+morgan	morgan
+morgen	tomorrow
+morgenen	morning
+morsmål	nativ	native tongue
+morten	morten
+mosambik	mozambique
+mosebok	genesis
+moses	moses
+moskeen	mosque
+moskeer	mosques
+moskva	moscow
+moské	mosque
+moss	moss
+mot	against
+motangrep	counterattack	against attacks
+motiv	motive
+motiver	motives
+motivert	motivated
+motivet	motiv	subject
+motoren	motor	the engine
+motorveier	highway
+motsatt	the opposite	opposite
+motsatte	opposite
+motsetning	unlike
+motsetninger	contradictions
+motstand	resistance
+motstanden	resistance
+motstandere	opponents
+motstanderen	opponent
+motstanderens	opposing	opponents
+motstandsbevegelsen	resistance
+motstridende	conflicting
+motta	receive
+mottar	receives
+mottatt	received
+mottok	received
+mount	mount
+mountain	mountain
+mozart	mozart
+mozarts	mozarts
+mr	mr.
+ms	m/s
+mtv	mtv
+muhammed	mohammed
+muhammeds	muhammeds	muhammed
+mulig	possible
+mulige	possible
+muligens	possibly
+mulighet	opportunity
+muligheten	opportunity
+mulighetene	opportunities
+muligheter	opportunities
+munchs	munch	munchs
+munker	monks
+munnen	mouth
+munner	flows into	ends
+muntlig	oral
+mur	wall
+muren	wall
+murene	walls
+murray	murray
+mus	mouse
+muse	mouse	muse
+museer	museums
+museet	museum
+museum	museum
+music	music
+musikalsk	musical
+musikalske	musical
+musiker	musician
+musikere	musicians
+musikk	music
+musikken	music
+muskler	muscles
+muslim	muslim
+muslimene	muslims	the muslims
+muslimer	muslims
+muslimsk	muslim
+muslimske	muslim
+mussolini	mussolini
+mussolinis	mussolini`s	mussolinis
+mv	etc.
+myanmar	mayanmar	myanmar
+mye	much
+myggsmetter	mosquitoes saturates	mosquitoes snaps
+mynde	greyhound
+myndighet	authority
+myndighetene	authorities
+myndighetenes	authorities	authorities authorities
+myndigheter	authorities
+mynter	coins
+myrdet	murdered
+myte	myth
+myten	myth
+mytene	myths
+myter	myths
+mytologi	mythology
+mytologien	mythology
+må	have
+mål	goals	template	goal
+måle	measurement	measure
+målene	goals
+måler	measures
+måles	measured
+målestokk	standars
+målet	target
+målform	form of language
+måling	measurment	measurement
+målinger	coatings	measurements
+målt	measured
+måne	moon
+måned	month
+måneden	month
+månedene	months	month
+månen	moon
+månene	moons
+månens	moon	moons
+måner	moons
+måte	way
+måten	way
+måter	ways	feeder
+måtte	had
+møbler	furniture
+mønster	pattern
+mønstre	patterns
+møre	møre
+mørke	dark
+mørkere	darker
+møte	meeting
+møtene	meetings
+møter	meetings
+møtes	meets
+møtet	meeting
+møtte	met
+møttes	met
+müller	muller
+münchen	munchen
+n	n
+naboer	neighbors
+nabolandene	neighboring countries
+nabolandet	neighboring	neighbor country
+nacional	nacional
+nagasaki	nagasaki
+nakenhund	hairless dog
+nansen	nansen
+nansens	nansen
+napoleon	napoleon
+napoleons	napoleons
+napoleonskrigene	the napoleonic wars
+napoli	napoli
+narkotika	drugs
+narnia	narnia
+narr	fun	narr
+narvik	narvik
+nasas	nasa's
+nashville	nashville
+nasjon	nation
+nasjonal	national
+nasjonalbiblioteket	national library
+nasjonale	national
+nasjonalforsamling	national	nationalassembly
+nasjonalforsamlingen	national assembly
+nasjonalisme	nationalism
+nasjonalismen	nationalism
+nasjonalistisk	nationalist
+nasjonalistiske	nationalist	nationalistic
+nasjonalitet	nationality
+nasjonalpark	national	national park
+nasjonalparker	national parks
+nasjonalromantikken	national romanticism
+nasjonalsang	national song
+nasjonalsosialistiske	national socialist
+nasjonalt	national
+nasjonen	the nation
+nasjonene	nations
+nasjonens	the nation
+nasjoner	nations
+nathan	nathan
+nationale	nationale
+nationaltheatret	national	the national theatre
+nato	nato
+natos	nato
+natt	night
+nattverden	supper
+natur	nature
+naturalismen	naturalism
+naturen	nature
+naturens	natur's	nature
+naturgass	natural gass
+naturgeografi	physical geofraphy	physical geography
+naturlig	natural
+naturlige	natural
+naturligvis	naturally
+naturressurser	natural resources
+navn	name
+navnene	names
+navnet	name
+navngitt	named
+nazismen	nazism
+nba	nba
+ned	down
+nedbør	rain
+nedbøren	rainfall
+nede	down
+nedenfor	below
+nederlag	failure
+nederlaget	defeat
+nederland	the netherlands
+nederlandene	netherlands
+nederlandsk	dutch
+nederlandske	dutch
+nederst	bottom
+nederste	lower	bottom
+nedfelt	enshrined	incorporated
+nedgang	decline
+nedgangen	decline
+nedkjempet	defeated
+nedlagt	closed
+nedover	down
+nedre	lower
+nedsatt	impaired
+nedsettende	derogatory
+nedskrevet	impaired
+nedstammer	descended
+nedtegnelser	records
+nedtegnet	recorded
+negativ	negative
+negative	negative
+negativt	negative
+nei	no
+nekte	deny
+nektet	denied
+nelson	nelson
+nepal	nepal
+neppe	probably not
+neptun	neptune
+nervesystemet	nervous system
+nes	nes
+nesbø	nesbø
+nesen	nose
+neset	cape
+nesodden	nesodden
+nesset	nesset
+nest	second
+neste	next
+nesten	almost
+nestleder	deputy
+nett	network
+nettet	online
+netthinnen	retina
+nettopp	just
+nettside	web page
+nettsider	website	web site
+nettsted	website	site
+nettsteder	websites
+nettstedet	site
+nettverk	network
+nettvinger	neuroptera	lacewings	your wings
+nevne	mention
+nevner	mentions
+nevnes	mentioned
+nevnt	mentioned
+nevnte	mentioned
+newcastle	newcastle
+newsted	newsted
+newton	newton
+ni	nine
+nicaragua	nicaragua
+nicholas	nicholas
+nick	nick
+nicolai	nicolai
+nidaros	nidaros
+nidarosdomen	nidaros cathedral
+niels	niels
+nielsen	nielsen
+niende	nine	ninth
+nietzsche	nietzsche
+nigeria	nigeria
+night	night
+nikolai	nikolai
+nikolaj	nikolai
+nikolaus	nikolaus
+nilen	the nile	nile
+nils	nils
+nilsen	nilsen
+nina	nina
+nirvana	nirvana
+nitrogen	nitrogen
+nittedal	nittedal
+nittende	nineteenth
+nivå	level
+nivåer	levels
+nivået	level
+nixon	nixon
+nkp	nkp
+no	no
+nobelprisen	nobel price
+nobels	nobels	nobel
+noe	which
+noen	some
+noensinne	ever
+nok	enough
+nokså	rather
+nominativ	nominative
+nominert	nominated
+nonner	nuns
+nora	nora
+nord	north
+nordafrika	north africa
+nordahl	nordahl
+nordamerika	north america
+norden	scandinavia
+nordens	scandinavia
+nordeuropa	north europe
+nordhordland	north hordland
+nordishavet	arctic ocean
+nordisk	nordic
+nordjæren	north-jæren
+nordkorea	north korea	north-korea
+nordland	nordland
+nordlig	northern
+nordlige	northern
+nordligste	northernmost
+nordmenn	norwegians
+nordmennene	norwegians	notfmrnnrnr
+nordmøre	nordmøre	north tender
+nordnorge	northern norway
+nordover	north
+nordpolen	north pole
+nordre	northern
+nordsamisk	norhen sami
+nordsiden	north side
+nordsjøen	north sea
+nordstatene	the north states
+nordtroms	north troms
+nordtrøndelag	nord-trøndelag
+nordvest	northwest
+nordvietnam	northern vietnam	north-vietnam
+nordøst	north east
+nordøstlige	north-easterly
+norges	norway's	norways
+norgeskartet	norway map
+normal	normal
+normale	normal
+normalt	normally	normal
+norman	norman
+normandie	normandie
+normanniske	norman
+normer	norms
+norrøn	norse
+norrøne	norse
+norrønt	norse
+norsk	norwegian
+norske	norwegian
+norwegian	norwegian
+notater	notes
+note	note
+noter	notes
+notodden	notodden
+nova	nova
+noveller	short stories
+november	november
+nr	number
+nrk	nrk
+nrks	nrks
+ns	ns
+nsdap	nsdap
+nu	now
+null	zero
+nummer	nummer	number
+nupereller	tatting
+ny	new
+nye	new
+nyere	newer
+nyeste	latest
+nyfødte	newborn
+nyheter	news
+nylig	recently
+nynorsk	nynorsk
+nyrene	kidneys
+nyskapende	innovative
+nytelse	pleasure
+nyter	enjoying
+nytt	new
+nytte	benefit
+nyttig	useful
+nyvinninger	innovations
+nå	na	now
+nådd	reached
+nådde	reached
+nåde	mercy
+nålevende	living
+når	when
+nåværende	current
+nær	close
+nære	close	close!
+nærhet	proximity
+nærheten	close	proximity
+næring	food	industry
+næringer	industries
+næringsliv	business
+næringslivet	business
+nærliggende	nearby
+nærmer	be approaching	approach
+nærmest	almost
+nærmeste	nearest
+nærmet	proximity
+nært	close
+nærvær	presence
+nød	emergency
+nødt	have	must
+nødvendig	neccesary	necessary
+nødvendige	necessary
+nødvendigvis	necessarily
+nøkkeltall	key
+nøyaktig	exactly
+nøyaktige	accurate
+nøye	precise	cautiously
+nøytral	neutral
+nøytrale	neutral
+nøytralt	neutral
+nøytroner	neutrons
+o	and	o
+obama	obama
+obamas	obamas
+oberst	colonel
+objekt	object
+objekter	objects
+objektet	object
+objektiv	lens
+oblast	oblast
+obligatorisk	mandatory
+obligatoriske	mandatory
+observasjonene	observations
+observasjoner	observations
+observatører	observers
+observere	observe
+observert	observed
+observerte	observed
+odd	odd
+odda	odda
+oder	oder
+odin	odin
+offensiv	offensive
+offensiven	offensive
+offentlig	public
+offentlige	public
+offentliggjort	published
+offentligheten	public
+offer	victim
+offiser	officer
+offiserene	officers
+offiserer	officers
+offisiell	official
+offisielle	officially
+offisielt	officially
+ofre	sacrifice
+ofrene	victims
+oftere	more
+oftest	usually
+og	and
+ogeller	whole year	and/or
+også	also
+ohio	ohio
+okkupasjon	occupation
+okkupasjonen	occupation
+okkupere	occupy
+okkupert	occupied
+okkuperte	occupied
+okser	bulls
+oksygen	oxygen
+oktober	october
+oktoberrevolusjonen	the october revolution	october revolution
+ol	olympic games
+ola	ola
+olaf	olaf
+olav	olav
+olavs	olav
+old	old
+oldtiden	antiquity
+ole	ole
+oliver	oliver
+olsen	olsen
+olsenbanden	olsen gang
+olympiske	olympic
+om	about
+ombord	on board
+omdannet	tranformed
+omdiskutert	debated
+omegn	region
+omfang	scope
+omfanget	scope	extent
+omfatte	include
+omfattende	comprehensive
+omfatter	includes
+omfattet	included
+omgang	half
+omgir	surrounds
+omgitt	surrounded
+omgivelsene	environment
+omgivelser	surroundings	environments
+omgjort	reversed	converted
+omhandler	deal
+omkom	died
+omkomne	die	fatalities
+omkranset	surrounded
+omkringliggende	surrounding
+omlag	about
+omland	region	surrounding areas
+omløp	current
+omringet	surrounded
+område	area
+områdene	areas
+områder	areas
+området	area
+områdets	area
+omsetning	turnover
+omskjæring	circumcision
+omsorg	care
+omstendigheter	circumstances
+omstridt	contested
+omstridte	controversial
+omtale	review
+omtaler	reviews
+omtales	discussed	referred to
+omtalt	discussed
+omtalte	discussed
+omtrent	about
+omvendelse	conversion
+omverdenen	the outside world
+on	on
+onani	masturbation
+onde	evil
+ondskap	evil
+ondt	evil
+one	one
+onkel	uncle
+only	only
+onsdag	wednesday
+op	up
+operasjon	operation
+operasjonen	operation
+operasjoner	operations
+opererer	operates
+opererte	operated
+opp	up
+oppblomstring	blooms
+oppbygging	structure
+oppbygning	construction
+oppdage	detect
+oppdagelse	detection	discovery
+oppdagelsen	discovery
+oppdagelser	discoveries
+oppdager	discovers
+oppdaget	discovered
+oppdatert	updated
+oppdelt	divided
+oppdrag	mission
+oppdragelse	upbringing
+oppdraget	mission
+oppe	up
+oppfatning	perception	view
+oppfatningen	perceptions	the perception
+oppfatninger	perceptions
+oppfatte	perceive
+oppfatter	perceive
+oppfattes	perceived
+oppfattet	perceived
+oppfordret	urged
+oppfordring	encouragement
+oppfunnet	invented
+oppfylle	meet
+oppfylt	fulfilled
+oppføring	entry
+oppførsel	conduct
+oppført	listed
+oppga	reported	stated
+oppgave	task
+oppgavene	tasks
+oppgaver	tasks
+oppgir	state
+oppgis	stated
+oppgitt	stated
+oppgjør	settlement
+opphav	copyright
+opphavet	origin
+opphevet	repealed
+opphold	stay
+oppholdet	stay
+oppholdt	stayed
+opphørte	ceased
+oppkalt	named
+opplag	edition
+oppland	catchment	oppland
+opplevd	experienced
+opplevde	experienced
+opplevelse	experience
+opplevelser	experiences
+opplever	experiences	experience
+oppleves	experienced
+opplysning	data	enlighenment
+opplysninger	information
+opplysningstiden	age of enlightenment
+opplyst	enlightened	stated
+opplæring	training
+oppløsning	solution
+oppløsningen	dissolution
+oppløst	dissolved
+oppmerksom	note
+oppmerksomhet	attention
+oppmerksomheten	attention
+oppmuntret	encouraged
+oppnå	achieve
+oppnådd	achieved
+oppnådde	achieve	achieved
+oppnår	achieve
+opposisjon	opposition
+opposisjonelle	opposition
+opposisjonen	opposition
+oppover	up
+opprette	create
+opprettelsen	creation
+opprettet	created
+opprettholde	maintain
+opprettholder	maintains
+opprettholdt	maintained
+opprinnelig	originally
+opprinnelige	original
+opprinnelse	origin
+opprinnelsen	the origin
+opprustning	upgrading
+opprør	rebel
+opprørere	rebels
+opprørerne	rebels
+opprøret	rebellion
+oppsikt	under watch	attention
+oppslutning	support
+oppstandelse	resurrection
+oppsto	occurred
+oppstod	was
+oppstår	occurs
+oppstått	occurred
+opptak	recording
+opptar	oppupying
+opptatt	concerned
+opptil	up
+opptre	act
+opptreden	perfomence
+opptredener	performances
+opptrer	acts
+opptøyer	riots	riot
+oppvarming	heating
+oppvarmingen	heating	warming
+oppvekst	childhood
+oppveksten	growing up	childhood
+oppvokst	raised
+opus	opus
+or	or
+oransje	orange
+ord	word
+ordbok	dictionary
+ordbøker	dictionaries
+orden	order
+ordene	the words
+ordenen	order
+ordforråd	vocabulary
+ordforrådet	vocabulary
+ordfører	mayor
+ordinære	ordinary
+ordnet	arranged
+ordning	sheme
+ordningen	scheme	sheme
+ordre	orders
+organ	organ
+organer	organs	bodies
+organisasjon	organization	organisation
+organisasjonen	organization
+organisasjonens	organization	organisations
+organisasjoner	organizations
+organisere	organize
+organisering	organization
+organiseringen	organization
+organisert	organised	organized
+organiserte	organized
+organisk	organic
+organismer	organisms
+orgel	organ
+orientalske	oriental
+orientering	orientation
+orientert	oriented
+original	original
+originale	original
+orkester	orchestra
+orleans	orleans
+ortodokse	orthodox
+os	os
+oscar	oscar
+oseania	oceania
+oskar	oskar
+oslo	oslo
+oslofjorden	oslofjorden
+oslos	oslos	oslo
+osmanske	ottoman
+oss	us
+ost	cheese	chees
+osv	etc.
+ottar	ottar
+otto	otto
+ottomanske	ottoman
+ove	ove
+ovenfor	above
+ovennevnte	above
+over	over
+overalt	everywhere
+overbevise	convince
+overbevisning	cinviction	conviction
+overbevist	convinced
+overdreven	excessive
+overflate	surface
+overflaten	surface
+overfor	to	towards
+overfører	transfers
+overføres	transferred
+overføring	transmission
+overført	transferred
+overgang	transition
+overgangen	the transition
+overgi	surrender
+overgrep	abuse
+overhode	head of
+overhodet	whatsoever
+overkant	of kent	slightly more than
+overlapper	overlap
+overlevd	survived
+overlevde	survived
+overleve	survives
+overlevende	surviving, survivors	survived
+overlever	survives
+overlot	left
+overnaturlige	supernatural
+overordnede	overall
+overraskende	surprising
+overrasket	suprised	surprised
+oversatt	translated
+oversatte	translated
+oversettelse	translation
+oversettelsen	translation
+oversettelser	translations
+oversikt	overview
+oversikten	overview
+overskudd	profit
+overta	take over
+overtalt	persuaded
+overtatt	taken over
+overtok	acquired	it took over
+overtro	superstition
+overveiende	predominantly
+overveldende	survived
+owen	owen
+oxford	oxford
+p	p
+paa	on
+pablo	pablo
+pakistan	pakistan
+pakistans	pakistans
+pakt	pact
+palace	palace
+palestina	palestine
+palestinere	palestinians
+palestinerne	palestinians
+palestinsk	palestinian
+palestinske	palestinian
+palmas	palmas
+pan	pan
+panama	panama
+pandemi	pandemic
+par	couple
+paraguay	paraguay
+parallell	parallel
+parallelle	parallel
+paralleller	parallels
+parallellogram	parallellogram	parallelogram
+parallelt	parallel
+parc	parc
+paret	the pair
+paris	paris
+park	park
+parken	park	the park
+parker	parks
+parkinsons	parkinson
+parlament	parliament
+parlamentarisk	parliamentary
+parlamentariske	parliamentary
+parlamentarisme	parliamentarism
+parlamentarismen	parliamentarism
+parlamentet	parliament
+parlamentsvalget	parliamentary elections
+part	party
+partene	the parties
+parter	parties
+parti	party
+partiene	parties
+partier	parties
+partiet	party
+partiets	party
+partikler	particles
+partikulare	partikulare	particulate	particulare	particular
+partileder	chairman
+partisipp	participle
+pasienten	patient
+pasientene	patients
+pasientens	patient
+pasienter	patients
+pass	pass
+passasjerer	passengers
+passende	appropriate
+passere	pass
+passerer	passes
+passerte	passed
+passet	fit
+passiv	passive
+pastor	pastor
+patrick	patrick
+pattedyr	mammals
+pattedyrene	mammals
+paul	paul
+paulus	paulus
+pause	break	pause
+pc	pc
+pedagogiske	educational
+peder	peder	therapists
+peer	peer
+peke	point
+peker	points
+pels	fur
+pelsdyr	fur animals	fur
+pengene	money
+penger	money
+penis	penis
+penn	pen
+pennsylvania	pennsylvania
+peoples	peoples
+per	and
+perfekt	perfect
+perfektum	past
+periodene	periods
+perioder	periods
+periodesystemet	periodic table
+periodiske	periodic
+permanent	permanent
+permanente	permanent
+perserne	persians
+persia	persia
+persisk	persian
+persiske	persian
+person	person
+personell	personnel
+personen	person
+personene	persons	people
+personer	persons
+personlig	personal
+personlige	personal
+personlighet	personality
+personligheter	personalities
+personlighetsforstyrrelse	personality disorder	personality
+personlighetsforstyrrelser	personality disorders
+personlighetstrekk	personality traits
+perspektiv	perspective
+peru	peru
+pest	pest
+pesten	the plague	plague
+peter	peter
+peters	peters
+petersburg	petersburg
+peterskirken	saint peter's
+petroleum	petroleum
+petter	petter
+pettersen	pettersen
+pevensie	pevensie
+peyton	peyton
+pga	because
+phil	phil
+philip	philip
+philipp	philipp
+pi	pi
+pilleskrukketroll	armadillidiidae	magic pill	pillbug	pill-bug	magic pill jar
+pinsebevegelsen	pentecostalism
+pinsevekkelsen	pentecostal revival
+pirate	pirate
+pius	pius
+plager	complaints	problems
+plaget	botherd	bothered	tortured
+plan	plan
+planen	plan
+planene	plans
+planer	plans
+planet	plane
+planeten	planet
+planetene	planets
+planetens	planet	planets	the planet's
+planeter	planets
+planla	planned
+planlagt	planned
+planlagte	planned
+planlegging	planning
+plante	plant
+planter	plants
+plass	place	space
+plassen	square	space
+plasser	place
+plassere	place
+plasserer	place
+plasseres	placed
+plassering	location
+plasseringen	location
+plassert	placed
+plasserte	placed
+plata	record	plata
+platen	disc
+plateselskap	label
+plateselskapet	the record company	label
+platina	platinum
+platon	platon	plato
+platons	platons
+plattform	platform
+player	player
+pleide	used
+pleier	tend
+plikt	duty
+pluss	plus
+pluto	pluto
+plutselig	suddenly
+plyndret	plundered
+podenco	podenco
+podengo	podengo
+podgorica	podgorica
+poeng	points
+poengkonkurransen	points competition
+poesi	poetry
+poet	poet
+poeten	poet
+poeter	poets
+poetisk	poetic
+poetiske	poetic
+poker	poker
+polakker	poles
+polare	polar
+polen	pole	poland
+polene	poles
+polens	polands	coil
+politi	police
+politidistrikt	police district
+politiet	police
+politiker	politician
+politikere	politicians
+politikk	politics
+politikken	policy
+politisk	political
+politiske	political
+polpunktet	pole
+polsk	polish
+polske	polish
+pompeius	pompey
+pop	pop
+popmusikk	pop music
+popularitet	popularity	populartiy
+populasjoner	population
+populær	popular
+populære	popular
+populærkultur	pop culture	popular culture
+populærkulturen	popular culture
+populært	popular
+pornografi	pornography
+porsgrunn	porsgrunn
+port	port
+portal	portal
+porten	port
+porto	postage
+portrett	portrait
+portugal	portugal
+portugals	portugals
+portugiserne	portuguese
+portugisisk	portuguese
+portugisiske	portuguese
+portugues	portugals	portugues
+posisjon	position
+posisjonen	position
+positiv	positive
+positive	positive
+positivt	positive
+post	email
+postmodernisme	postmodernism
+potensial	potential
+potensiell	potential
+potensielle	potential
+poteten	potato
+poteter	potatoes
+potter	potter
+potterbøkene	potter books
+ppiller	pill
+pr	per
+praha	prague
+praksis	practice
+praktiserer	practice
+praktiseres	practiced
+praktisk	practical
+praktiske	practical
+preg	touch	character
+preger	characterize	mark
+preges	characterized
+preget	influenced
+premier	premier
+premiere	premiere
+premieren	premiere
+presens	present
+presentasjon	presentation
+presenterer	presents
+presentert	presented
+presenterte	presented
+president	president
+presidenten	president	the president
+presidentens	presidents
+presidenter	presidents	president
+presidentvalget	presidential election
+press	pressure
+presse	push
+pressen	the press
+presset	the pressure
+prest	priest
+prestene	priests
+preteritum	tense
+preussen	prussia
+primater	primates
+primitive	primitive
+primære	primary
+primært	primarily
+prins	prince
+prinsesse	princess
+prinsipp	principle
+prinsippene	doubt
+prinsipper	principles
+prinsippet	principle
+pris	rate
+prisen	price
+prisene	prices
+priser	prices
+privat	private
+private	private
+privilegier	privileges
+privilegium	privilege
+prix	prix
+problematisk	problematic
+problemene	problems
+problemer	problem
+problemet	problem
+produksjon	production
+produksjonen	production
+produkt	product
+produkter	products
+produktet	product
+produsentene	manufacturers
+produsenter	manufacturers
+produsere	produce
+produserer	produces
+produseres	produced
+produsert	produced
+produserte	produced
+profesjonell	professional
+profesjonelle	professional
+professor	professor
+profeten	prophet
+profeter	prophets
+profil	profile
+prognose	forecast
+program	program
+programmer	programs
+programmet	the program
+project	project
+pronomen	pronouns	pronoun
+propaganda	propaganda
+prosa	prose
+prosent	percent
+prosessen	process
+prosessene	processes
+prosesser	processes
+prosjekter	projects
+prosti	prostitution
+prostitusjon	prostitution
+protein	protein
+proteinene	proteins
+proteiner	proteins
+proteinet	protein
+protest	protest
+protestanter	protestants
+protestantisk	protestant
+protestantiske	protestant
+protestantismen	protestantism
+protester	protests
+protesterte	protested
+proton	proton
+protoner	protons
+provins	province
+provinsen	province
+provinsene	provinces
+provinser	provinces
+prøvd	tried
+prøvde	tried
+prøve	try	trial
+prøver	tries
+prøysen	prussia
+prøyssiske	prussian
+psykiatrisk	psychiatric
+psykiatriske	psychiatric
+psykisk	mental
+psykiske	mental
+psykolog	psychologist
+psykologer	psychologists
+psykologi	psychology
+psykologisk	psychological
+psykologiske	psychological
+psykose	psychosis
+psykoterapi	psychotherapy
+psykotiske	psychotic
+ptolemaios	ptolemy
+publikasjoner	publications
+publikum	audience
+publisere	publish
+publisert	published
+publiserte	published
+puerto	puerto
+pumper	pumps
+pund	pound
+punerne	punic	punics	the punic
+punkt	point
+punkter	points
+punktet	point
+på	on
+påbegynt	commenced
+påfølgende	subsequent
+påført	applied
+pågikk	pagikk	went on
+pågående	ongoing
+pågår	in progress
+pål	paul	pål
+pålagt	required
+påpekt	pointed out
+påske	easter
+påskedag	eastern sunday
+påsken	easter
+påstandene	claims
+påstander	claims
+påstått	alleged
+påvirke	affect
+påvirker	affects
+påvirkes	affected
+påvirket	affected
+påvirkning	impact
+påvirkningen	impact
+påvise	prove
+påvist	detected
+påviste	proven
+q	q
+queen	queen
+queens	queens
+quisling	quisling
+r	r
+rad	row
+radikal	radical
+radikale	radical
+radikaler	radical
+radikalt	radically
+radio	radio
+radiokanaler	radio channels
+radiostasjoner	radio stations
+radius	radius
+rafael	rafael
+ragnar	ragnar
+raketter	missiles
+rakk	managed
+rakkestad	rakkestad
+ramme	frame
+rammer	affects
+rammet	affected
+rana	rana
+randaberg	randaberg	randfontein
+rang	rank
+rap	rap
+rapport	report
+rapporten	report
+rapporter	reports
+rapportert	reported
+rapporterte	reported
+ras	avalanche
+rase	race
+rasen	race
+rasende	furious
+rasene	races
+raser	races
+rasisme	racism
+rasistiske	racist
+rask	fast
+raske	fast
+raskere	faster
+raskest	fastest
+raskeste	fastest
+raskt	quickly
+ray	ray
+raymond	reymond	raymond
+reagan	reagan
+reagerer	reacts
+reagerte	reacted
+reaksjon	reaction
+reaksjonen	reactions
+reaksjonene	reactions
+real	real
+realisme	realism
+realismen	realism
+realistene	the realists	realists
+realistiske	realistic
+realiteten	reality
+redaktør	editor
+redd	scared
+redde	save
+reddet	saved
+redigert	edited
+redskap	tool
+reduksjon	reduction
+redusere	reduce
+reduserer	reduces
+reduseres	reduced
+redusert	reduced
+reduserte	reduced
+reell	real
+reelle	reel
+reelt	real
+referanse	reference
+referanser	references
+referer	referring	refer
+referere	refer
+refererer	refers
+referert	refferd
+reflekterer	reflects
+reformasjon	reformation
+reformasjonen	reformation
+reformen	reform
+reformene	reforms
+reformer	reforms
+reformerte	reformed
+regel	rule
+regelen	rule
+regelmessig	regularly	regulary
+regi	auspices
+regime	regime
+regimer	regimes
+regimet	regiment
+region	region
+regional	regional
+regionale	regional
+regionen	region
+regionene	regions
+regioner	region
+regionråd	regional council
+regissert	directed
+regissør	director
+regissøren	director
+regissører	directors
+registrert	registered
+registrerte	registered
+regjerende	ruling
+regjering	government
+regjeringen	government
+regjeringens	government
+regjeringer	government
+regjeringsmedlemmene	government members
+regjeringssjef	government boss	government
+regjeringstid	reign
+regjerte	ruled
+reglene	rules
+regler	rules
+regn	rain
+regne	count on
+regner	reckon	counts
+regnes	considered
+regnet	rain
+regnskog	rainforest
+regulere	regulate
+regulerer	regular
+reguleres	regulated
+regulering	regulation
+reguleringer	regulations	regulation
+regulert	regulated
+regulære	regular
+rehabilitering	rehabilitating	rehabilitation
+reidar	reidar
+reise	travel
+reisen	journey
+reiser	travels	travel
+reist	raised
+reiste	traveled
+rekke	number of
+rekkefølge	order
+rekken	the line
+rekker	ranks	series
+reklame	advertising
+reklamen	advertising
+rekord	record
+rekorden	record
+rektor	principal
+rekved	driftwood
+relasjoner	relationships
+relatert	related
+relativ	relative
+relative	relative
+relativt	relatively
+religion	religion
+religionen	religion
+religionene	religions
+religioner	religions
+religionsfrihet	freedom of religion
+religiøs	religious
+religiøse	religious
+religiøst	religious
+ren	clean
+rene	clean
+renessanse	renaissance
+renessansen	renaissance
+renessansens	renaissance
+renner	runs
+rent	clear	clean	pure
+renter	interest
+replikker	lines
+representant	representative
+representantene	representatives
+representantenes	representatives
+representere	represent
+representerer	represents
+representert	represented
+representerte	represented
+reproduksjon	reproduction
+republikaner	republican
+republikanerne	republicans
+republikk	republic
+republikken	republic
+republikkene	republics
+residens	residence
+resolusjon	resolution
+respekt	respect
+respektert	respected
+respektive	respective
+respons	response
+ressurs	resource
+ressurser	resources
+restauranter	resturants
+restaurert	restored
+restene	remains
+rester	remains
+resterende	remaining
+restriksjoner	restrictions
+resultat	results
+resultatene	results
+resultater	results
+resultatet	the result
+resulterer	results
+resultert	resulted
+resulterte	resulted
+retning	direction
+retningen	direction
+retninger	directions
+retningslinjer	guidelines
+retorikk	rhetoric
+rett	right
+rette	correct
+retter	dishes
+rettet	directed
+rettferdig	justis	fair
+rettferdighet	justice
+retthvaler	balaenidae	right whales	type of whale
+rettighetene	rights
+rettigheter	moves	rights
+rettskrivningen	orthography	spelling
+rettssak	trial
+rettssaken	trial
+rettsvesen	judiciary
+returnerte	returned
+rev	fox
+revet	demolished
+revolusjon	revolution
+revolusjonen	revolution
+revolusjonær	revolutionary
+revolusjonære	revolutionaries
+rex	rex
+reykjavík	reykjavik
+rhinen	rhinen	rhine
+richard	richard
+richards	richards
+rico	rico
+ridder	knight
+riga	riga
+rihanna	rihanna
+rik	rich
+rikard	rikard	richard
+rikdom	wealth
+rike	rich
+rikelig	abundant
+rikeste	richest
+riket	empire
+rikets	empire's	empire
+riksdagen	parliament	national day
+riksdekkende	national
+riksvei	highway
+riktig	right
+riktige	right
+riktignok	indeed
+rim	rim
+rimelig	reasonable
+ring	call
+ringen	ring
+ringenes	rings
+ringer	rings
+ringerike	ringerike
+ringsaker	ringsaker
+ringvei	ring road
+rio	rio
+ripper	rip
+ris	rice
+risiko	risk
+risikoen	of risk	risk
+rittet	race
+ritualer	rituals
+rivalisering	rivalry
+ro	peace
+roald	roald
+robert	robert
+rock	rock
+rockeband	rock band
+rockens	rock
+rocky	rocky
+rogaland	rogaland
+rolf	rolf
+rolig	calm
+roll	roll
+rolle	role
+roller	roles
+rolling	rolling
+rom	room
+roman	novel
+romanen	novel
+romanene	riman
+romaner	novels
+romania	romania
+romansk	romanesque
+romanske	romans
+romantikken	the romance
+romantisk	romantic
+romas	romas
+romeo	romeo
+romerike	the roman empire
+romerne	romans
+romerriket	roman empire	the roman empire
+romerrikets	roman empire
+romersk	roman
+romerskkatolske	roman catholic
+rommer	holds
+rommet	room
+romsdal	romsdal
+romsonden	spacecraft	romsonden
+ron	ron
+ronald	ronald
+rooney	rooney
+rosa	pink	rosa
+rose	praise
+rosenborg	rosenborg
+roses	praised
+rot	rot
+rotasjon	rotation
+rotasjonen	rotation
+roterende	rotating
+roterer	rotates
+rousseau	rousseau
+rovdyr	predators
+rovpattedyr	beasts	carnivora
+royal	royal
+rss	rss
+rudolf	rudolf
+ruiner	ruins
+rumensk	romanian
+rumenske	romanian
+run	run
+rund	round
+runde	round
+rundt	around
+rune	rune
+rus	substance abuse
+rusmidler	drugs
+russ	russ
+russell	russell
+russere	russians
+russernes	russian	the russians'
+russisk	russian
+russiske	russian
+russiskortodokse	russian orthodox
+russlands	russias
+rute	rout
+ruten	rout
+ruter	routes
+ruud	ruud
+ry	reputation
+ryan	ryan
+rybak	rybak
+ryfylke	ryfylket	ryfylke
+rygg	back
+ryggen	back
+ryggraden	spine
+rykket	advanced
+rykte	reputation	rumor
+ryktene	rumors
+rykter	roumors	rumors
+rytme	rhythm
+råd	council
+råde	advise
+rådende	prevailing
+rådet	adviced
+rådgivende	advisory
+rådgiver	adviser	advisor
+rådgivere	advisors
+rådhus	town hall
+rådhuset	city hall
+råvarer	commodities
+rød	red
+røde	red
+rødlistet	red list
+rødspette	plaice	rodspette	related
+rødt	red
+rømme	sour cream
+rør	rudder	pipes
+røros	røros
+røtter	roots
+røyken	smoke
+røyking	smoking
+s	s
+sa	said
+saabye	saabye
+sabeltann	saber-tooth
+saga	saga
+sagaene	sagas
+sagn	legends	legend
+sagt	said
+sahara	sahara
+saint	saint
+sak	case
+saken	case
+sakprosa	non-fiction
+sakramentene	sacraments
+saksedyr	earwigs	earwig
+sakte	slow	slowly
+salg	sale
+salget	sales	sale
+salix	salix
+salmer	hymns
+salt	salt
+salten	salten
+salzburg	salzburg
+sam	sam
+samarbeide	cooperate
+samarbeider	work	cooperate
+samarbeidet	cooperate
+same	same
+samene	the sami people	sami
+samer	sami	samis
+samfunn	community
+samfunnet	community
+samfunnets	community's
+samhandling	interaction
+samisk	sami
+samiske	sami
+samkvem	relations
+samle	collect
+samlealbum	compilation
+samlebetegnelse	collectively
+samlede	total
+samleie	intercourse
+samlende	combined	unifying
+samler	collector
+samles	collected
+samlet	total
+samling	collection
+samlingen	collection
+samlinger	collections
+samlings	collections	collection
+samliv	cohabitation
+samme	the same	same
+sammen	together
+sammenfallende	coincide
+sammenheng	context
+sammenhengen	context
+sammenhengende	consecutive
+sammenhenger	contexts	context
+sammenlagt	overall
+sammenligne	compare
+sammenligner	comparing
+sammenligning	comparison
+sammenliknet	compared
+sammensatt	compound
+sammensatte	compound
+sammensetning	composition
+sammensetningen	composition
+samoa	samoa
+samspill	interaction
+samsvar	accordance
+samt	and
+samtale	conversation
+samtaler	calls
+samtid	contemporary
+samtiden	contemporary
+samtidens	contemporary
+samtidig	at the same time
+samtidige	simultaneous
+samtlige	all
+samuel	samuel
+samveldet	commonwealth
+sande	sande
+sandefjord	sandefjord
+sandnes	sandnes
+sang	song
+sangen	song
+sangene	songs
+sanger	songs
+sank	decreased
+sankt	saint
+sann	true
+sanne	true
+sannhet	truth
+sannheten	the truth
+sannsynlig	likely
+sannsynlige	probable
+sannsynlighet	likely	probability
+sannsynligvis	probably
+sans	sense
+sant	true
+santa	santa
+santiago	santiago
+sara	sara
+sarpsborg	sarpsborg
+satan	satan
+satellitt	satellite
+satire	satire
+satse	bet
+satser	focuses
+satset	bet
+satt	set
+saturn	saturn
+sauda	sauda
+saudiarabia	saudi-arabia
+sauer	sheep
+scenen	stage
+scener	scenes
+schizofreni	schizophrenia	schizofreni
+schwarzenegger	schwarzenegger
+scoret	scored
+scorte	scored
+scott	scott
+se	look
+sebastian	sebastian
+secret	secret
+sedimenter	sediments
+sees	be	seen
+seg	the
+segl	seal
+seier	victory
+seieren	victory
+seile	sail
+seilte	sailed
+seinere	later
+seire	victories
+seiret	victory
+sekretariatet	sektretariat	secretariat
+sekretær	secretary
+seks	six
+seksualitet	sexuality
+seksuell	sexual
+seksuelle	sexual
+seksuelt	sexually
+sektor	sector
+sektoren	sector
+sekulære	secular
+selge	sell
+selger	sell
+selges	sold
+selskap	company
+selskaper	companies
+selskapet	the company
+selskapets	company
+selv	even
+selvbiografi	autobiography
+selve	the
+selvmord	suicide
+selvsagt	of course
+selvstendig	independent
+selvstendige	independent
+selvstendighet	independence
+selvstyre	autonomy
+selvstyrte	autonomous
+semifinalen	semifinals
+sen	late
+senatet	senate
+senator	senator	sen.
+senatorer	senators
+sende	send
+sendes	is/are sent
+sendinger	broadcasts
+sendt	sent
+sendte	sent
+sene	late
+senere	later
+senest	later than
+seneste	latest	recent
+senke	lower	sink
+senket	lowered
+sensur	censorship
+sent	late
+senter	center
+senterpartiet	the center party	the centre
+sentral	sentral	central
+sentralasia	central asia
+sentralbanken	the central bank	central bank
+sentralbyrå	statistics bureau
+sentrale	sentral	central
+sentraleuropa	central europe
+sentralt	central
+sentrert	centered
+sentrum	center
+sep	september
+separat	separately
+separate	separate
+september	september
+ser	see
+serbere	serbs
+serbia	serbia
+serbisk	serbian
+serbiske	serbian
+seremoni	ceremony
+seremoniell	ceremonial
+seremonielle	ceremonial
+seremonien	ceremony
+serie	serie	series
+seriens	series
+serier	series
+series	series
+service	service
+ses	is
+sesam	sesame	sesam
+sesong	season
+sesongen	season
+sesongene	seasons
+sesonger	seasons
+sete	seat
+setning	sentence
+setningen	sentence
+sett	seen
+sette	set
+setter	sets
+settes	put	be
+severdigheter	sights
+sex	sex
+seymour	seymour
+shagrath	shagrath
+shakespeares	shakespeares
+shaw	shaw
+shetland	shetland
+shiva	shiva
+show	show
+showet	show
+si	say
+sibir	sibir
+sicilia	sicilia
+side	page
+siden	since
+sidene	pages
+sider	sides
+sier	said	says
+sierra	sierra
+sies	said
+sifadda	sifadda
+sig	his
+sigbjørn	sigbjørn
+sigdal	sigdal
+sigmund	sigmund
+signaler	signals
+signe	signings
+signert	signed
+signerte	signed
+sigrid	sigrid
+sigurd	sigurd
+sikker	safe
+sikkerhet	security
+sikkerhetsråd	security council
+sikkerhetsrådet	security
+sikkert	certainly
+sikre	ensure
+sikrer	ensures
+sikret	secured
+sikt	term
+sikte	view
+silenoz	silenoz
+silva	silva
+simpsons	simpsons
+sin	his
+sine	their
+singapore	singapore
+singel	single
+singelen	single
+single	single
+singlen	single	the single
+singlene	singles
+singler	singles
+sinn	mind
+sinne	anger
+sint	angry
+sir	sir
+sirkel	circles
+sirkulasjon	circulation
+sist	last
+siste	last
+sistemandatet	last mandate
+sistnevnte	the latter
+sitat	sitat
+sitater	quotes
+sitt	its
+sitte	sit
+sittende	sitting
+sitter	sits
+sittet	been	sat
+situasjon	situation
+situasjonen	situation
+situasjoner	situations
+siv	reed	siv
+sivil	civil
+sivilbefolkningen	civilians
+sivile	civil
+sivilisasjon	civilization
+sivilisasjonen	civilization
+sivilisasjoner	civilizations
+sjakk	schess	chess	check
+sjakkmatt	check-mate	check mate	checkmate
+sjanger	genre
+sjangeren	genre
+sjangre	genres
+sjanse	chance
+sjansen	chance
+sjef	boss
+sjefen	manager
+sjel	soul
+sjelden	rarely	rare
+sjeldent	rare
+sjeldne	rare
+sjeldnere	less
+sjette	sixth
+sjiamuslimer	shia muslims
+sju	seven
+sjø	sea
+sjøen	sea	the sea
+sjøer	lakes
+skadd	injured
+skade	injury
+skadelig	harmful
+skadene	damage
+skader	damage
+skadet	damaged
+skaffe	get
+skaffet	obtained
+skagerrak	skagerrak
+skal	to	should
+skala	scale
+skall	shell
+skandinavia	scandinavia
+skandinaviske	scandinavian
+skansen	skansen
+skape	made
+skapelsen	creation
+skaper	creates
+skaperen	creater	creator
+skapes	created
+skapninger	creatures
+skapt	made
+skapte	created
+skarp	sharp
+skarpe	sharp
+skarpt	sharp
+skatt	tax
+skattene	treasures
+skatter	taxes
+skavlan	skavlan
+skei	unequal
+skeptisk	skeptical
+skeptiske	skeptical
+ski	ski
+skien	skien	ski
+skifte	change
+skiftende	changing
+skifter	changes
+skiftet	shift
+skikk	conduct
+skikkelse	figure
+skikken	tradition
+skikker	customs
+skildrer	portrays
+skildret	depicted
+skildring	description
+skildringer	depictions
+skille	separate
+skilles	separated
+skillet	boundary
+skilsmisse	divorce
+skilt	signs
+skilte	separated	divorced
+skip	ship
+skipene	ships
+skipet	ship
+skipsfart	shipping
+skiskyting	biathlon
+skje	happend
+skjebne	fate
+skjedd	happend
+skjedde	happend
+skjelettet	skeleton
+skjer	is
+skjold	shield
+skjul	hide
+skjult	hidden
+skjulte	hidden
+skjønnhet	beauty
+skjønnlitteratur	fiction
+skjønnlitterære	fiction
+skjønt	though
+skjøt	shot
+skog	forest
+skogen	the woods
+skogene	the woods
+skoger	forests
+skole	school
+skolegangen	education
+skolen	school
+skolene	schools
+skoler	schools
+skotsk	scottish
+skotske	scottish
+skottland	scottland
+skottlands	scottland's
+skram	scratches
+skrev	wrote
+skrevet	written
+skrift	font
+skriftene	fonts
+skrifter	fonts
+skriftlig	written
+skriftlige	written
+skriftspråk	written language	written
+skritt	step
+skrive	write
+skriver	writes
+skrives	written
+skudd	shot	shots
+skuespill	play	plays
+skuespiller	actor
+skuespillere	actors
+skuespilleren	actor
+skuespillerne	actors
+skuespillet	play
+skuffelse	disappointment
+skulle	was
+skulpturer	sculptures
+skyer	clouds
+skyld	sake
+skylden	blame
+skyldes	caused	due to the fact
+skyldig	guilty
+skyldtes	was due to
+skyte	shoot
+skåret	cut
+slag	battle
+slaget	battle
+slagmarken	battlefield
+slags	kind of
+slagskipet	the battleship	battle ship
+slange	snake
+slangen	hose	snake
+slanger	snakes
+slapp	released
+slash	slash
+slavene	slaves
+slaver	slaves
+slaveri	slavery
+slaveriet	slavery
+slaviske	slavic
+slekt	family
+slekten	family
+slekter	generations
+slektninger	relatives
+slektskap	kindred	kinship
+slet	struggled
+slette	delete
+slettene	plains
+slik	so
+slike	such
+slikt	such	such a
+slim	mucus
+slippe	drop
+slipper	release	releases
+slippes	released
+slo	beat
+slott	castle
+slottet	castle
+slovakisk	slovak
+slovenia	slovenia
+sluppet	released
+slutt	end
+slutte	stop
+slutten	end
+slutter	stops
+sluttet	ended
+sluttspillet	playoffs
+slå	turn
+slår	turn	beats
+slås	fought
+slåss	fighting
+slått	beaten	off	switched
+smak	taste
+smal	narrow
+smale	narrow
+smeltet	melted
+smerte	pain
+smerter	pains
+smith	smith
+smittet	infected
+små	small
+snabelen	trunk
+snakk	talk
+snakke	talk
+snakker	talks
+snakkes	spoken
+snakket	spoke
+snarere	rather
+snart	soon
+snill	nice
+snitt	average
+snorre	snorre
+snu	turn
+snus	reversed
+snø	snow
+snøen	snow
+snøfall	snowfall
+sofia	sofia
+sofie	sofie
+sogn	parish	sogn
+sokrates	socrates	sokrates
+sol	sun
+sola	the sun
+solbakken	solbakken
+solberg	solberg
+solceller	solar cells
+soldat	soldier
+soldatene	graduation
+solen	sun
+solenergi	solar
+solens	suns	sun
+solgt	sold
+solheim	solheim
+solidaritet	solidarity
+sollys	sun light	sunlight
+solnedgang	sunset
+solo	solo
+solskjær	solskjær
+solsystemet	solar system
+solveig	solveig
+solvinden	solar wind
+som	as
+somalia	somalia
+sommer	summer
+sommeren	summer
+sommerol	summer sun
+somre	summers
+sonden	sonden
+sone	zone
+sonen	sone
+soner	zones
+sony	sony
+sorg	grief
+sort	black
+sorte	black
+sortert	sorted
+sortland	sortland
+sosial	social
+sosialdemokratiske	social democratic
+sosiale	social
+sosialisme	socialism	sosialism
+sosialismen	sosialism	socialism
+sosialistisk	socialist
+sosialistiske	socialist
+sosialt	social
+sosiologi	sociology
+soul	soul
+sove	sleep	sleeping
+sovjet	soviet
+sovjeterne	the soviets
+sovjetisk	soviet
+sovjetiske	sovjet
+sovjetrepublikks	soviet republics
+sovjetrusserne	the soviets
+sovjetrussiske	soviet
+sovjettiden	soviet era
+sovjetunionen	soviet union
+sovjetunionens	soviet union
+sp	sp
+spania	spain
+spanias	spains
+spaniel	spaniel
+spanjolene	spanish
+spansk	spanish
+spanske	spanish
+spanskesyken	spanish flu
+sparken	park
+sparket	fired
+sparta	sparta
+spears	spears
+special	special
+spedalskhet	leprosy
+spekter	range
+spekteret	spectrum
+spektrum	spektrum
+spekulasjoner	speculation	speculations
+spekulert	speculated
+spellemannprisen	grammy award
+spennende	exciting
+spenner	buckles	range
+spenning	tension	voltage
+spesialisert	specialized
+spesialiserte	specialized
+spesiell	special
+spesielt	particularly
+spesifikk	specific
+spesifikke	spesific
+spesifikt	spesific	specifically
+spill	games
+spille	play
+spiller	player
+spillere	players
+spilleren	player
+spillerne	player
+spilles	played
+spillet	game
+spillets	game
+spilt	played
+spilte	played
+spise	eating
+spiseforstyrrelse	eating disorder
+spiseforstyrrelser	eating disorder
+spiser	eats	eat
+spiserøret	esophagus
+spiss	attacker	peak
+spissen	tip
+spist	eaten
+spiste	ate
+spitsbergen	spitsbergen
+splittelse	division
+splittet	split
+sponheim	sponheim
+spor	track
+sporene	tracks
+spores	traced	be traced
+sporet	track
+sport	sport	sports
+sporten	sport
+spotify	spotify
+sprang	ran	blew up
+spre	spread
+spredd	spread
+spredde	spread
+spredning	spread
+spredt	spread
+spredte	spread
+sprekker	cracks
+sprer	spread
+springer	springs
+springsteen	springsteen
+springsteens	springsteen
+språk	language
+språkbruk	parlance	language use
+språkene	languages
+språket	language
+språklige	linguistic
+spurt	sprint	asked
+spør	asks
+spørsmål	questions
+spørsmålene	track templates
+spørsmålet	question
+sri	sri
+ss	ss
+ssb	ssb
+ssr	ssr
+st	st.
+stabil	stable
+stabile	stable
+stabilitet	stability
+stabilt	stable
+stadig	constantly	more
+stadige	constant
+stalin	stalin
+stalins	stalins
+stall	stable
+stamford	stamford
+stamme	strain
+stammen	trunk
+stammene	tribes
+stammer	strains
+stan	stan
+stand	able
+standard	standard
+standarden	standard
+standardisert	standardized
+standardiserte	standardized
+standpunkt	stance
+stang	stang
+stanley	stanley
+stanse	stop
+stanset	stopped
+start	start
+starte	start
+starten	start
+starter	starts
+startet	started
+stasjon	station
+stasjonen	station
+stasjoner	stations
+stasjonert	stationed
+stasjonsby	railway	railway town
+stat	state
+staten	state
+statene	states
+statens	state
+stater	states
+staters	states
+states	state
+statistikk	statistics
+statistikken	statistics	stats
+statistisk	statistically
+statistiske	statistician	statistical
+statlig	state
+statlige	state
+statsborgere	citizens
+statsborgerskap	citizenship
+statskupp	coup
+statsminister	prime minister
+statsministeren	the prime minister	prime minister
+statsministre	prime ministers	stateminister
+statsoverhode	head of state
+statsråd	minister
+statssekretærer	state secretaries
+statsterrorisme	state terrorism
+statuen	statue
+statuer	statues
+status	status
+stavanger	stavanger
+sted	place
+stede	present
+stedene	places
+steder	sites
+stedet	nstead	location
+steen	steen
+steg	step	increased
+steget	the step
+stein	stone
+steinar	steinar
+steiner	stones
+stemme	vote	voice
+stemmen	voice
+stemmene	vote
+stemmer	votes
+stemmerett	vote
+stemt	vote	voted
+stemte	voted	match
+stengt	closed
+stephen	stephen
+sterk	strong
+sterke	stron	strong
+sterkere	stronger
+sterkest	strongest
+sterkeste	strongest
+sterkt	strong
+sterling	sterling
+steve	steve
+steven	steven
+stewart	stewart
+stian	stian
+stiftelsen	foundation
+stiftet	founded
+stige	rise	ascend
+stigende	rising
+stiger	rises
+stikkpiller	suppository	suppositories	supositories
+stiklestad	stiklestad
+stil	style
+stilen	style
+stille	the	quiet
+stillehavet	pacific
+stilles	be
+stilling	position
+stillingen	positions	position
+stillingene	positions
+stilt	set
+stilte	asked
+stimulere	stimulate
+stjerne	star
+stjernen	star
+stjernene	stars	the stars
+stjernens	stars	the star
+stjerner	stars
+sto	was
+stockholm	stockholm
+stod	was
+stoff	fabric
+stoffer	substances
+stoltenberg	stoltenberg
+stoltenbergs	stoltenberg
+stone	stone
+stones	stones
+stopp	stop
+stoppe	stop
+stopper	stop
+stoppet	stopped
+stor	big
+storbritannia	great britain
+storbritannias	united kingdom's
+storbyer	cities
+stord	stord
+store	large
+stores	great
+storhetstid	golden age
+storkors	the grand cross
+storm	storm
+stormaktene	great powers
+stormer	storms
+stormester	grand master	grandmaster
+stort	large	big
+storting	parliament
+stortinget	parliament
+stortingets	storting
+stortingsvalg	parliamentary elections
+stortingsvalget	general election	norwegian parliamentary election
+straff	penalty
+straffer	penalties
+straffet	punished
+strakk	stretched
+straks	immediately
+strakte	stretched
+strand	beach
+stranda	beach
+strasberg	strasberg
+strategi	strategy
+strategien	strategy
+strategisk	strategic
+strategiske	strategic
+strauss	strauss
+street	street
+strekningen	stretch
+streng	string
+strenge	strict
+strengt	strictly	strict(ly)
+stress	stress
+strid	violation	vialation
+striden	battle	the battle
+stridigheter	contentions
+stridsvognene	tanks
+stridsvogner	tanks
+strihåret	wirehaired
+stripe	strip
+striper	stripes
+strukturelle	structural
+strukturen	structure
+strukturer	structures
+strylav	strylav	usnea
+strålende	briliant
+stråling	radiation
+strøk	areas
+strøket	district
+strøm	power
+strømmen	flow	migrate upstream
+strømmer	streams	flows
+strømninger	currents
+strømsø	strømsø
+stuart	stuart
+student	student
+studentene	students	the students
+studenter	students
+studere	study
+studerer	study
+studert	studied
+studerte	studied
+studie	study
+studien	study
+studiene	studies
+studier	studies
+studiet	study	studie
+studio	studio
+studioalbum	studio album
+study	study
+stund	time
+stykke	piece
+stykkene	the pieces	pieces
+stykker	pieces
+stykket	play	the play
+style=backgroundffee	style=backgroundffee
+styre	board of directors
+styrer	control
+styres	controlled
+styresett	governance
+styret	board
+styring	management
+styrke	strenght	strength
+styrken	strength
+styrkene	forces
+styrker	forces
+styrket	strengthened
+styrt	controlled
+styrtet	crashed
+stå	stand
+stående	standing
+stål	steel	figures
+står	is
+ståsted	point of view
+stått	been
+støre	støre
+større	more
+størrelse	size
+størrelsen	size
+størrelser	size
+størrelsesklasse	magnitude	size class
+størst	biggest
+største	largest
+størstedelen	storstedelen
+støtte	support
+støtten	support
+støttenner	tusks
+støtter	support	supports
+støttes	supported
+støttespillere	supporters
+støttet	supported
+støv	dust
+støver	hound
+støy	noise
+subjekt	subject
+subjektet	subject
+subjektive	subjective	sunjective
+subkontinentet	subcontinent
+substans	substance
+subtropisk	subtropical
+sudan	sudan
+sugislekten	sugislekten	sugi family	cryptomeria
+sukker	sugar
+suksess	success
+suksessen	success
+suksessrike	successful
+sult	hunger
+sum	sum
+sumatra	sumatra
+summa	summa
+sund	sund
+sunde	sunde
+sunget	sung
+super	super
+sur	mad
+susan	susan
+suverene	sovereign
+suverenitet	sovereignty
+sv	sv
+svak	weak
+svake	weak
+svakere	weaker
+svakeste	weakest
+svakhet	weakness
+svakheter	weaknesses
+svakt	weak
+svalbardtraktaten	svalbard treaty
+svar	answares
+svare	answare
+svarer	answares
+svaret	answer
+svart	black
+svarte	black
+svartedauden	black death
+svartehavet	black sea
+svein	svein	journeyman
+sveits	swiss	switzerland
+sveitsisk	swiss
+sveitsiske	swiss
+svekke	weaken the	weaken
+svekket	impaired	weakened
+svelvik	svelvik
+sven	sven
+svensk	swedish
+svenska	swedish	the swedish
+svenske	swedish
+svenskene	swedes
+sverige	sweden
+sveriges	sweden's
+sverre	sverre
+sviktet	failed
+svovel	sulfur
+svært	very
+svøping	swaddling
+swift	swift
+syd	south
+sydlige	southern
+sydstatene	southern states
+sydvest	southwest
+sydvestlige	southwestern
+sydøst	south-east
+syfilis	syphilis
+syk	ill
+sykdom	disease
+sykdommen	the disease
+sykdommer	diseases
+syke	ill
+sykehus	hospital	hospitals
+sykehuset	hospital
+syklus	cycle
+symbol	symbol
+symboler	symbols
+symbolikk	symbolism
+symboliserer	sumbolizes
+symbolsk	symbolic
+symfoni	symphony
+sympati	sympathy
+symptomene	symptoms
+symptomer	symptoms
+syn	view
+synd	pity	sin
+syne	sight
+synes	seems
+synet	view
+synger	sings
+synke	sinking
+synkende	descending
+synker	drops	sinks
+synlig	visible
+synlige	visible
+synonymt	synonymous
+synspunkt	point of view
+synspunkter	views
+syntes	seemed
+sypresslekten	cupressus	sypresslekten	green tree	/	callitropsis	actinostrobus
+syria	syria
+system	system
+systematikk	systematics
+systematisk	cohort	systematic
+systematiske	systematic
+systemer	systems
+systemet	system
+syv	seven
+syvende	seventh
+så	so
+sådan	such	as such
+såkalt	so-called
+såkalte	so-called
+således	so
+sånn	so
+såpass	so
+sår	sar	wound
+sårbar	sarba	vulnurable
+sårede	injured
+såret	wound	hurt
+såvel	as well
+særdeles	particularly
+særegen	distinctive	peculiar
+særegne	distinctive
+særlig	particulary
+særlige	special
+særstilling	special position
+særtrekk	characteristics
+søkbar	searchable
+søke	apply	search
+søker	seek
+søkte	sentences don't make sense, or are impractial,	searched
+sølv	silver
+søndag	sunday
+søndagen	sunday
+søndre	southern
+sønn	son
+sønnen	son
+sønnene	son
+sønner	sons
+sønsteby	sonsteby
+sørafrika	south africa
+sørafrikanske	south african
+sørafrikas	south africa
+søramerika	south america
+søramerikanske	south american
+sørasia	south asia
+søren	søren
+sørge	ensure
+sørger	ensures	provides
+sørget	provided
+sørkorea	south korea
+sørlig	southerly
+sørlige	southern	south
+sørligste	most southerly
+sørnorge	south norway
+sørover	south
+sørsiden	south side
+sørstatene	the south
+sørtrøndelag	south trøndelag
+sørum	sørum
+sørvest	southwest
+sørvestlige	south western	south-western	southwestern
+sørøstasia	southeast asia
+sørøstlige	southeastern
+søsken	siblings
+søster	sister
+søsteren	sister
+søstre	sisters	sister
+søvn	sleep
+t	t
+ta	take
+tabell	table
+tabellen	the table
+taiwan	taiwan
+taj	taj
+tak	ceiling
+taket	roof
+takk	thank you
+takket	thanked
+takt	rate
+taktikk	tactic
+tale	speech
+talen	speech
+taler	speeches
+tales	spoken
+taliban	taliban
+tall	number
+tallene	numbers
+tallet	number
+tallets	s	century
+tallrik	multiply
+tallrike	numerous
+talsmann	spokesman
+talt	spoken
+talte	spoke
+tanke	thought
+tankegang	thinking	mindset
+tankegangen	thinking
+tanken	the thought	tank
+tankene	mind	thoughts
+tanker	thoughts	thoughs
+tante	aunt
+tanzania	tanzania
+tap	loss
+tape	tape
+tapet	loss
+tapte	lost
+tar	taking	takes
+tarjei	tarjei
+tarmen	the bowel	intestine
+tas	taken	be
+tatt	taken
+taylor	taylor
+te	te
+teater	theater
+teateret	theater
+teatret	theatre
+teen	teen
+tegn	signs
+tegneserier	comics
+tegnet	drawn
+tegning	drawing
+tegningene	drawings
+tegninger	cubes
+teigen	plot	teigen
+teisme	theism
+teknikk	technique
+teknikken	technique
+teknikker	techniques
+teknisk	technical
+tekniske	technical
+teknologi	technology
+teknologiske	technological
+tekst	text
+teksten	text
+tekstene	texts
+tekster	texts
+tel	tel
+telefon	telephone
+telefonen	telephone
+telefoner	phones
+telemark	telemark
+telle	count
+teller	counts
+tema	theme
+temaene	themes
+temaer	topics
+temmelig	rather
+tempel	temple
+temperatur	temperature
+temperaturene	temperatures
+temperaturer	temperature	temperatures
+temperert	temperate
+tempererte	temperate
+templer	temples
+tempo	pace
+tendens	tends
+tendensen	tendency
+tendenser	trends
+tenerife	tenerife
+tenke	think
+tenker	think	thinks
+tenkning	thinking
+tenkt	thought
+tenkte	thought
+tenner	teeth
+tennessee	tennessee
+teolog	theologian
+teologer	theologians
+teologi	theology
+teologisk	theological
+teologiske	theological
+teoretisk	theoretical
+teoretiske	theoretical
+teori	theory
+teorien	theory
+teoriene	the theories
+teorier	theories
+terapi	therapy
+terje	terje
+terreng	terrain
+terrenget	terrain
+territoriene	territories
+territorier	territories
+territoriet	territory
+territorium	terretorium
+terror	terror
+terrorangrep	terror attack	terrorist attacks
+terrorangrepet	terrorist attack
+terrorisme	terrorism
+terry	terry
+testamente	testament
+testamentet	testament
+tester	tests
+tett	close
+tette	dense
+tettere	closer
+tettest	densly
+tetthet	density
+tettheten	density
+tettstedene	towns
+tettsteder	towns
+tettstedet	village
+texas	texas
+th	th.
+thai	thai	tthai
+thailand	thailand
+thailands	thailands	thai
+thailandske	thai
+thats	that's
+theben	theben
+themsen	thames
+theodor	theodor
+thomas	thomas
+thor	thor
+thorbjørn	thorbjørn
+thumb|det	thumb | it
+thumb|fra	thumb fra
+thumb|kart	thunb map	thumb map
+ti	ten
+tibet	tibet
+tibetansk	tibetan
+tida	time
+tide	time
+tiden	time
+tidende	journal
+tidene	times
+tidenes	all time
+tidens	future
+tider	times
+tidlig	early
+tidlige	early	earlier
+tidligere	earlier	former
+tidligste	earlist
+tids	time
+tidsalder	age
+tidslinje	timeline
+tidspunkt	time
+tidspunktet	time
+tidsskrift	journal
+tidsskriftet	journals
+tidvis	at times
+tiende	tenth
+tiger	tiger
+tigre	tigers
+tilbake	back
+tilbakefall	recurrence
+tilbakegang	decline
+tilbaketrekning	withdrawal
+tilbakevendende	recurrent
+tilbrakte	spent
+tilbud	services	quotes	supply	offer
+tilbudet	offer
+tilbudt	offered
+tilby	offer
+tilbyr	offers
+tilbød	offered
+tildeles	the time	awarded
+tildels	partly
+tildelt	awarded
+tilegnet	dedicated
+tilfalt	accrued	devolved on
+tilfeldig	random
+tilfeldige	random
+tilfelle	case
+tilfellene	cases
+tilfeller	cases
+tilfellet	case
+tilflukt	refuge
+tilfriskning	recovery
+tilført	added
+tilgang	access
+tilgangen	access
+tilgjengelig	available
+tilgjengelige	available
+tilhenger	fan	trailer
+tilhengere	followers	supporters
+tilhengerne	supporters
+tilhøre	belong	belong to
+tilhørende	its
+tilhører	belongs to
+tilhørighet	affiliation
+tilhørte	belonged to
+tilknytning	connection
+tilknyttet	associated
+till	till
+tillagt	assigned
+tillatelse	permission
+tillater	allows
+tillatte	permitted
+tillegg	also
+tillit	confidence
+tillot	allowed
+tilnavnet	epithet
+tilnærmet	approached	approximately
+tilnærming	approach
+tilpasse	adapt
+tilpasset	dapted
+tilsatt	added
+tilskrives	attributed
+tilskudd	grants
+tilskuere	watchers	spectators
+tilslutning	support
+tilstanden	condition
+tilstander	conditions
+tilstede	present
+tilstedeværelsen	presence
+tilstrekkelig	sufficient
+tilsvarende	similar
+tilsvarer	equivalent	corresponding
+tilsvarte	corresponded
+tilsyn	supervision
+tilsynelatende	apparently
+tiltak	measures
+tiltakene	measures
+tiltalt	charged
+tiltrakk	attracted
+tiltrukket	attracted
+tiltrådte	took up
+tim	tim
+time	hour
+timer	hours
+ting	thing
+tingene	things
+tingrett	district court
+tinn	tin
+tippeligaen	tippeligaen
+titalls	tens of
+titanic	titanic
+titler	titles
+tito	tito
+tittel	title
+tittelen	title
+tiår	decades
+tiårene	decades
+tiåret	decade
+tjener	serve
+tjeneste	service
+tjenesten	the service
+tjenester	services
+tjente	served
+to	two
+tobakk	tobacco
+tog	trains
+toget	train
+tok	building	took
+tokyo	tokyo
+toleranse	tolerance
+tolga	tolga
+tolker	interpret
+tolkes	interpreted
+tolket	interpreted
+tolkien	tolkien
+tolkiens	tolkiens
+tolkning	interpretation
+tolkningen	interpretation
+tolkninger	interprtations	interpretations
+tolv	twelve
+tolvfingertarmen	duodenum
+tom	empty	tom
+tomme	emty	empty
+tone	tone
+tonn	tons
+tony	tony
+topografi	topography
+topp	top
+toppen	top
+topper	peaks
+toppet	topped
+tor	tor
+tora	tora
+torbjørn	torbjorn	torbjørn
+tore	tore
+torg	square
+torget	square
+toronto	toronto
+torp	torp
+torres	torres
+tors	thurs	tors
+torsdag	thursday
+torstein	torstein
+tortur	torture
+total	total
+totale	total
+totalt	total
+totalvekt	total weight
+toten	toten
+tourettes	tourettes	tourette's
+tower	tower
+tradisjon	traditions
+tradisjonell	traditional
+tradisjonelle	traditional
+tradisjonelt	traditionally
+tradisjonen	tradition
+tradisjonene	traditions
+tradisjoner	rock carving
+tradisjonsrike	traditional
+trafikken	traffic
+tragedie	tragedy
+tragedien	tragedy
+tragedier	tragedies
+tragiske	tragic
+traktaten	treaty
+traktater	treatis
+tranefugler	cranes	trans birds	common crane	tran birds	trans-birds	gruiformes
+trang	urge
+trange	narrow
+tre	three
+tredje	third
+tredjedel	a third
+tredjedeler	thirds
+tredjeplass	third place	third
+tree	tree
+treenighetslæren	the trinitarianism	trinity
+treet	tree
+treffe	meet
+treffer	meets
+trekk	moves	feature
+trekke	draw
+trekkene	features
+trekker	draws
+trekkes	be
+trekket	cover
+trenden	trend
+trener	trains
+trenge	need
+trenger	need	needs
+trengs	needs
+trengte	needed
+trening	traning
+trent	trained
+tretten	thirteen
+trier	trier
+trilogien	trilogy
+trinidad	trinidad
+trinn	step
+trives	thrives
+tro	believe
+trodd	believed
+trodde	thought
+troen	faith	belief
+troende	believers	belivers
+trolig	probably
+troll	troll
+trommer	drums
+troms	troms
+tromsø	tromsø
+tromøy	tromøy	tromsøy
+trond	trond
+trondheim	trondheim
+trone	throne
+tronen	thorne
+tropiske	tropical
+troppene	troops
+tropper	troops
+tror	belive
+tross	despite
+trossamfunn	communities
+trotskij	trotskij
+true	threaten	true
+truet	threatened
+truffet	hit
+trukket	drawn
+trusler	threats
+trussel	threat
+trusselen	threat
+tryggvason	tryggvason
+trygt	safe
+trykk	pressure
+trykke	press	pressing
+trykket	pressure
+trykt	safe	printed
+trysil	trysil
+tråd	line
+trådte	entered
+trær	trees
+trærne	the trees	trees
+trøndelag	trøndelag
+trøya	jersey
+trøye	jersey
+tsjekkisk	czech
+tsjekkiske	czech
+tsjekkoslovakia	czechoslovakia
+tsunamier	tsunamis
+tung	heavy
+tunge	heavy
+tungt	heavy
+tunisia	tunisia
+tunnel	tunnel
+tupac	tupac
+tur	tour
+turen	the trip	trip
+turisme	tourism
+turismen	tourism
+turister	tourists
+turistmål	tourist location	tourist
+turne	tour
+turneen	tour
+turneringen	tournament
+turné	tour
+tusen	one thousand
+tusener	tousends	thousands
+tusenvis	thousands
+tusenårssted	millennium place	millennium
+tussmørke	twilight
+tv	tv
+tvang	forced	force
+tvangstrøye	straitjacket
+tvedt	tvedt
+tvers	across
+tvil	doubt
+tvilsomt	doubtful
+tvinge	force
+tvserie	television series
+tvserien	television series
+tvunget	forced
+twilight	twilight
+tydelig	clearly
+tydelige	clear
+tydeligere	clearer
+tykk	thick
+tykke	thick
+tykktarmen	colon
+tyngre	heavier
+tynn	thin
+tynne	thin
+tynntarmen	small intestine
+tynt	thin
+type	type
+typen	type
+typene	types
+typer	types
+typisk	typical
+typiske	typical
+tyrkerne	turks
+tyrkia	turkey
+tyrkisk	turkish
+tyrkiske	turkish
+tysk	german
+tyske	german
+tyskere	germans
+tyskerne	germans	the germans
+tyskernes	germans
+tyskland	germany
+tysklands	germanys
+tyskromerske	german roman
+tyve	twenty
+tyvende	twentieth
+tåke	fog
+tåler	withstand
+tårn	tower
+tårnet	tower
+tórshavn	tórshavn
+tømmer	timber
+tønsberg	tønsberg
+tørke	drought
+tørr	dry
+tørrdis	haze	tørrdis	smog	tørridis
+tørre	dry
+tørreste	driest
+tørt	dry
+u	u
+uaktuelt	out of the question
+uansett	anyway
+uavgjort	draw
+uavhengig	independent
+uavhengige	independent
+uavhengighet	independence
+uavhengigheten	independence
+uavhengighetserklæringen	declaration of independence	eve no dress
+ubetydelig	negligible
+ud	ud
+uefa	uefa
+uendelig	infinity
+uenige	disagreed
+uenighet	diregreement	disagreement
+uganda	uganda
+ugress	weed	weeds
+uk	united kingdom	uk
+uka	week
+uke	week
+uken	week	the week
+ukentlig	weekly
+uker	weeks
+ukjent	unknown
+ukjente	unknown
+ukraina	ukraine
+ukrainere	ukrainians
+ukrainsk	ukrainian
+ukrainske	ukrainian
+ulik	different
+ulike	different
+ulikt	different
+ulovlig	illegal
+ulovlige	illegal
+ulrich	ulrich
+ulv	wolf
+ulven	wolf	the wolf
+ulver	wolfs
+ulvik	ulvik
+ulykken	accident	the accident
+ulykker	accidents
+umiddelbar	immediate
+umiddelbart	immediately
+umulig	impossible
+underart	subspecies
+underarter	subspecies
+underfamilie	subfamily
+underholdning	entertainment
+underhuset	under the house	subhouse
+underliggende	underlying
+underordnet	subordinate
+understreke	stress
+understreket	underlined
+undersøke	investigate
+undersøkelse	survey
+undersøkelsen	survey
+undersøkelsene	surveys	survey
+undersøkelser	surveys
+undersøkt	examined
+undertegnet	signed
+undertrykte	oppressed
+underveis	along the way
+undervisning	education
+undervisningen	education
+undset	undset
+unesco	unesco
+unescos	unescos
+ung	young
+ungarn	hungary
+ungarsk	hungarian
+ungarske	hungarian
+ungdom	youth
+ungdommer	older
+unge	young
+ungene	kids
+uniform	uniform
+unik	unique
+unike	unique
+unikt	unique
+unionen	union
+unionens	union
+unions	union
+unionsoppløsningen	dissolution of the union
+uniteds	uniteds
+universal	universal
+universell	universal
+universelle	universal
+universet	universe
+universitet	university
+universitetene	universities
+universiteter	universities
+universitetet	university
+universitetsforlaget	university publishing
+university	university
+unna	from
+unngikk	avoided
+unngå	avoid
+unnslippe	escape
+unntak	exception
+unntaket	exception
+unntatt	except
+uran	uranium
+uranus	uranus
+urban	urban
+urbane	urban
+urbefolkningen	indigenous
+urdu	urdu
+urfolk	indigenous
+uro	unrest
+uroen	ureon	turbulence
+us	us
+usa	usa
+usannsynlig	unlikely
+usas	the us	usa's
+usd	usd
+usedvanlig	exceptionally	peculiar
+usikker	not sure	uncertain
+usikre	unsafe	doubtful
+uss	uss
+ustabil	unstable
+ustabile	unstable
+ut	out
+utall	numerous
+utallige	countless
+utarbeidet	prepared
+utbredelse	propagation
+utbredelsen	distribution
+utbredte	widespread
+utbrudd	outbreaks
+utbruddet	outbreak
+utbygd	developed	expanded
+utbygget	developed
+utbygging	development	expansion
+utbyggingen	development	expansion
+utdannelse	education
+utdannet	educated
+utdanning	education
+utdelt	dealt
+utdypende	depth
+utdødd	extinct
+utdødde	extinct
+ute	out
+utelukke	rule
+utelukkende	only
+uten	without	no
+utendørs	outdors	outdoor
+utenfor	off
+utenlands	overseas	foreign
+utenlandsk	foreign
+utenlandske	foreign
+utenom	out
+utenriks	foreign
+utenriksdepartementet	ministry of foreign affairs
+utenriksminister	secretary of state
+utenrikspolitiske	foreign policy
+utesteder	clubs
+utfall	outcome
+utfordret	challenged
+utfordringer	challenges	challenge
+utformet	designet	designed
+utforming	design
+utformingen	design
+utforske	explore
+utforsket	explored
+utforskning	exploration
+utfyllende	supplementary
+utføre	perform
+utfører	perform
+utføres	performed
+utført	performed
+utførte	performed
+utga	published
+utgangen	end	exit
+utgangspunktet	principle
+utgav	published
+utgave	edition
+utgaven	edition
+utgaver	editions
+utgi	release
+utgis	published
+utgitt	released
+utgivelsen	the release
+utgivelser	releases
+utgjorde	was
+utgjør	is
+utgravninger	excavations
+utgår	expires	utgar
+utjevningsmandatet	equalization mandate
+utkanten	edge
+utkjempet	fought
+utkom	published
+utlandet	abroad
+utlendinger	foreigners
+utløp	expiry
+utløpet	end
+utløse	trigger
+utløst	triggered
+utløste	triggered
+utmattelse	fatigue
+utmerkelser	awards
+utmerket	excelled	excellent
+utnevner	appoints
+utnevnes	appointed
+utnevnt	appointed
+utnevnte	appointed
+utnytte	exploit
+utnyttelse	utilization
+utnytter	exploits
+utnyttet	exploited
+utover	beyond
+utpeker	appoints
+utpekes	designated	be appoited
+utpekt	designated
+utplassert	deployed
+utpreget	distinctly
+utpå	out on
+utredning	report	review
+utrenskninger	purges
+utrolig	restless
+utryddelse	extinction
+utryddet	extinct
+utsagn	statement
+utsatt	exposed
+utsatte	vulnerable
+utseende	appearance
+utsettes	is exposed	exposed
+utsikt	view
+utsira	utsira
+utslag	impact
+utslettet	destroyed
+utslipp	emission
+utspring	source
+utstilling	exhibition
+utstillingen	exhibition
+utstillinger	exhibitions
+utstilt	exhibited
+utstrakt	extensive
+utstrekning	extent
+utstyr	equipment
+utstyrt	equipped
+uttalelser	statements
+uttalen	pronunciation
+uttales	pronounced
+uttalt	stated
+uttrykk	expressed
+uttrykke	express	expressed
+uttrykker	express
+uttrykkes	expressed
+uttrykket	expression
+uttrykt	expressed
+uttrykte	expressed
+utvalg	range	selection
+utvalgt	selected
+utvalgte	selected
+utvide	expand
+utvidelse	expansion
+utvidelsen	the expansion
+utvidet	extended	expanded
+utvikle	develop
+utviklede	developed
+utvikler	develop
+utvikles	develops
+utviklet	developed
+utvikling	development
+utviklingen	development
+utviklingshjelp	development aid
+utviklingsland	developing countries
+utvilsomt	undoubtedly
+utvinnes	extracted	recovered
+utvist	expelled
+utøvende	executive
+utøver	exercise
+uvanlig	unusual
+v	v
+vadsø	vadsø
+vagina	vagina
+vakker	beautiful
+vakre	beautiful
+vakreste	beautiful
+vakt	watch
+vakte	evoked	caught
+valdres	valdres
+valg	choices
+valgene	elections
+valget	election
+valgkampen	election campaign
+valgresultatet	election result
+valgt	chosen
+valgte	selected
+valle	valle
+valley	valley
+valuta	currency
+valutaen	currency
+vampyr	vampire
+vampyren	vampire
+vampyrer	vampires
+van	van
+vandrer	migrate
+vandret	walked
+vang	enforcement	vang
+vanlig	normal
+vanlige	common	usual
+vanligere	common
+vanligste	common
+vanligvis	usually
+vann	water
+vannet	water
+vannkraft	hydropower
+vannkraftverk	hydropower plants
+vanskelig	difficult
+vanskelige	difficult
+vanskeligere	harder	difficult
+vanskeligheter	difficulties
+vansker	difficulties
+vant	won
+var	was
+vare	last
+varer	last
+varg	varg
+variant	variant
+varianten	variant
+varianter	variations
+variasjon	variation
+variasjoner	variations	varation
+variere	vary
+varierende	varying
+varierer	varies
+variert	varied
+varierte	varied
+varig	permanent	lasting
+varighet	duration
+varm	hot
+varme	heat
+varmen	the heat
+varmere	warmer
+varmeste	costume
+varmt	hot
+vart	was
+varte	dis
+vasco	vasco
+vassdrag	waterways
+vatikanstaten	vatican city	the vatican
+vediske	vedic
+vedkommende	he
+vedrørende	about
+vedtak	decision
+vedtaket	decision
+vedtatt	approved	adopted
+vedtok	adopted
+vedvarende	persistent
+vega	vega
+vegetasjon	vegetation
+vegetasjonen	vegetation
+vegne	behalf
+vei	way
+veide	weighed
+veie	weigh
+veien	road
+veier	roads
+veinettet	road network
+vekk	off
+veksler	alternate
+vekst	growth
+veksten	growth
+vekt	weight
+vekten	weight
+vektlegger	emphasizes
+vel	well
+veldig	very
+velferd	welfare
+velferdsstaten	welfare state
+velge	choose	select
+velger	choose
+velgerne	voters
+velges	selected
+velkjent	well-known
+velkjente	well-known
+vella	vella
+vellykkede	successful
+vellykket	successful
+velstående	affluent
+vende	turn
+vender	facing
+vendt	facing
+vendte	turned
+venera	venera
+venezia	venezia
+venezuela	venezuela
+venn	friend
+vennene	friends
+venner	friends
+vennskap	friendship
+vennskapsbyer	twin cities	twin towns
+venstre	left
+venstreorienterte	leftist
+venstreparti	venstre pary	left party
+venstresiden	leftside
+vente	expect	wait
+venter	waiting
+ventet	expected
+venus	venus
+vera	vera	nominative
+verb	verb
+verbet	verb	the verb
+verden	world	the world
+verdens	world
+verdensarven	world heritage
+verdensarvliste	worlds heritage list	world heritage
+verdensarvsteder	world heritage sites
+verdensbanken	world bank	worldbank
+verdensbasis	worldwide
+verdensbilde	worldview
+verdensdelen	part of the world
+verdensdeler	parts of the world
+verdenskrig	world	world war
+verdenskrigen	world war
+verdensmesterskapet	world championship
+verdensomspennende	worldwide
+verdensrommet	space
+verdi	value
+verdien	value
+verdiene	values
+verdier	values
+verdifulle	valuable
+verdighet	dignity
+verdslig	secular
+verdslige	secular
+verk	works
+verken	neither
+verkene	works
+verker	works
+verket	plant	work
+verksted	workshop
+verktøy	tools
+verlag	verlag
+verne	protect
+vernet	protection
+verre	worse
+vers	verse
+versailles	versailles
+versjon	version
+versjonen	version
+versjoner	versions
+verste	worst
+verv	office
+vervet	enlisted
+vesaas	vesaas
+vesen	being	vesser
+vesener	beings
+vesentlig	significant
+vesentlige	significant
+vest	west
+vestafrika	west africa
+vestagder	vest agder	vestagder
+vestberlin	west berlin
+vesten	west
+vesterålen	vests feet	vesterålen
+vesteuropa	western europe
+vesteuropeiske	west european
+vestfold	vestfold
+vestfronten	western front
+vestkysten	west coast
+vestlandet	west coast
+vestlig	western
+vestlige	western
+vestligste	westerly	westernmost
+vestmaktene	western powers
+vestnes	vestnes
+vestover	west
+vestre	western
+vestsahara	west sahara	western sahara
+vestsiden	the west side	west side
+vesttyskland	west germany
+vet	know
+veto	veto
+vg	vg
+vi	we
+via	by
+viborg	viborg
+victor	victor
+victoria	victoria
+vid	wide
+vidar	vidar
+vide	wide
+video	video
+videoen	video
+videre	further
+videreføre	continue	continued
+videreføring	continuation
+videreført	continued
+videreførte	continued
+videregående	secondary
+vidkun	vidkun
+vidt	wide
+viet	devoted
+vietnam	vietnam
+vietnamkrigen	vietnam war
+vigrid	vigrid
+vii	7th
+viii	eighth
+viis	sevenths	vii
+vik	vik
+viken	creek
+vikernes	vikernes
+viking	viking
+vikingene	vikings
+vikingenes	the vikings	vikings
+vikinger	vikings
+vikingtiden	viking
+viktig	important
+viktigere	important	more important
+viktigste	main
+vil	will
+vilhelm	vilhelm
+vilkår	conditions
+vilkårlig	arbitrarily
+vill	wild
+villa	villa
+ville	would
+villig	willing
+vilnius	vilnius	vilinius
+vin	wine
+vincent	vincent
+vinci	vinci
+vinden	wind
+vinder	winds
+vindmøller	windmills
+vinduer	windows
+vinje	vinje
+vinkelner	wine waiter	sommelier
+vinne	win
+vinner	win
+vinneren	winner
+vinteren	winter
+vinterkrigen	winter war
+vinterol	winter olympics	winter, etc.
+vintersolverv	winter solstice
+vinterstid	winter	winter time
+virke	work
+virkelig	really
+virkelige	real
+virkelighet	reality
+virkeligheten	reality
+virkemidler	measures
+virker	works
+virket	seemed
+virkningen	impact	effect
+virkningene	vikings
+virkninger	effects
+virksomhet	business
+virksomheten	business
+virksomheter	businesses
+virus	virus
+viruset	virus
+virveldyr	vertebrates
+vis	show
+vise	show
+visepresident	vice president
+viser	shows
+vises	is shown
+vishnu	vishnu
+visjon	vision
+viss	some
+visse	certain
+visste	knew
+vist	shown
+viste	knew
+visuelle	visual
+vitamin	vitamin
+vite	know
+viten	knowledge
+vitenskap	science
+vitenskapelig	scientific
+vitenskapelige	scientific
+vitenskapen	science
+vitenskapsmenn	scientists
+vitne	witness
+vitner	witnesses
+vladimir	vladimir
+vm	wc
+vognene	cars	carriages
+vogt	vogt
+vokal	vocal
+vokaler	vowels
+vokalist	vokalist
+vokse	grow
+voksen	adult
+vokser	grows
+voksne	adults
+vokst	grown
+vokste	grew
+vol	volume
+vold	violence
+volda	volda
+voldelig	violent
+voldelige	violent
+voldemort	voldemort
+voldsom	violent
+voltaire	voiltaire
+voltaires	voltaire	voltaires
+volum	volume
+von	von
+vorstehhund	pointing breed
+voss	voss
+vrangforestillinger	delusions
+vs	5th's
+vulkan	volcano	volcanic
+vulkanen	volcano
+vulkaner	volcanoes
+vulkansk	volcanic
+vulkanutbrudd	volcanic eruptions
+vunnet	won
+vurdere	assess
+vurderes	considered
+vurdering	assessment
+vurderinger	reviews
+vurdert	considered
+vurderte	rated
+våler	våler
+vålerenga	vålerenga
+våpen	weapons
+våpenet	weapon
+våpenhvile	truce
+våpenhvilen	truce
+våpnene	weapons
+vår	spring	our
+våre	our
+våren	spring
+vårt	our
+væpnede	armed
+væpnet	armed
+være	be
+værende	current
+været	weather brought to you	the weather
+vært	been
+væske	fluid
+w	w
+wales	wales
+walt	walt
+walter	walter
+warner	warner
+wars	wars
+warszawa	warsaw
+washington	washington
+water	water
+waterloo	waterloo
+wayne	wayne
+we	more than one
+wehrmacht	wehrmacht
+welhavens	welhavens
+wembley	wembley
+wergeland	wergeland
+wergelands	wergeland
+werner	werner
+western	western
+westminster	westminster
+white	white
+who	who
+wien	vienna
+wiki	wiki
+wikipedia	wikipedia
+wikipedias	wikipedia
+wilhelm	wilhelm
+william	william
+williams	williams
+wilson	wilson
+winston	winston
+with	with
+wittenberg	wittenberg
+wolfgang	wolfgang
+wolsey	wolsey
+wood	wood
+works	works
+wright	wright
+x	x
+xi	eleventh
+xii	xii	twelfth
+yngre	younger
+yngste	youngest
+yoko	yoko
+york	york
+your	your
+youtube	you tube	youtube
+ytre	outer
+ytringer	utterances
+ytringsfrihet	freedom of expression
+ytterligere	more
+ytterst	very
+z	z
+zealand	zealand
+zeitung	zeitung
+zeppelin	zeppelin
+zevs	zevs	zeus
+zimbabwe	zimbabwe
+zirkon	cubic zirconia	zircon
+zürich	zurich
+ cm	cm
+ kg	kg
+ km	km
+ km²	km^2
+ m	m
+ millioner	one million	millions
+ mm	and more
+  km²	km^2
+£	£	pounds
+°c	c
+à	a	to
+å	to
+ål	Ål
+ålesund	Ålesund
+ånd	spirit
+åndelig	spiritual
+ånden	spirit
+ånder	candidates	spirits
+åpen	open
+åpenbare	obvious
+åpenbaring	relevation
+åpenbart	apenbart	obviously
+åpenhet	transparency
+åpent	open
+åpner	open
+åpnet	inaugurate	opened
+åpning	opening
+åpningen	opening
+år	year
+åra	years
+årdal	Årdal	ardal
+årene	the years
+året	year
+årets	the years	year
+årevinger	arevinger	hymenoptera	årevinger	Årevinger
+århundre	century
+århundrene	the centuries	centuries
+århundrer	centuries
+århundret	century
+åring	year old
+årlig	annually
+årlige	annual
+års	years
+årsak	cause
+årsaken	the cause
+årsakene	causes
+årsaker	causes
+årsalderen	age
+årsdag	birthday
+årsmedalje	year medal	medal
+årstad	Årstad
+årstall	year
+ås	hill
+åsane	hills
+åse	Åse	åse
+åser	hills
+åtte	eight
+åttende	eighth
+ære	honor
+æren	honor
+æresgalleri	honorary gallery
+én	a
+ø	east
+ødela	destroyed
+ødelagt	destroyed
+ødelegge	destroy
+ødeleggelse	destruction
+ødeleggelser	destruction
+ødeleggende	devestating
+øke	increase
+økende	increasing
+øker	increases
+økning	increase
+økningen	increase
+økologiske	ecological
+økonomi	economy
+økonomisk	economic	financial
+økonomiske	economic
+økt	october
+økte	increased
+økumeniske	ecumenical
+øl	beer
+ønsker	would
+ønsket	wished
+ørene	ears
+ører	ears
+ørken	the desert	desert
+ørkenen	desert
+ørkenrotter	desert rat	orc rats	desert rats
+ørret	trout
+ørsta	Ørsta
+øst	east
+østafrika	east africa
+østalpene	eastern alps
+østasia	east asia
+østblokken	eastern block
+østen	east
+østerrike	austria
+østerrikes	austria's	austrias	the austrian
+østerrikeungarn	austria-hungary
+østerriksk	austrian
+østersjøen	baltic sea	the baltic
+østeuropa	eastern europe	east-europe
+østeuropeiske	eastern european
+østfold	Østfold
+østkirken	eastchuch
+østkysten	east coast
+østlandet	eastern norway
+østlig	eastern
+østlige	eastern
+østover	eastward	east
+østre	eastern
+østsiden	the east side	east side
+øverland	overland
+øverst	top
+øverste	top
+øverstkommanderende	highest in cammand	commander
+øvre	upper
+øvrig	other
+øvrige	other
+øy	island
+øya	island	the island
+øyas	islands
+øye	eye
+øyeblikk	immediately
+øyeblikkelig	immediately
+øyeblikket	moment
+øyene	islands	the eyes
+øyer	islands
+øyet	eye
+øygruppen	archipelago
+øyne	eyes
+øynene	eyes
+øystein	Øystein
+øyvind	Øyvind
