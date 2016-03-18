@@ -1,4 +1,3 @@
-tar -cvzf french.tar.gz French/
-aws s3 cp french.tar.gz s3://brendan.callahan/thesis/images/french.tar.gz
-python create-sample.py
-aws s3 cp french.tar.gz s3://brendan.callahan/thesis/images/french-sample.tar.gz
+python create-language-zip.py -l English
+aws s3 cp french.tar.gz s3://brendan.callahan/thesis/images/English-package.tar.gz
+aws s3 cp french.tar.gz s3://brendan.callahan/thesis/images/English-sample.tar.gz
