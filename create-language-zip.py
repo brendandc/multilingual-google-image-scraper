@@ -3,7 +3,9 @@ import os
 
 optparser = optparse.OptionParser()
 optparser.add_option("-l", "--language", dest="language", default="French", help="Language to package")
+optparser.add_option("-S", action="store_true", dest="skip_completed_words", help="Allows multiple passes so we can resume if any failures")
 (opts, _) = optparser.parse_args()
+
 BASE_DESTINATION_PATH = '/mnt/storage2/intermediate/'
 BASE_SOURCE_PATH = '/mnt/storage/'+opts.language+'/'
 BASE_TAR_PATH = BASE_DESTINATION_PATH + opts.language.lower()
@@ -15,20 +17,28 @@ sample_tar_path = BASE_DESTINATION_PATH + sample_tar_file_name
 if not os.path.exists(BASE_DESTINATION_PATH):
     os.makedirs(BASE_DESTINATION_PATH)
 
-tar_cmd = "tar cvf "+ big_tar_path+" --files-from /dev/null"
-os.system(tar_cmd)
-sample_cmd = "tar cvf "+ sample_tar_path+" --files-from /dev/null"
-os.system(sample_cmd)
+if not opts.skip_completed_words:
+    tar_cmd = "tar cvf "+ big_tar_path+" --files-from /dev/null"
+    os.system(tar_cmd)
+    sample_cmd = "tar cvf "+ sample_tar_path+" --files-from /dev/null"
+    os.system(sample_cmd)
 
-os.system("cd " + BASE_SOURCE_PATH + " && tar rf "+big_tar_path+" all_errors.json")
+    os.system("cd " + BASE_SOURCE_PATH + " && tar rf "+big_tar_path+" all_errors.json")
 
 targz_files = []
 for folder_name in os.listdir(BASE_SOURCE_PATH):
     print(folder_name)
     targz_file = folder_name + '.tar.gz'
     targz_path = BASE_DESTINATION_PATH + targz_file
-    add_folder_cmd = "cd " + BASE_SOURCE_PATH + " && tar -czf "+targz_path+" "+folder_name
     targz_files.append(targz_file)
+
+    # if skip completed words param was passed, and the filepath exists skip this and move onto the next
+    # assume there are no incomplete files (that they are cleaned up manually)
+    if opts.skip_completed_words and os.path.isfile(targz_path):
+        continue
+
+    add_folder_cmd = "cd " + BASE_SOURCE_PATH + " && tar -czf "+targz_path+" "+folder_name
+
     print(add_folder_cmd)
     os.system(add_folder_cmd)
 
