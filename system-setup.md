@@ -28,7 +28,8 @@ sudo mkfs -t ext4 /dev/xvdf
 sudo mount /dev/xvdf /mnt/storage
 sudo chown ubuntu:ubuntu /mnt/storage
 15. (Post-processing only) Setup hard drive for packaging to
-mkdir /mnt/storage2
+sudo mkdir /mnt/storage2
+sudo mkfs -t ext4 /dev/xvdg
 sudo mount /dev/xvdg /mnt/storage2
 sudo chown ubuntu:ubuntu /mnt/storage2
 16. In homedir, clone our repo: git clone git@github.com:brendandc/image-scraper.git
