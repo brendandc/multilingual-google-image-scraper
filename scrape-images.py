@@ -372,7 +372,10 @@ class GoogleImageScraper(object):
             # download anything
             if opts.skip_completed_words:
                 path_for_word = opts.base_image_path+opts.language+'/'+str(word_index)
-                num_files = len(os.listdir(path_for_word))
+                if os.path.exists(path_for_word):
+                    num_files = len(os.listdir(path_for_word))
+                else:
+                    num_files = 0
 
                 # if there are more than 3 files (word.txt, errors.json, metadata.json), we can more or less safely
                 # assume this was a successful run. if only 3 files then we want to re-download images for this word
