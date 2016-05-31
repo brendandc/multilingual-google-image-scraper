@@ -16,10 +16,12 @@ for filename in os.listdir(full_path):
 
             # skip the first word because it is the foreign word
             for word in translations[1:]:
+                all_english_words.add(word)
 
-                # skip if word had no translation
-                if foreign_word != word:
-                    all_english_words.add(word)
+all_english_words_list = list(all_english_words)
+words_per_batch = 10000
+words_by_batch = [all_english_words_list[i:i+words_per_batch] for i in range(0, len(all_english_words_list), words_per_batch)]
 
-with open(full_path+'\\english.superset', 'w', encoding='utf-8') as text_file:
-    text_file.write("\n".join(all_english_words))
+for i, word_batch in enumerate(words_by_batch):
+    with open(full_path+'\\english.superset'+"{0:0=2d}".format(i+1), 'w', encoding='utf-8') as text_file:
+        text_file.write("\n".join(word_batch))
