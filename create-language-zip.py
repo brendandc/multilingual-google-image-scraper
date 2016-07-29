@@ -3,14 +3,17 @@ import os
 
 optparser = optparse.OptionParser()
 optparser.add_option("-l", "--language", dest="language", default="French", help="Language to package")
+optparser.add_option("-b", "--bucket", dest="bucket", default="brendan.callahan.thesis", help="S3 bucket name")
+optparser.add_option("-p", "--prefix", dest="prefix", help="Alternate prefix for the filenames, default is lower case language name")
 optparser.add_option("-S", action="store_true", dest="skip_completed_words", help="Allows multiple passes so we can resume if any failures")
 (opts, _) = optparser.parse_args()
 
 BASE_DESTINATION_PATH = '/mnt/storage2/intermediate/'
 BASE_SOURCE_PATH = '/mnt/storage/'+opts.language+'/'
 BASE_TAR_PATH = BASE_DESTINATION_PATH + opts.language.lower()
-big_tar_file_name = opts.language.lower()+"-package.tar"
-sample_tar_file_name = opts.language.lower()+"-sample.tar"
+file_prefix = opts.prefix or opts.language.lower()
+big_tar_file_name = file_prefix+"-package.tar"
+sample_tar_file_name = file_prefix+"-sample.tar"
 big_tar_path = BASE_DESTINATION_PATH + big_tar_file_name
 sample_tar_path = BASE_DESTINATION_PATH + sample_tar_file_name
 
@@ -54,6 +57,13 @@ os.system(add_folders_cmd_sample)
 os.system("cd " + BASE_DESTINATION_PATH + " && mv " + big_tar_file_name + " ..")
 os.system("cd " + BASE_DESTINATION_PATH + " && mv " + sample_tar_file_name + " ..")
 
+package_upload_cmd = "aws s3 cp /mnt/storage2/" + big_tar_file_name + " s3://" + opts.bucket + "/packages/" + \
+                     big_tar_file_name
 
+sample_upload_cmd = "aws s3 cp /mnt/storage2/" + sample_tar_file_name + " s3://" + opts.bucket + "/samples/" + \
+                    sample_tar_file_name
+
+os.system(package_upload_cmd)
+os.system(sample_upload_cmd)
 
 
