@@ -280,18 +280,24 @@ class GoogleImageScraper(object):
         self.foreign_word_list = [line.strip().split('\t')[0] for line in open(opts.dictionary)]
 
         # build up a language-specific base link to start out with, before modifying it per each individual search term
-        # add on the hl field for all languages because if it is in our JSON file, it has a hl field
-        current_language_entry = full_language_arg_map[opts.language]
-        self.base_language_search_url = BASE_GOOGLE_IMAGE_SEARCH_LINK + '&hl=' + current_language_entry['hl']
+        self.base_language_search_url = BASE_GOOGLE_IMAGE_SEARCH_LINK
+
+        # if there are any language bindings in our google languages map for this language, pass those flags along
+        # otherwise, we'll use the default settings
+        if opts.language in full_language_arg_map:
+            current_language_entry = full_language_arg_map[opts.language]
+
+            # add on the hl field for all languages because if it is in our JSON file, it has a hl field
+            self.base_language_search_url += '&hl=' + current_language_entry['hl']
+
+            # the lr field is present in some but not all of the language possibilities in the JSON config file
+            if len(current_language_entry['lr']) > 0:
+                self.base_language_search_url += '&lr=' + current_language_entry['lr']
 
         # parse a json file with common user-agent strings to customize, file was generated from some reasonable
         # lists on http://whatsmyuseragent.com
         with open(opts.user_agent_list, encoding='utf-8') as data_file:
             self.user_agent_list = json.loads(data_file.read())
-
-        # the lr field is present in some but not all of the language possibilities in the JSON config file
-        if len(current_language_entry['lr']) > 0:
-            self.base_language_search_url += '&lr=' + current_language_entry['lr']
 
     # accessor method for incrementing the count of errors for a class
     def increment_error_count_for_class(self, error_class):
