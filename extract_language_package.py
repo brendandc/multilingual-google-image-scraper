@@ -21,7 +21,6 @@ for inner_filename in glob.glob(full_destination_path+"/*.tar.gz"):
     inner_untar_command = "tar -xvzf " + inner_filename + " -C " + full_destination_path
     print(inner_untar_command)
     os.system(inner_untar_command)
-
-delete_intermediate_files_command = "rm " + full_destination_path + "/*.tar.gz"
-print(delete_intermediate_files_command)
-os.system(delete_intermediate_files_command)
+    inner_delete_command = "rm " + inner_filename
+    print(inner_delete_command)
+    os.system(inner_delete_command)
