@@ -1,0 +1,4 @@
+awscli
+beaker
+humanize
+selenium
