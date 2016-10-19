@@ -1,6 +1,8 @@
 import optparse
 import os
 import json
+import operator
+import humanize
 from collections import defaultdict
 from urllib.parse import urlparse
 
@@ -16,24 +18,35 @@ if not package_directory.endswith('/'):
 
 hostname_counts = defaultdict(int)
 extension_counts = defaultdict(int)
-total_pixels = 0
-total_files = 0
+total_width = 0
+total_height = 0
+total_images = 0
 total_file_size = 0
+total_words = 0
+all_word_image_counts = []
 
 for word_folder_name in os.listdir(package_directory):
     if word_folder_name == 'all_errors.json':
         continue
+    total_words += 1
     full_word_path = package_directory + word_folder_name
     word = open(full_word_path + '/word.txt', 'r', encoding='utf-8').read().strip()
     all_metadata = json.load(open(full_word_path + '/metadata.json', 'r', encoding='utf-8'))
     list_based_files = [f for f in os.listdir(full_word_path) if not f.endswith('.json') and not f.endswith('.txt')]
+    num_images_for_this_word = 0
 
     for filename in list_based_files:
         filename_prefix = filename[0:filename.index('.')]
         metadata = all_metadata[filename_prefix]
         success = metadata['success']
         if success:
-            total_files += 1
+            num_images_for_this_word += 1
+
+            # n.b. jpg and jpeg are the same thing
+            filename_extension = filename[filename.index('.')+1:].lower()
+            if filename_extension == 'jpeg':
+                filename_extension = 'jpg'
+
             google_metadata = metadata['google']
             full_file_path = full_word_path + '/' + filename
 
@@ -41,26 +54,32 @@ for word_folder_name in os.listdir(package_directory):
             file_size = os.path.getsize(full_file_path)
             total_file_size += file_size
 
-            #FIXME: total gibberish
-            type_from_google = google_metadata['ity']
-
             width = google_metadata['ow']
             height = google_metadata['oh']
-            num_pixels = width * height
-            total_pixels += num_pixels
+            total_width += width
+            total_height += height
             url = google_metadata['ru']
             net_location = urlparse(url).netloc
 
             hostname_counts[net_location] += 1
-            extension_counts[type_from_google] += 1
+            extension_counts[filename_extension] += 1
+
+    total_images += num_images_for_this_word
+    all_word_image_counts.append(num_images_for_this_word)
+
+sorted_word_image_counts = sorted(all_word_image_counts)
 
 final_report = {
-    'total_files': total_files,
-    'total_file_size': total_file_size, #FIXME: make human readable
-    'total_pixels': total_pixels,
-    'avg_file_size': total_file_size / total_files, #FIXME: make human readable
-    'avg_pixels': total_pixels / total_files,
-    'hostname_counts': hostname_counts, #FIXME: trim to top N or above a threshold?
+    'total_images': total_images,
+    'total_file_size': humanize.naturalsize(total_file_size),
+    'avg_file_size': humanize.naturalsize(total_file_size / total_images),
+    'avg_width': int(total_width / total_images),
+    'avg_height': int(total_height / total_images),
+    'max_images_per_word': max(all_word_image_counts),
+    'min_images_per_word': min(all_word_image_counts),
+    'median_images_per_word': sorted_word_image_counts[int(len(sorted_word_image_counts) / 2)],
+    'num_unique_hosts': len(hostname_counts.keys()),
+    'top_10_hostname_counts': dict(sorted(hostname_counts.items(), key=operator.itemgetter(1), reverse=True)[:10]),
     'extension_counts': extension_counts,
 }
 
