@@ -74,6 +74,7 @@ for word_folder_name in os.listdir(package_directory):
 sorted_word_image_counts = sorted(all_word_image_counts)
 
 final_report = {
+    'total_words': total_words,
     'total_images': total_images,
     'total_file_size': humanize.naturalsize(total_file_size),
     'avg_file_size': humanize.naturalsize(total_file_size / total_images),
