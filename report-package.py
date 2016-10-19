@@ -25,6 +25,8 @@ total_file_size = 0
 total_words = 0
 all_word_image_counts = []
 
+VALID_FILE_EXTENSIONS = set(['jpg', 'gif', 'png', 'ico', 'bmp', 'svg'])
+
 for word_folder_name in os.listdir(package_directory):
     if word_folder_name == 'all_errors.json':
         continue
@@ -46,6 +48,8 @@ for word_folder_name in os.listdir(package_directory):
             filename_extension = filename[filename.index('.')+1:].lower()
             if filename_extension == 'jpeg':
                 filename_extension = 'jpg'
+            if filename_extension not in VALID_FILE_EXTENSIONS:
+                filename_extension = 'other'
 
             google_metadata = metadata['google']
             full_file_path = full_word_path + '/' + filename
