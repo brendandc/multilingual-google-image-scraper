@@ -2,6 +2,7 @@
 images/
 .boto
 *.boto
+sandbox/
 
 dictionaries/scripts/uighur
 !/dictionaries/scripts/uighur/create-uighur-dict-from-webcrawl.py
