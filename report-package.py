@@ -10,6 +10,7 @@ optparser = optparse.OptionParser()
 optparser.add_option("-l", "--language", dest="language", default="French", help="Language to package")
 optparser.add_option("-d", "--directory", dest="directory", help="Directory with extracted language package")
 optparser.add_option("-o", "--output_file", dest="output_file", help="Filename to write the report to")
+optparser.add_option('-i', '--image_limit', type=int, help='Image limit')
 (opts, _) = optparser.parse_args()
 
 package_directory = opts.directory
@@ -34,10 +35,16 @@ for word_folder_name in os.listdir(package_directory):
     full_word_path = package_directory + word_folder_name
     word = open(full_word_path + '/word.txt', 'r', encoding='utf-8').read().strip()
     all_metadata = json.load(open(full_word_path + '/metadata.json', 'r', encoding='utf-8'))
-    list_based_files = [f for f in os.listdir(full_word_path) if not f.endswith('.json') and not f.endswith('.txt')]
+
+    # n.b. order by name ascending and omit .txt/.json non-image files
+    list_based_files = sorted([f for f in os.listdir(full_word_path) if not f.endswith('.json') and not f.endswith('.txt')])
     num_images_for_this_word = 0
 
-    for filename in list_based_files:
+    for i, filename in enumerate(list_based_files):
+        # uses only the top N images if the image limit flag is provided
+        if opts.image_limit and i >= opts.image_limit:
+            break
+
         filename_prefix = filename[0:filename.index('.')]
         metadata = all_metadata[filename_prefix]
         success = metadata['success']
