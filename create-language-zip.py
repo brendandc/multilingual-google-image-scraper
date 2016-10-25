@@ -8,6 +8,7 @@ optparser.add_option("-p", "--prefix", dest="prefix", help="Alternate prefix for
 optparser.add_option("-S", action="store_true", dest="skip_completed_words", help="Allows multiple passes so we can resume if any failures")
 (opts, _) = optparser.parse_args()
 
+# TODO: un-hard code the base destination and source paths
 BASE_DESTINATION_PATH = '/mnt/storage2/intermediate/'
 BASE_SOURCE_PATH = '/mnt/storage/'+opts.language+'/'
 BASE_TAR_PATH = BASE_DESTINATION_PATH + opts.language.lower()
@@ -57,6 +58,8 @@ os.system(add_folders_cmd_sample)
 os.system("cd " + BASE_DESTINATION_PATH + " && mv " + big_tar_file_name + " ..")
 os.system("cd " + BASE_DESTINATION_PATH + " && mv " + sample_tar_file_name + " ..")
 
+
+# TODO make aws upload optional
 package_upload_cmd = "aws s3 cp /mnt/storage2/" + big_tar_file_name + " s3://" + opts.bucket + "/packages/" + \
                      big_tar_file_name
 
