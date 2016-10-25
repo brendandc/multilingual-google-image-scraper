@@ -119,6 +119,11 @@ class DownloadThread(threading.Thread):
                 # check if the current net location is in the cache, if it is in the cache, then sleep for a short
                 # amount of time. 3 seconds is an arbitrary choice but it should slow things down enough for the sake
                 # of external servers without dragging all downloads to a halt
+                #
+                # n.b. this is not intended to achieve mutual exclusivity for any one hostname, only to track which
+                # ones we've recently requested from and slow them down a little bit. fwiw: i don't think limiting
+                # requests for any given host to one thread is desirable, since multiple requests are frequently made
+                # when browsing to websites where such images are hosted anyways.
                 try:
                     hostname_cache.get(net_location)
                     time.sleep(3)
