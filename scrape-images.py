@@ -299,8 +299,7 @@ class GoogleImageScraper(object):
             if len(current_language_entry['lr']) > 0:
                 self.base_language_search_url += '&lr=' + current_language_entry['lr']
 
-        # parse a json file with common user-agent strings to customize, file was generated from some reasonable
-        # lists on http://whatsmyuseragent.com
+        # parse a json file with common user-agent strings to customize, file was manually generated
         with open(opts.user_agent_list, encoding='utf-8') as data_file:
             self.user_agent_list = json.loads(data_file.read())
 

@@ -112,3 +112,15 @@ The dictionaries folder includes a set of dictionaries originally generated for 
 which was was written by Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, Chris Callision-Burch. TACL 2014.
 
 I made a few minor additions to the set of dictionaries. Any dictionary with one search term/phrase per line will work with `scrape-images.py`. 
+
+# Auxiliary data files
+
+## google-languages.json
+This file was created from the following reference: [Google language codes](https://sites.google.com/site/tomihasa/google-language-codes)
+
+In PyCharm, I used the following regex to jsonify the copy/pasted page contents.
+search: hl=([\w-]+)\s+([\p{L}\(\) -]+)
+replace: "$2":{"hl":"$1", "lr":""},
+
+## user_agents.json
+I found a list of most commonly used user-agent headers online and manually created a json file with those string values.
