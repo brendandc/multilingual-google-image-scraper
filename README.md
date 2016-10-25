@@ -105,3 +105,10 @@ Note: this script is hard-coded to use the directories under AWS storage setup, 
 # Get package report summary details
 
         python report-package.py -d extracted_package_dir -o output_file.json
+        
+# Dictionaries
+
+The dictionaries folder includes a set of dictionaries originally generated for the paper: [The Language Demographics of Amazon Mechanical Turk](http://www.seas.upenn.edu/~epavlick/papers/language_demographics_mturk.pdf)
+which was was written by Ellie Pavlick, Matt Post, Ann Irvine, Dmitry Kachaev, Chris Callision-Burch. TACL 2014.
+
+I made a few minor additions to the set of dictionaries. Any dictionary with one search term/phrase per line will work with `scrape-images.py`. 
