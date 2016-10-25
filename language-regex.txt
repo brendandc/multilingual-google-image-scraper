@@ -1,4 +1,0 @@
-to convert https://sites.google.com/site/tomihasa/google-language-codes in Pycharm find/replace
-search: hl=([\w-]+)\s+([\p{L}\(\) -]+)
-replace: "$2":{"hl":"$1", "lr":""},
-
