@@ -23,7 +23,7 @@ See `google-languages.json` for a list of supported language
 
 # System setup
 
-This code was developed and tested on an Ubuntu system running on AWS. 
+This code was developed and tested on an Ubuntu system running on AWS. The code was written and tested in Python 3, it will not work in Python 2 out of the box.
 
 ## Ubuntu setup
 
@@ -33,7 +33,7 @@ This code was developed and tested on an Ubuntu system running on AWS.
 2. Install various dependencies, including virtualenv, xvfb, firefox: 
 
         sudo apt-get install python-virtualenv libxslt-dev libxml2-dev python-dev python3-dev zlib1g-dev git unzip xvfb firefox
-3. Create a new python virtualenv: 
+3. Create a new python 3 virtualenv: 
 
         virtualenv --python python3 env
 4. Append the following lines to the end of `~/.bashrc` for using virtualenv and xvfb: 
