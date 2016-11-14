@@ -40,14 +40,20 @@ This code was developed and tested on an Ubuntu system running on AWS. The code 
 
         source env/bin/activate
         export DISPLAY=:10
-5. Logout/log back in or do 
+        
+5. Install geckodriver wrapper for firefox
+For newer versions of firefox, it is necessary to download and extract the latest version of [geckodriver](https://github.com/mozilla/geckodriver/releases).
+Once downloaded, you'll need to add the directory where you extracted it to your path by adding a line to your `~/.bashrc` like:
+
+        export PATH="/home/ubuntu/geckodriver:$PATH"
+6. Logout/log back in or do 
 
         source ~/.bashrc
-6. Install the python library requirements: 
+7. Install the python library requirements: 
 
         pip install -r requirements.txt
         
-7. Clone the git repository with the latest code
+8. Clone the git repository with the latest code
         
         git clone git@github.com:brendandc/dictionary-based-google-image-scraper.git
     
