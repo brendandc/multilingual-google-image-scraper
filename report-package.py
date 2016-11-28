@@ -40,6 +40,13 @@ for word_folder_name in os.listdir(package_directory):
     list_based_files = sorted([f for f in os.listdir(full_word_path) if not f.endswith('.json') and not f.endswith('.txt')])
     num_images_for_this_word = 0
 
+    # n.b. rare case where there was unknown failure and metadata.json was empty but image files exist,
+    # print a warning and skip this one for reporting purposes. if 1/10,000 was skipped,
+    # not the end of the world
+    if len(all_metadata.keys()) == 0 and len(list_based_files) > 0:
+        print("WARNING: " + word_folder_name + " had an empty metadata json")
+        continue
+
     for i, filename in enumerate(list_based_files):
         # uses only the top N images if the image limit flag is provided
         if opts.image_limit and i >= opts.image_limit:
