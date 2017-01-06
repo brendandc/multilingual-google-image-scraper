@@ -4,6 +4,7 @@ from collections import defaultdict
 
 optparser = optparse.OptionParser()
 optparser.add_option("-d", "--directory", dest="directory", default="uighur/", help="Directory with dictionaries")
+optparser.add_option("-o", "--original_dictionary", dest="original_dictionary", help="Original dictionary to be used for re-ordering")
 (opts, _) = optparser.parse_args()
 
 full_path = os.path.abspath(opts.directory)
@@ -32,7 +33,13 @@ for token in webcrawl_content.split(' '):
     if token in all_uighur_words.keys():
         uighur_token_frequency[token] += 1
 
-tab_separated_uighur_and_translation = [ "\t".join([k]+all_uighur_words[k]) for k in uighur_token_frequency.keys()]
+if opts.original_dictionary:
+    tab_separated_uighur_and_translation = []
+    for line in open(opts.original_dictionary, encoding='utf-8'):
+        word = line.strip()
+        tab_separated_uighur_and_translation.append("\t".join([word]+all_uighur_words[word]))
+else:
+    tab_separated_uighur_and_translation = [ "\t".join([k]+all_uighur_words[k]) for k in uighur_token_frequency.keys()]
 
 with open(full_path + '/dict.ug', 'w', encoding='utf-8') as text_file:
     text_file.write("\n".join(tab_separated_uighur_and_translation))
