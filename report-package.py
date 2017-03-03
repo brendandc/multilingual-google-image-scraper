@@ -34,7 +34,12 @@ for word_folder_name in os.listdir(package_directory):
     total_words += 1
     full_word_path = package_directory + word_folder_name
     word = open(full_word_path + '/word.txt', 'r', encoding='utf-8').read().strip()
-    all_metadata = json.load(open(full_word_path + '/metadata.json', 'r', encoding='utf-8'))
+
+    try:
+        all_metadata = json.load(open(full_word_path + '/metadata.json', 'r', encoding='utf-8'))
+    except ValueError:
+        print("WARNING: " + full_word_path + " had bad metadata json")
+        continue
 
     # n.b. order by name ascending and omit .txt/.json non-image files
     list_based_files = sorted([f for f in os.listdir(full_word_path) if not f.endswith('.json') and not f.endswith('.txt')])
@@ -72,15 +77,18 @@ for word_folder_name in os.listdir(package_directory):
             file_size = os.path.getsize(full_file_path)
             total_file_size += file_size
 
-            width = google_metadata['ow']
-            height = google_metadata['oh']
-            total_width += width
-            total_height += height
-            url = google_metadata['ru']
-            net_location = urlparse(url).netloc
+            try:
+                width = google_metadata['ow']
+                height = google_metadata['oh']
+                total_width += width
+                total_height += height
+                url = google_metadata['ru']
+                net_location = urlparse(url).netloc
 
-            hostname_counts[net_location] += 1
-            extension_counts[filename_extension] += 1
+                hostname_counts[net_location] += 1
+                extension_counts[filename_extension] += 1
+            except KeyError:
+                print(word_folder_name + ":" + filename_prefix + " failed due to KeyError")
 
     total_images += num_images_for_this_word
     all_word_image_counts.append(num_images_for_this_word)
