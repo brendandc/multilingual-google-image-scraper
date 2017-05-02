@@ -299,8 +299,13 @@ class GoogleImageScraper(object):
         with open(opts.user_agent_list, encoding='utf-8') as data_file:
             self.user_agent_list = json.loads(data_file.read())
 
+        # extract the base image path
+        base_image_path = opts.base_image_path
+        if not base_image_path.endswith("/"):
+            base_image_path += "/"
+
         # create the combined base image language path
-        self.base_image_language_path = opts.base_image_path + opts.language
+        self.base_image_language_path = base_image_path + opts.language
 
         # provides extra debug output when configured
         self.verbose_mode = opts.verbose_mode
