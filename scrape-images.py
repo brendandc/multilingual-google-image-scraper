@@ -15,18 +15,6 @@ from beaker.util import parse_cache_config_options
 
 from selenium import webdriver
 
-optparser = optparse.OptionParser()
-optparser.add_option("-l", "--language", dest="language", default="French", help="Language to scrape")
-optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=int, help="Number of images to harvest per word")
-optparser.add_option("-d", "--dictionary", dest="dictionary", default="dictionaries/dict.fr", help="Google languages json file")
-optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json", help="Google languages json file")
-optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int, help="Word index to start iterating at")
-optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/', help="Base path where to store image output")
-optparser.add_option("-u", "--user-agent-list", dest="user_agent_list", default='user_agents.json', help="JSON file with an array of user agents to randomly select from")
-optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
-optparser.add_option("-S", action="store_true", dest="skip_completed_words", help="Allows multiple passes on a dictionary file so that we can fetch images for any words that failed to get any")
-(opts, _) = optparser.parse_args()
-
 # tbm=isch sets this to be image search, start=0 will give us 100 results on page 1
 BASE_GOOGLE_IMAGE_SEARCH_LINK = 'https://www.google.com/search?#tbm=isch&start=0'
 
@@ -65,13 +53,14 @@ DEBUG_MODE = False
 
 # defines the downloader threads so that we can download images in a concurrent way
 class DownloadThread(threading.Thread):
-    def __init__(self, word_downloader, href_attribute, link_index, current_metadata, base_path_for_word, user_agent):
+    def __init__(self, word_downloader, href_attribute, link_index, current_metadata, base_path_for_word, user_agent, verbose_mode):
         self.word_downloader = word_downloader
         self.href_attribute = href_attribute
         self.link_index = link_index
         self.current_metadata = current_metadata
         self.base_path_for_word = base_path_for_word
         self.user_agent = user_agent
+        self.verbose_mode = verbose_mode
         threading.Thread.__init__(self)
 
     # simple wrapper function for thread safe console printing,
@@ -147,7 +136,7 @@ class DownloadThread(threading.Thread):
                     # query arguments, and the comma also blows up on us
                     quoted_image_link = urllib.parse.quote(actual_image_link, ':/,?&=')
 
-                    if opts.verbose_mode: self.thread_safe_print('Downloading... ' + quoted_image_link)
+                    if self.verbose_mode: self.thread_safe_print('Downloading... ' + quoted_image_link)
 
                     metadata_for_image['filename'] = link_index_str+'.'+file_extension
 
@@ -198,18 +187,19 @@ class DownloadThread(threading.Thread):
             threadLimiter.release()
 
 class WordImageDownloader:
-    def __init__(self, scraper, word, word_index, href_attributes, metadatas):
+    def __init__(self, scraper, word, word_index, href_attributes, metadatas, verbose_mode):
         self.scraper = scraper
         self.word = word
         self.word_index = word_index
         self.href_attributes = href_attributes
         self.metadatas = metadatas
+        self.verbose_mode = verbose_mode
 
         # track a dictionary with the errors for the current words
         self.current_word_download_errors = defaultdict(int)
 
         # use /base_path/language/word_index for storing words
-        self.base_path_for_word = opts.base_image_path+opts.language+'/'+str(self.word_index)+'/'
+        self.base_path_for_word = scraper.base_image_language_path+'/'+str(self.word_index)+'/'
 
         # ensure directory is created for this word index
         if not os.path.exists(self.base_path_for_word): os.makedirs(self.base_path_for_word)
@@ -242,7 +232,8 @@ class WordImageDownloader:
         for link_index, href_attribute in enumerate(self.href_attributes):
             current_metadata = self.metadatas[link_index]
             user_agent = self.scraper.get_random_user_agent()
-            current_thread = DownloadThread(self, href_attribute, link_index, current_metadata, self.base_path_for_word, user_agent)
+            current_thread = DownloadThread(self, href_attribute, link_index, current_metadata,
+                                            self.base_path_for_word, user_agent, self.verbose_mode)
             thread_list.append(current_thread)
 
         for t in thread_list:
@@ -303,6 +294,15 @@ class GoogleImageScraper(object):
         with open(opts.user_agent_list, encoding='utf-8') as data_file:
             self.user_agent_list = json.loads(data_file.read())
 
+        # create the combined base image language path
+        self.base_image_language_path = opts.base_image_path + opts.language
+
+        # provides extra debug output when configured
+        self.verbose_mode = opts.verbose_mode
+
+        # simple re-mapping barring better resolution
+        self.opts = opts
+
     # accessor method for incrementing the count of errors for a class
     def increment_error_count_for_class(self, error_class):
         self.all_word_download_errors[error_class] += 1
@@ -318,8 +318,9 @@ class GoogleImageScraper(object):
 
     # get the href attributes that contain the underlying image links
     def get_href_attributes_for_word(self, word):
-        # initialize an array of href attributes that are extracted via selenium
+        # initialize an array of href attributes and metadatas that are extracted via selenium
         href_attributes = []
+        google_metadatas = []
 
         # create the search url for this word by appending the search term onto our base search URL for the language
         # quote for the sake of special characters
@@ -362,20 +363,20 @@ class GoogleImageScraper(object):
 
     # function that drives processing every word in the parsed list of words
     def process_all_words(self):
-        if opts.skip_completed_words:
+        if self.opts.skip_completed_words:
             print('skip_completed_words selected, only downloading for words that have no images')
 
         for word_index, foreign_word in enumerate(self.foreign_word_list):
             # if a start index was passed in, this is a case where we are resuming a previously failed run, skip every word
             # that successfully completed and just pick up where we left off
-            if opts.start_index and word_index < opts.start_index: continue
+            if self.opts.start_index and word_index < self.opts.start_index: continue
 
             # if the skip_completed_words option was provided, we want to:
             # check if we have downloaded any images for this word, and skip this word if so
             # the idea being that we are just trying to fill in any words where something failed and we did not
             # download anything
-            if opts.skip_completed_words:
-                path_for_word = opts.base_image_path+opts.language+'/'+str(word_index)
+            if self.opts.skip_completed_words:
+                path_for_word = self.base_image_language_path+'/'+str(word_index)
                 if os.path.exists(path_for_word):
                     num_files = len(os.listdir(path_for_word))
                 else:
@@ -386,19 +387,43 @@ class GoogleImageScraper(object):
                 if num_files > 3:
                     continue
 
-            if opts.verbose_mode:
+            if self.verbose_mode:
                 print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
                 print('Current word: ' + foreign_word + ' at index: ' + str(word_index))
                 print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
             href_attributes, metadatas = self.get_href_attributes_for_word(foreign_word)
-            word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas)
+
+            word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas,
+                                                        self.verbose_mode)
             word_image_downloader.process_word()
 
-        if not opts.skip_completed_words:
-            json.dump(self.all_word_download_errors, open(opts.base_image_path+opts.language+'/all_errors.json', 'w', encoding='utf-8'))
+        if not self.opts.skip_completed_words:
+            json.dump(self.all_word_download_errors, open(self.base_image_language_path+'/all_errors.json', 'w', encoding='utf-8'))
 
+def main(opts):
+    # initialize the image scraper class with the comand line options, then process all the words
+    image_scraper = GoogleImageScraper(opts)
+    image_scraper.process_all_words()
 
-# initialize the image scraper class with the comand line options, then process all the words
-image_scraper = GoogleImageScraper(opts)
-image_scraper.process_all_words()
+if __name__ == '__main__':
+    optparser = optparse.OptionParser()
+    optparser.add_option("-l", "--language", dest="language", default="French", help="Language to scrape")
+    optparser.add_option("-n", "--num_images", dest="num_images", default=100, type=int,
+                         help="Number of images to harvest per word")
+    optparser.add_option("-d", "--dictionary", dest="dictionary", default="dictionaries/dict.fr",
+                         help="Google languages json file")
+    optparser.add_option("-L", "--language-map", dest="language_map", default="google-languages.json",
+                         help="Google languages json file")
+    optparser.add_option("-s", "--start-index", dest="start_index", default=None, type=int,
+                         help="Word index to start iterating at")
+    optparser.add_option("-p", "--base-image-path", dest="base_image_path", default='/mnt/storage/',
+                         help="Base path where to store image output")
+    optparser.add_option("-u", "--user-agent-list", dest="user_agent_list", default='user_agents.json',
+                         help="JSON file with an array of user agents to randomly select from")
+    optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
+    optparser.add_option("-S", action="store_true", dest="skip_completed_words",
+                         help="Allows multiple passes on a dictionary file so that we can fetch images for any words that failed to get any")
+    (opts, _) = optparser.parse_args()
+
+    main(opts)
