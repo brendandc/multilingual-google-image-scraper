@@ -36,10 +36,11 @@ for token in webcrawl_content.split(' '):
 if opts.original_dictionary:
     tab_separated_uighur_and_translation = []
     for line in open(opts.original_dictionary, encoding='utf-8'):
-        word = line.strip()
-        tab_separated_uighur_and_translation.append("\t".join([word]+all_uighur_words[word]))
+        cells = line.strip().split("\t")
+        word = cells[0]
+        tab_separated_uighur_and_translation.append("\t".join([word]+list(set(all_uighur_words[word]))))
 else:
-    tab_separated_uighur_and_translation = [ "\t".join([k]+all_uighur_words[k]) for k in uighur_token_frequency.keys()]
+    tab_separated_uighur_and_translation = [ "\t".join([k]+list(set(all_uighur_words[k]))) for k in uighur_token_frequency.keys()]
 
 with open(full_path + '/dict.ug', 'w', encoding='utf-8') as text_file:
     text_file.write("\n".join(tab_separated_uighur_and_translation))
