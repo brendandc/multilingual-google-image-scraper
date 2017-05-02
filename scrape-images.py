@@ -75,6 +75,11 @@ class DownloadThread(threading.Thread):
         # there is no functional downside that i know of for unquoting more than need be
         triple_decoded_attr = urllib.parse.unquote(urllib.parse.unquote(urllib.parse.unquote(href_attribute)))
         regex_result = re.search(IMAGE_URL_REGEX, triple_decoded_attr)
+
+        # short-circuit regex error to return href - it will still fail, but without knocking over the thread
+        if regex_result is None:
+            return href_attribute
+
         return regex_result.group('url')
 
     def run(self):
