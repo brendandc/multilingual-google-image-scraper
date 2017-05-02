@@ -278,6 +278,11 @@ class GoogleImageScraper(object):
         # build up a language-specific base link to start out with, before modifying it per each individual search term
         self.base_language_search_url = BASE_GOOGLE_IMAGE_SEARCH_LINK
 
+        # if a domain suffix was provided, swap out google.com for google.(domain)
+        if opts.domain_suffix is not None:
+            self.base_language_search_url = self.base_language_search_url.replace("google.com",
+                                                                                  "google."+opts.domain_suffix)
+
         # if there are any language bindings in our google languages map for this language, pass those flags along
         # otherwise, we'll use the default settings
         if opts.language in full_language_arg_map:
@@ -424,6 +429,8 @@ if __name__ == '__main__':
     optparser.add_option("-v", action="store_true", dest="verbose_mode", help="Verbose mode")
     optparser.add_option("-S", action="store_true", dest="skip_completed_words",
                          help="Allows multiple passes on a dictionary file so that we can fetch images for any words that failed to get any")
+    optparser.add_option("-D", "--domain-suffix", dest="domain_suffix",
+                         help="Allow switching the domain suffix (i.e. google.com vs google.fr)")
     (opts, _) = optparser.parse_args()
 
     main(opts)
