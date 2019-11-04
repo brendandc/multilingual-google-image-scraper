@@ -29,7 +29,7 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 
 # XPATH statement that pulls the div adjacent to the image link path that contains google-created metadata
 # Note: this is probably subject to change on google's part
-GOOGLE_METADATA_XPATH = "//div[contains(@class, 'rg_meta'])"
+GOOGLE_METADATA_XPATH = "//div[@class='rg_meta notranslate']"
 
 # List of Valid file extensions to check against, if any of these don't match, this means our regex didn't quite
 # parse the link correctly to pull out the real file link.
@@ -352,6 +352,7 @@ class GoogleImageScraper(object):
                 # pull all elements out of the page using the google-specific xpath for the elements that contain
                 # the underlying image links
                 link_elements = self.driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
+                #print(self.driver.find_elements_by_xpath("//div[@class='rg_meta notranslate']"))
 
                 # also pull the google-created metadatas out of the page, stored as JSON in a hidden div
                 google_metadatas = [s.get_attribute('innerHTML') for s in self.driver.find_elements_by_xpath(GOOGLE_METADATA_XPATH)]
