@@ -12,6 +12,7 @@ import traceback
 import threading
 from beaker.cache import CacheManager
 from beaker.util import parse_cache_config_options
+from selenium.webdriver.common.keys import Keys
 
 from selenium import webdriver
 
@@ -130,7 +131,8 @@ class DownloadThread(threading.Thread):
                 # if the file path does not have a valid extension, mark this as such so that we can set it later
                 # based on the actual content type (which typically falls in our allowed list)
                 if not file_extension.lower() in VALID_FILE_EXTENSIONS:
-                    no_extension = True
+                    return
+                    #no_extension = True
 
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
@@ -241,11 +243,19 @@ class WordImageDownloader:
                                             self.base_path_for_word, user_agent, self.verbose_mode)
             thread_list.append(current_thread)
 
-        for t in thread_list:
-            t.start()
+        for t in thread_list[0:100]:
+            if (len(os.listdir(self.base_path_for_word)) < 100):
+                t.start()
 
-        for t in thread_list:
+        for t in thread_list[0:100]:
             t.join()
+        if (len(os.listdir(self.base_path_for_word)) < 100):
+            i = 100
+            while (len(os.listdir(self.base_path_for_word)) < 100):
+                 thread_list[i].start()
+                 thread_list[i].join()
+                 i+=1
+                 print(i)
 
         # dump out the json metadata and errors files
         json.dump(self.image_metadata_for_word, open(self.base_path_for_word+'metadata.json', 'w', encoding='utf-8'))
@@ -347,6 +357,7 @@ class GoogleImageScraper(object):
         for attempt in range(10):
             try:
                 self.driver.get(url)
+                self.driver.execute_script("window.scrollBy(0, 1000000);")
                 time.sleep(2) #2 is arbitrary
 
                 # pull all elements out of the page using the google-specific xpath for the elements that contain
@@ -413,6 +424,7 @@ class GoogleImageScraper(object):
             word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas,
                                                         self.verbose_mode)
             word_image_downloader.process_word()
+            
 
         if not self.opts.skip_completed_words:
             json.dump(self.all_word_download_errors, open(self.base_image_language_path+'/all_errors.json', 'w', encoding='utf-8'))
