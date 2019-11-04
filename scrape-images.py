@@ -29,7 +29,7 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 
 # XPATH statement that pulls the div adjacent to the image link path that contains google-created metadata
 # Note: this is probably subject to change on google's part
-GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
+GOOGLE_METADATA_XPATH = "//div[contains(@class, 'rg_meta'])"
 
 # List of Valid file extensions to check against, if any of these don't match, this means our regex didn't quite
 # parse the link correctly to pull out the real file link.
