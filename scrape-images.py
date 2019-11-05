@@ -132,7 +132,6 @@ class DownloadThread(threading.Thread):
                 # based on the actual content type (which typically falls in our allowed list)
                 if not file_extension.lower() in VALID_FILE_EXTENSIONS:
                     return
-                    #no_extension = True
 
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
@@ -166,6 +165,7 @@ class DownloadThread(threading.Thread):
                         # note: with the 1-liner above for the file path, it seems we need this workaround
                         # TODO: should probably deconstruct it
                         if no_extension and content_type.startswith('image/'):
+                            print("WHAT EVEN IS HAPPENING")
                             original_file_path = full_path
                             new_file_path = self.base_path_for_word + link_index_str + '.' + content_type[6:]
                             shutil.move(original_file_path, new_file_path)
@@ -194,13 +194,14 @@ class DownloadThread(threading.Thread):
             threadLimiter.release()
 
 class WordImageDownloader:
-    def __init__(self, scraper, word, word_index, href_attributes, metadatas, verbose_mode):
+    def __init__(self, scraper, word, word_index, href_attributes, metadatas, verbose_mode, num_images):
         self.scraper = scraper
         self.word = word
         self.word_index = word_index
         self.href_attributes = href_attributes
         self.metadatas = metadatas
         self.verbose_mode = verbose_mode
+        self.num_images = num_images
 
         # track a dictionary with the errors for the current words
         self.current_word_download_errors = defaultdict(int)
@@ -243,15 +244,15 @@ class WordImageDownloader:
                                             self.base_path_for_word, user_agent, self.verbose_mode)
             thread_list.append(current_thread)
 
-        for t in thread_list[0:100]:
-            if (len(os.listdir(self.base_path_for_word)) < 100):
+        for t in thread_list[0:self.num_images]:
+            if (len(os.listdir(self.base_path_for_word)) < self.num_images):
                 t.start()
 
-        for t in thread_list[0:100]:
+        for t in thread_list[0:self.num_images]:
             t.join()
-        if (len(os.listdir(self.base_path_for_word)) < 100):
-            i = 100
-            while (len(os.listdir(self.base_path_for_word)) < 100):
+        if (len(os.listdir(self.base_path_for_word)) < self.num_images):
+            i = self.num_images
+            while (len(os.listdir(self.base_path_for_word)) < self.num_images and i < len(thread_list)):
                  thread_list[i].start()
                  thread_list[i].join()
                  i+=1
@@ -279,6 +280,7 @@ class GoogleImageScraper(object):
         # creates the driver for running selenium
         self.driver = None # dummy call to ensure instance var is created in init
         self.create_selenium_browser()
+        self.num_images = opts.num_images
 
         # track a dictionary with the errors for all words
         self.all_word_download_errors = defaultdict(int)
@@ -357,7 +359,7 @@ class GoogleImageScraper(object):
         for attempt in range(10):
             try:
                 self.driver.get(url)
-                self.driver.execute_script("window.scrollBy(0, 1000000);")
+                self.driver.execute_script("window.scrollBy(0, 2000000);")
                 time.sleep(2) #2 is arbitrary
 
                 # pull all elements out of the page using the google-specific xpath for the elements that contain
@@ -422,7 +424,8 @@ class GoogleImageScraper(object):
             href_attributes, metadatas = self.get_href_attributes_for_word(foreign_word)
 
             word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas,
-                                                        self.verbose_mode)
+                                                        self.verbose_mode, self.num_images)
+            print("success")
             word_image_downloader.process_word()
             
 
