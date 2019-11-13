@@ -16,7 +16,6 @@ def get_vector(image_name):
 	img = Image.open(image_name).convert('RGB')
 	t_img = Variable(normalize(to_tensor(scaler(img))).unsqueeze(0))
 	my_embedding = torch.zeros(1, 512, 1, 1)
-	print(model(t_img))
 	def copy_data(m, i, o):
 		my_embedding.copy_(o.data)
 	h = layer.register_forward_hook(copy_data)
@@ -31,5 +30,5 @@ scaler = transforms.Scale((224, 224))
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 to_tensor = transforms.ToTensor()
 for file in os.listdir('0'):
-	print(get_vector(file))
-	torch.save((get_vector(file)).numpy(), 'testembeddings.txt')
+	print(get_vector(file).data.numpy()[0, :, 0, 0])
+	#torch.save((get_vector(file)).numpy(), 'testembeddings.txt')
