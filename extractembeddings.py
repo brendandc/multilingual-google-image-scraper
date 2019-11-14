@@ -30,5 +30,10 @@ scaler = transforms.Scale((224, 224))
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 to_tensor = transforms.ToTensor()
 for file in os.listdir('0'):
-	print(get_vector(file).data.numpy()[0, :, 0, 0])
-	#torch.save((get_vector(file)).numpy(), 'testembeddings.txt')
+	x = get_vector(file).data.numpy()[0, :, 0, 0]
+	with open('testembeddings.txt', 'a') as f:
+		numpy.savetxt(f, x.reshape(1, 512), fmt="%s")
+	print(file)
+
+
+		
