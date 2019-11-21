@@ -23,23 +23,35 @@ def get_vector(image_name):
 	h.remove()
 	return my_embedding
 
-model = models.resnet18(pretrained=True)
+model = models.resnet34(pretrained=True)
 layer = model._modules.get('avgpool')
 model.eval()
 scaler = transforms.Resize((224, 224))
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 to_tensor = transforms.ToTensor()
-l = []
-for file in os.listdir('0'):
-	x = get_vector(file).data.numpy()[0, :, 0, 0]
-	l.append(x)
-	with open('testembeddings.txt', 'a') as f:
-		numpy.savetxt(f, x.reshape(1, 512), fmt="%s")
-	print(file)
-average = numpy.zeros(512,)
-for embedding in l:
-	average+= embedding
-print(embedding / len(l))
+for file in os.listdir('testing7/English')[21:]:
+    print(file)
+    if ("json" not in file):
+        l = []
+        with open('testing7/English/'+file+'/word.txt') as w:
+            word = w.readline().strip().replace(' ', '_')
+            print(word)
+        for f in os.listdir('testing7/English/'+file):
+            if ("json" not in f) and ("txt" not in f):
+                try:
+                    x = get_vector('testing7/English/'+file+'/'+f).data.numpy()[0, :, 0, 0]
+                    l.append(x)
+                    with open('100/'+word, 'a') as f:
+                        numpy.savetxt(f, x.reshape(1, 512), fmt="%s")
+                except:
+                    continue
+        average = numpy.zeros(512,)
+        for embedding in l:
+            average += embedding
+        average = average / len(l)
+        with open('100avg/'+word, 'a') as f:
+            numpy.savetxt(f, x.reshape(1, 512), fmt="%s")
+
 
 
 		

@@ -245,18 +245,16 @@ class WordImageDownloader:
             thread_list.append(current_thread)
 
         for t in thread_list[0:self.num_images]:
-            if (len(os.listdir(self.base_path_for_word)) < self.num_images):
-                t.start()
+            t.start()
 
         for t in thread_list[0:self.num_images]:
             t.join()
-        if (len(os.listdir(self.base_path_for_word)) < self.num_images):
-            i = self.num_images
-            while (len(os.listdir(self.base_path_for_word)) < self.num_images and i < len(thread_list)):
-                 thread_list[i].start()
-                 thread_list[i].join()
-                 i+=1
-                 print(i)
+        i = self.num_images
+        while (len(os.listdir(self.base_path_for_word)) < self.num_images and i < len(thread_list)):
+            thread_list[i].start()
+            thread_list[i].join()
+            i+=1
+            print(i)
 
         # dump out the json metadata and errors files
         json.dump(self.image_metadata_for_word, open(self.base_path_for_word+'metadata.json', 'w', encoding='utf-8'))
