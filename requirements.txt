@@ -1,4 +1,4 @@
 awscli==1.10.28
 beaker==1.8.0
 humanize==0.5.1
-selenium==2.53.2
+selenium==3.141.0

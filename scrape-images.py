@@ -12,6 +12,7 @@ import traceback
 import threading
 from beaker.cache import CacheManager
 from beaker.util import parse_cache_config_options
+from selenium.webdriver.common.keys import Keys
 
 from selenium import webdriver
 
@@ -29,7 +30,7 @@ GOOGLE_IMAGE_LINK_XPATH = "//a[@class='rg_l']"
 
 # XPATH statement that pulls the div adjacent to the image link path that contains google-created metadata
 # Note: this is probably subject to change on google's part
-GOOGLE_METADATA_XPATH = "//div[@class='rg_meta']"
+GOOGLE_METADATA_XPATH = "//div[@class='rg_meta notranslate']"
 
 # List of Valid file extensions to check against, if any of these don't match, this means our regex didn't quite
 # parse the link correctly to pull out the real file link.
@@ -130,7 +131,7 @@ class DownloadThread(threading.Thread):
                 # if the file path does not have a valid extension, mark this as such so that we can set it later
                 # based on the actual content type (which typically falls in our allowed list)
                 if not file_extension.lower() in VALID_FILE_EXTENSIONS:
-                    no_extension = True
+                    return
 
                 # when in debug mode, just print the link out, otherwise download the file
                 if DEBUG_MODE:
@@ -164,6 +165,7 @@ class DownloadThread(threading.Thread):
                         # note: with the 1-liner above for the file path, it seems we need this workaround
                         # TODO: should probably deconstruct it
                         if no_extension and content_type.startswith('image/'):
+                            print("WHAT EVEN IS HAPPENING")
                             original_file_path = full_path
                             new_file_path = self.base_path_for_word + link_index_str + '.' + content_type[6:]
                             shutil.move(original_file_path, new_file_path)
@@ -192,13 +194,14 @@ class DownloadThread(threading.Thread):
             threadLimiter.release()
 
 class WordImageDownloader:
-    def __init__(self, scraper, word, word_index, href_attributes, metadatas, verbose_mode):
+    def __init__(self, scraper, word, word_index, href_attributes, metadatas, verbose_mode, num_images):
         self.scraper = scraper
         self.word = word
         self.word_index = word_index
         self.href_attributes = href_attributes
         self.metadatas = metadatas
         self.verbose_mode = verbose_mode
+        self.num_images = num_images
 
         # track a dictionary with the errors for the current words
         self.current_word_download_errors = defaultdict(int)
@@ -241,11 +244,17 @@ class WordImageDownloader:
                                             self.base_path_for_word, user_agent, self.verbose_mode)
             thread_list.append(current_thread)
 
-        for t in thread_list:
+        for t in thread_list[0:self.num_images]:
             t.start()
 
-        for t in thread_list:
+        for t in thread_list[0:self.num_images]:
             t.join()
+        i = self.num_images
+        while (len(os.listdir(self.base_path_for_word)) < self.num_images and i < len(thread_list)):
+            thread_list[i].start()
+            thread_list[i].join()
+            i+=1
+            print(i)
 
         # dump out the json metadata and errors files
         json.dump(self.image_metadata_for_word, open(self.base_path_for_word+'metadata.json', 'w', encoding='utf-8'))
@@ -269,6 +278,7 @@ class GoogleImageScraper(object):
         # creates the driver for running selenium
         self.driver = None # dummy call to ensure instance var is created in init
         self.create_selenium_browser()
+        self.num_images = opts.num_images
 
         # track a dictionary with the errors for all words
         self.all_word_download_errors = defaultdict(int)
@@ -347,11 +357,13 @@ class GoogleImageScraper(object):
         for attempt in range(10):
             try:
                 self.driver.get(url)
+                self.driver.execute_script("window.scrollBy(0, 2000000);")
                 time.sleep(2) #2 is arbitrary
 
                 # pull all elements out of the page using the google-specific xpath for the elements that contain
                 # the underlying image links
                 link_elements = self.driver.find_elements_by_xpath(GOOGLE_IMAGE_LINK_XPATH)
+                #print(self.driver.find_elements_by_xpath("//div[@class='rg_meta notranslate']"))
 
                 # also pull the google-created metadatas out of the page, stored as JSON in a hidden div
                 google_metadatas = [s.get_attribute('innerHTML') for s in self.driver.find_elements_by_xpath(GOOGLE_METADATA_XPATH)]
@@ -410,8 +422,10 @@ class GoogleImageScraper(object):
             href_attributes, metadatas = self.get_href_attributes_for_word(foreign_word)
 
             word_image_downloader = WordImageDownloader(self, foreign_word, word_index, href_attributes, metadatas,
-                                                        self.verbose_mode)
+                                                        self.verbose_mode, self.num_images)
+            print("success")
             word_image_downloader.process_word()
+            
 
         if not self.opts.skip_completed_words:
             json.dump(self.all_word_download_errors, open(self.base_image_language_path+'/all_errors.json', 'w', encoding='utf-8'))
